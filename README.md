@@ -4,7 +4,6 @@ Variable Font Experiments, Framework and list of as many formal variables as pos
 - Fonts and sources are availabel in the respective folder
 
 -------
--------
 
 ## Roadmap
 
@@ -19,7 +18,7 @@ Variable Font Experiments, Framework and list of as many formal variables as pos
 - [ ] Icon-Design: revisit Free Forms
 - [ ] Cleaning up
 
-### Will do on my own costs (adding value but wasn’t specifically asked for)
+### Hopefully - Will do on my own costs (adding value but wasn’t specifically asked for)
 - [ ] Lecturing - revising the texts - (who to ask? -> John Hudson / Toshi / David Brezina / Kat / ..) 
 - [ ] Doc-Design-Banner - making a fancy intro animation based on the animated icons (also good for sharing)
 - [ ] Doc-Design - making it more fun/special and functional
