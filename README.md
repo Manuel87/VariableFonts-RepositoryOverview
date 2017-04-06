@@ -1,2 +1,2 @@
 # Type-Variables
-Variable Font Experiments, List of formal variables and framework, ...
+Variable Font Experiments, Framework and list of as many formal variables as possible.
