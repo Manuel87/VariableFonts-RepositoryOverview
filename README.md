@@ -6,7 +6,7 @@ Variable Font Experiments, Framework and list of as many formal variables as pos
 .. still on the progress to finalize the Roadmap...
 
 ### For the first release (what I will think is necessary to do, to finish the job)
-o GIT- adding all current fonts+sources (probably this weekend) 
+[] GIT- adding all current fonts+sources (probably this weekend) 
 o Doc-Design/CODE - making the html design responsive
 o Content -Paragraph about the UI challenges / eg. about slider (what is good, what bad.. 
 o Misc - Various minor corrections (mark alternative Labels, four-letter-tags, ..)
