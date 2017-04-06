@@ -1,7 +1,7 @@
 # Type-Variables
 Variable Font Experiments, Framework and list of as many formal variables as possible.
--[HTML-Preveiw of the Variable Overview](http://vongebhardi.de/clients/google/typevariables/)
--Fonts and sources are availabel in the respective folder
+- Main Document: [Variable Overview](http://vongebhardi.de/clients/google/typevariables/) (preview)
+- Fonts and sources are availabel in the respective folder
 
 -------
 -------
