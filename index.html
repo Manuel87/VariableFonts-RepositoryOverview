@@ -1,0 +1,1022 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <h4>outdated</h4> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+
+        <div class="container">
+        <h1>Type Variables</h1>
+        <p>This site is an accumulation of an ongoing exploration of all sorts of formal variables in&nbsp;type&nbsp;design ...</p>
+
+		<ol>
+		<li><a href="#variables">Variables (top-level)</a></li>
+		<li><a href="#examples">Showcasing Axes</a></li>
+		</ol>
+
+        <h2 id="variables">1. Variables (top-level)</h2>
+        <p>In theory there can be infinite many type designs and therefore infinite many variable interpolation axes. To bring structure into this vast design spacing, the following formal categories should give some guidance. Every typeface or instance consists of a certain configuration of these aspects forming their specific formal character. That resulting atmosphere, the quality and the aspect of reading comfort needs to be seen on top of all of it, as any formal change does affect them, while their specific evaluation can be rather complex and sensible.</p>
+        <p>Aiding clarity there are no other sub-hierarchies but then directly interactive examples of specific variables/axes. <!-- (From an educational side it is still helpful think and discuss the relation of each variable towards the skeleton, outline and all the other variables and their position within a more mannered underlying hierarchy.) --></p>
+	<div class="large_icons">
+		<div>
+		<element><img class="icon" src="media/icon_texture.gif"/> texture</element>
+		<element><img class="icon" src="media/icon_complexity.gif"/> complexity</element>
+		<element><img class="icon" src="media/icon_weight.gif"/> weight</element>
+		<element><img class="icon" src="media/icon_optical.gif"/> optical size</element>
+		<element><img class="icon" src="media/icon_rhythm.gif"/> rhythm</element><!-- rhythm-->
+		</div>
+
+		<div>
+
+		<element><img class="icon" src="media/icon_spacing.gif"/> spacing</element>
+		<element><img class="icon" src="media/icon_prop_x.gif"/> width</element>
+		<element><img class="icon" src="media/icon_prop_y.gif"/> height</element>
+		<element><img class="icon" src="media/icon_inclination.gif"/> inclination</element><element><img class="icon" src="media/icon_curvature.gif"/> curvature</element>
+		</div>
+		<div>
+
+		<element><img class="icon" src="media/icon_contrast.gif"/> contrast</element>
+		<element><img class="icon" src="media/icon_modulation.gif"/> modulation</element>
+		<element><img class="icon" src="media/icon_edges.gif"/> edging</element>
+		<element><img class="icon" src="media/icon_freeform.gif"/> free forms</element>
+		</div>
+	</div>
+
+	<p>
+	<br/>
+<!-- 	<a href="#toplevel">A description of this properties can be found at the end of this document.</a></p>
+ -->
+		<p>In the following each top-level variable is briefly described, followed by a set of axes and possible settings. </p>
+
+
+		<h3 class="large_icons"><img class="icon" src="media/icon_texture.gif"/>
+			texture</h3>
+		<p>The texture is determined by the distribution of black and white on a macro level. Next to size and weight it is the most important aspect for differentiation. Secondary typefaces are the best example when it comes to texture. They need to clearly differentiate while not jumping out at first glance, keeping a similar weight and in most cases even a similar proportion. There are many ways to manipulate the texture, such as a change in construction, proportion, inclination, modulation and others.<br/>
+			</p>
+			<h4>variables/axes</h4>
+			<ul>
+			<li>texture</li>
+			<li>identification pattern (<span>“R”, “r”, “<span class="pattern-script-r">r</span>”</span>)
+			<li>stylistic variation (sans, serif, mono, ...</li>
+			<li>(a strong variation of any other variable)</li>
+			</ul>
+
+			<h4>possible settings/parameter</h4>
+			<ul>
+			<li>unicase</li>
+			<li>sans</li>
+			<li>serif</li>
+			<li>cursive</li>
+			<li>reverse contrast</li>
+			<li>mono</li>
+			<li></li>
+			</ul>
+		<p>Difficulty note: It is quite hard to make all the designs along this axes usable and pleasing. If the texture changes significant it might be only possible with many manual adjustments (master or brace layers) along the axes and probably even hard steps (bracket layer / rules).<br/></p>
+
+
+
+
+		<h3 class="large_icons"><img class="icon" src="media/icon_complexity.gif"/>
+			complexity (detail texture)</h3>
+		<p>The complexity variable is the variable but at a micro-level. It is as if the texture is the raw sketch which you can either fill with plain black ink or with patterns, modules, outline effects, etc. – which means within the same texture there is an infinite number of possibilities waiting to be explored. <br/>
+		</p>
+
+			<h4>variables/axes</h4>
+			<ul>
+			<li>complexity</li>
+			<li>surface texture</li>
+			<li>outline texture</li>
+			<li>whitespace texture</li>
+			<li>dimensionality</li>
+			<li></li>
+			</ul>
+
+			<h4>possible settings/parameter</h4>
+			<ul>
+			<li>simple</li>
+			<li>complex / detailed</li>
+			</ul>
+		<p>Difficulty note: To interpolate along this axes can be rather difficult. The more complex the design on one extreme, the more difficult it is to control all the points along the axes, eventually having many nodes on top of each other at the simplistic extreme.</p>
+		<p>Hierarchy note: This could be also rearranged to be a subordinate of <i>texture</i>. But it felt necessary to separate them to have a bridge in between texture and optical sizes.</p>
+
+
+
+
+		<h3 class="large_icons"><img class="icon" src="media/icon_weight.gif"/>
+			weight (color)</h3>
+		<p>The weight specifies the color/darkness of a font. It determines the relation between black and white.
+		There are many ways to increase the weight. Changing the overall thickness of all strokes is the simplest way to manipulate it. Boldening the thick stems has the largest effect in Latin. But also a change of <i>spacing</i> or <i>width</i> does affect the weight.<br/>
+		<br/>
+		A change of color does entail in most cases a change of overall width. (sometimes also a change of size) But there are also so called “uniwidth” typefaces which keep the overall width along the whole weight axes, to not cause any reflows.
+		<br/>
+			</p>
+
+			<h4>variables/axes</h4>
+			<ul>
+			<li>weight [wght]</li>
+			<li>weight variation [wvar]</li>
+			<li>Cap-weight [cwght/wcps]</li>
+			<li>thick/main strokes weight [mwgt]</li>
+			<li>thin strokes weight (contrast)</li>
+			<li>para weight (trying to keep the counter space untouched) [pwgt]</li>
+			</ul>
+			<h4>possible settings/parameter</h4>
+			<ul>
+			<li>hairline</li>
+			<li>extra light (thin)</li>
+			<li>light</li>
+			<li>regular</li>
+			<li>bold</li>
+			<li>extra bold</li>
+			<li>black</li>
+			<li></li>
+			<br/>
+			<li>300 (CSS-weights)</li>
+			<li>400 (≈ regular)</li>
+			<li>700 (0 = full white, 1000 = full black)</li>
+			<br/>
+			<li>160‰ (≈ regular, stemvalue in x-height/1000 )</li>
+			<br/>
+			</ul>
+
+
+
+
+
+
+		<h3 class="large_icons"><img class="icon" src="media/icon_optical.gif"/>
+			optical size</h3>
+		<p>The optical size axis specifies the intended type size. It is there to adapt a typeface design made for a specific size towards a range of sizes. It is called optical, as it is referring to the size of the type rendered on the retina within the readers eye. Which means that the physical type size (e.g. x-height) is only important in its relation to the approximate reading distance.<br/>
+		<br/>
+		Optical compensation is especially necessary for very light or bold designs, or ones with high contrast as the very thin lines or spaces become indistinguishable at small sizes. If those parts are crucial to identify the letter it can cause a great loss of legibility. This means that the core intention is to optically adapt a design with as little change of the original intended atmosphere as possible. At best the typeface should feel the same at any size, while keeping a similar legibility.<br/>
+		<br/>Yet it needs to be mentioned that there are also families which take a more artistic approach where the design changes considerably across the optical axes, e.g. to amplify typographic hierarchies. </p>
+
+			<h4>variables/axes</h4>
+			<ul>
+			<li>optical size [opsz] (intended size)</li>
+			<li>smallest usable size (in most cases equal to optical size)</li>
+			</ul>
+
+			<h4>possible settings/parameter</h4>
+			<ul>
+			<li>micro</li>
+			<li>caption</li>
+			<li>regular</li>
+			<li>subhead</li>
+			<li>display</li>
+			<br/>
+			<li>16 arcmin</li>
+			<br/>
+			<li>1.5 mm</li>
+			<li>2.0 mm</li>
+			<li>4.0 mm</li>
+			<br/>
+			<li>6 pt</li>
+			<li>12 pt</li>
+			<li>24 pt</li>
+			</ul>
+
+
+
+
+
+		<h3 class="large_icons"><img class="icon" src="media/icon_rhythm.gif"/>
+		rhythm (variation, consistency, relation)</h3>
+		<!-- rhythm-->
+		<p>The rhythm variable only exists as a relation between different elements or glyphs. If elements are treated exactly the same a consistent pattern is build. If any part of those elements is then emphasized or faded the pattern changes and a different rhythm becomes visible. It is not a formal variable that can be described within a single element, the relation counts. Therefore it is not only a variable but also a criteria affected by any formal change.<br/>
+		</p>
+			<h4>variables/axes</h4>
+			<ul>
+			<li>rhythm</li>
+			<li>terminal rhythm (e.g. by adding serifs and drops)</li>
+			<li>stroke weight rhythm (by applying different angles of contrast)</li>
+			<li>... rhythm</li>
+			</ul>
+			<h4>possible settings/parameter</h4>
+			<ul>
+			<li>regular (proportional, invisible)</li>
+			<li>consistent</li>
+			<li>monotonous</li>
+			<li>static</li>
+			<li>dynamic</li>
+			<li>rhythmic</li>
+			<li>traditional</li>
+			<li>modern</li>
+			<li>chaotic</li>
+			<li>conceptional</li>
+			<li>hand drawn inconsistency (eg. with 3 alternate shapes per character)</li>
+			</ul>
+		</p>
+
+		<h3 class="large_icons"><img class="icon" src="media/icon_spacing.gif"/>
+			Spacing</h3>
+		<p>With this variable the focus lies on the spacing inbetween the characters and respectively their total width. As the <i>spacing</i> is a rather important variable it has its own position even though it could be grouped under <i>width</i>.<br/>
+		<br/>
+		Currently this is controlled within the typesetting software. But simple tracking can distort the balance of the fitting immensely, especially negative tracking. A spacing axes baked into the font by the designer would make it possible to allow to supply an evenly distributed tight and loose typesetting alike.<br/>
+		</p>
+			<h4>variables/axes</h4>
+			<ul>
+			<li>spacing (tracking: could be obsolete within variable fonts )</li>
+			<li>word-spacing</li>
+			<li>...-spacing</li>
+			<li>fitting / spacing variation (-> consistent, inconsistent, rhythmic)</li>
+			<li>(kerning)</li>
+			</ul>
+
+			<h4>possible settings/parameter</h4>
+			<ul>
+			<li>regular</li>
+			<li>tight</li>
+			<li>loose</li>
+			<br/>
+			<li>proportional</li>
+			<li>mono</li>
+			<br/>
+			<li>irregular</li>
+			</ul>
+
+
+
+
+
+		<h3 class="large_icons"><img class="icon" src="media/icon_prop_x.gif"/>
+			width (x-proportion, x-metrics)</h3>
+		<p>This category includes all changes that happen wihtin a character along the horizontal dimensions of a typeface, including width variation and positioning of loose elements. After the height of a character this variable has to biggest influence on the perceived size of typeface.<br/>
+		</p>
+			<h4>variables/axes</h4>
+			<ul>
+			<li>width [wdth]</li>
+			<li>cap-width</li>
+			<li>width variation (mono, ...)</li>
+			<li>inner width variation (E, F, ..)</li>
+			<li>para width (trying to keep the stems untouched)</li>
+			</ul>
+
+			<h4>possible settings/parameter</h4>
+			<ul>
+			<li>regular (normal, book, ...)</li>
+			<li>semi-narrow</li>
+			<li>narrow (condensed, compressed)</li>
+			<li>extra narrow</li>
+			<li>semi wide</li>
+			<li>wide (expanded, extended)</li>
+			<li>extra wide</li>
+			<br>
+			<li>proportional</li>
+			<li>proportional, height variation</li>
+			<li>mono</li>
+			<li>mono-proportional (actual shapes at the same width)</li>
+			<br>
+			<li>Capitalis Monumentalis</li>
+			<li>Helvetica</li>
+			<li>Futura</li>
+			<br>
+			<li>top-heavy</li>
+			<li>bottom-heavy</li>
+			</ul>
+
+			<h4>influenced by</h4>
+			<ul>
+			<li>available line length</li>
+			</ul>
+			<p>Hierarchy note:<i>Width</i> and <i>height</i> could be grouped together under <i>skeleton</i> > <i>proportion</i></p>
+
+
+		<h3 class="large_icons"><img class="icon" src="media/icon_prop_y.gif"/>
+			height <span>(y-proportion, y-metrics, size)</span></h3>
+		<p>This category includes all changes that happen within a character along the vertical dimensions of a typeface, including positioning. The character height has the biggest influence towards the size perception. (especially the x-height) This could be duo the fact that it is perpendicular towards the reading direction and therefore even small changes stand out more than a similar change in width. A&nbsp;change in height is often actually a change in size to preserve the character proportion: e.g. a change of the x-height is usually done proportionally along height and width to not end up with a condensed or extended typeface.<br/>
+		</p>
+		<h4>variables/axes</h4>
+		<ul>
+		<li>height / size</li>
+		<!-- <li>(line-height) > see <a>spacing</a></li> -->
+		<li>x-height (lowercase size)</li>
+		<li>cap size</li>
+		<li>allcaps size</li>
+		<li>smallcaps size</li>
+		<li>numeral size</li>
+		<br/>
+		<li>ascender</li>
+		<li>descender</li>
+		<li>aperture (a,s,e,c)</li>
+		<li>centerline (A,E,e,...)</li>
+		<br/>
+		<li>line-height</li>
+		<li>baseline shift</li>
+		<li>stem shift (prominent in handwriting and script styles</li>
+		<li>punctuation position</li>
+		<li>subscript</li>
+		<li>superscript</li>
+		<li></li>
+		</ul>
+		<h4>possible settings/parameter</h4>
+		<ul>
+		<li>large extenders (ascenders & descenders)</li>
+		<li>large capitals</li>
+		<li>small caps at  105% of x-height</li>
+		<li>low x-height proportion</li>
+		<br/>
+		<li>loose/generous</li>
+		<li>classical</li>
+		<li>modern</li>
+		<li>caption</li>
+		<li>compact</li>
+		<br/>
+		<li>Art Nouveau (E,A,...)</li>
+		<li>Futura</li>
+		<li>Times</li>
+		<li></li>
+		</ul>
+		<h4>influenced by</h4>
+		<ul>
+		<li>available line-height (less available spacing -> lower proportion ratio)</li>
+		<li>line length (wider -> larger line-height -> potentially larger proportion ratio)</li>
+		<li>width (if e.g. cap-height changes, usually also the width changes to keep the proportion ratio similar)</li>
+		</ul>
+		<p>Hierarchy note: <i>Height</i> and <i>width</i> could be grouped together under <i>skeleton</i> > <i>proportion</i>
+		</p>
+
+
+		<h3 class="large_icons"><img class="icon" src="media/icon_inclination.gif"/>
+			inclination (slant, rotation)</h3>
+		<p>The most prominent use of inclination is applied in the realm of secondary styles. The simple forward leaning slant causes an immediate change of texture and can be applied to any design. The less popular vertical slants are most prominent handwritten styles, inspired by calligraphy and lettering.<br/>
+		<br/>
+		While artificial inclinations are tempting, almost all resulting outlines need to be manually corrected or entirely redrawn to gain perfect results. While the process of slanting seems like a simple process it does cause significant problems and is more complex than usually anticipated. <br/>
+		</p>
+		<h4>variables/axes</h4>
+		<ul>
+		<li>inclination (slant) [slnt]</li>
+		<li>y-inclination</li>
+		<li>x-inclination</li>
+		<li>rotation</li>
+		<li>3D-rotation</li>
+		</ul>
+		<h4>possible settings/parameter</h4>
+		<ul>
+		<li>+15° slant</li>
+		<li>-10° slant</li>
+		<li>-5° baseline-slant</li>
+		<li>20° rotation</li>
+		</ul>
+		<p>Hierarchy note: Inclination could be also put under the <i>width</i> and <i>height</i> proportion, but as its effect is very distinctive it got its own place.</p>
+
+		<h3 class="large_icons"><img class="icon" src="media/icon_curvature.gif"/>
+			curvature </h3>
+		<red>//should not look as if it is rotating.</red>
+		<p>The curvature is describing the modulation of the stroke, while keeping the relation between the outlines consistent. Typically it is used it describes an already existing curve, but it is equally applicable in the opposite direction, introducing curvature where onto straight strokes. <br/>
+		</p>
+		<h4>variables/axes</h4>
+		<ul>
+		<li>curvature</li>
+		<li>macro-curvature</li>
+		<li>micro-curvature</li>
+		<li>wiggle-intensity</li>
+		<li></li>
+		</ul>
+		<h4>possible settings/parameter</h4>
+		<ul>
+		<li>round</li>
+		<li>cubic</li>
+		<li>rhombic</li>
+		<li>egg</li>
+		<br>
+		<li>smooth</li>
+		<li>broken</li>
+		<li>wiggle</li>
+		</ul>
+
+
+		<h3 class="large_icons"><img class="icon" src="media/icon_contrast.gif"/>
+			contrast</h3>
+		<p>The contrast intensity is determined by the relation between thicks and thins. To supply an optimal control to the user it could be helpful if the overall weight stays consistent while manipulating the contrast slider. Another option would be to let the contrast slider only control the weight of the thin strokes, leaving the thicks entirely to the weight slider.<br/>
+		</p>
+		<h4>variables/axes</h4>
+		<ul>
+		<li>contrast</li>
+		<li>thin strokes weight</li>
+		<li>thick strokes weight (weight)</li>
+		</ul>
+		<h4>possible settings/parameter</h4>
+		<ul>
+		<li>high</li>
+		<li>low</li>
+		<li>monolinear</li>
+		<br/>
+		<li>40 : 1.0</li>
+		<li>1.2 : 1.0</li>
+		<li>1.0 : 1.0</li>
+		</ul>
+
+
+
+		<h3 class="large_icons"><img class="icon" src="media/icon_modulation.gif"/>
+			modulation (outline curvature)</h3>
+		<p>This variable describes the outline modulation, which can only be modulated if there is some contrast in the type design existent. The kind of modulation can be either inspired by analog tools, digital tools, imaginary tools or even drawn completely freehand.<br/>
+		</p>
+		<h4>variables/axes</h4>
+		<ul>
+		<li>modulation</li>
+		<li>stress (contrast angle)</li>
+		<li>transition speed</li>
+		<li>smoothness</li>
+		<li>brokenness</li>
+		<li>symmetry</li>
+		<li>pen-model</li>
+		</ul>
+		<h4>possible settings/parameter</h4>
+		<ul>
+		<li>broad nib, fixed</li>
+		<li>broad nib, with rotation</li>
+		<li>pointed nib</li>
+		<li>pointed nib, with rotation</li>
+		<li></li>
+		</ul>
+
+
+		<h3 class="large_icons"><img class="icon" src="media/icon_edges.gif"/>
+			Edging (edge-, corner-, angle-treatment)</h3>
+		<p>This describes all changes applied to joints, terminals, or any other inner and outer edges.<br/>
+		</p>
+		<h4>variables/axes</h4>
+		<ul>
+		<li>edge</li>
+		<li>terminal angle</li>
+		<li>real inktrap</li>
+		<li>stylistic inktrap</li>
+		<li></li>
+		</ul>
+		<h4>possible settings/parameter</h4>
+		<ul>
+		<li>rounded</li>
+		<li>sharp</li>
+		<li>spiky</li>
+		<li>flat terminals</li>
+		<li>deep inktraps</li>
+		<li></li>
+		</ul>
+
+
+		<h3 class="large_icons"><img class="icon" src="media/icon_freeform.gif"/>
+			free forms</h3>
+		<p>Most serifs, drops, dots, ... in typefaces are not describable with simple strokes or the behaviour of a specific lettering tools. While some are definitely inspired by tools, almost all of them are freely drawn following their own specific logic.<br/>
+		</p>
+		<h4>variables/axes</h4>
+		<ul>
+		<li>free forms</li>
+		<li>serifs bottom</li>
+		<li>serifs top</li>
+		<li>drops</li>
+		<li>symmetry</li>
+		<li></li>
+		</ul>
+		<h4>possible settings/parameter</h4>
+		<ul>
+		<li>circular</li>
+		<li>triangle</li>
+		<li>square</li>
+		<li></li>
+		<li></li>
+		</ul>
+
+
+		<br/>
+		<br/>
+		<br/>
+		<!-- ---------------------------------------------------------------------- -->
+		<!-- ---------------------------------------------------------------------- -->
+		<!-- ---------------------------------------------------------------------- -->
+
+		 <h2 id="examples">2. Showcasing Axes</h2> <!-- Specific Variables/Axes -->
+		<p>Each of the following axes contains a “change-profile” using the top-level variables. The bars signalise the intensity to which the specific aspect got affected along the axes. If not otherwise noted, the following variable fonts are examples especially made for this overview and therefore consist only of a very limited character set.  </p>
+		<br/>
+
+		<h3>Serif-Size: Sans ––– Flared ––– Serif</h3>
+
+		<p>Interpolation from a modulated sans-serif design towards a serif book type with large serifs.</p>
+
+		<video style="margin-top:-1em" src="media/CrimsonSerifLengthGX.mov" controls></video>
+
+		<!-- <element>function</element>		<description>stylistic, change of atmosphere</description><br/> -->
+	<!-- 	<element>ID-pattern</element>		<value></value><br/> -->
+		<!-- <element>exceptionality</element>		<value>II</value><br/> -->
+		<!-- <element>odity</element>		<value>II</value><br/> -->
+		<!-- <element>difficulty</element>		<value>IIIII</value><br/> -->
+
+
+		<div>
+		<element>texture <img class="icon" src="media/icon_texture.gif"/></element>		<value>IIIIIIII</value><br/>
+		<element>complexity <img class="icon" src="media/icon_complexity.gif"/></element>		<value>III</value><br/>
+		<element>weight <img class="icon" src="media/icon_weight.gif"/></element>			<value>&nbsp;</value><br/>
+		<element>rhythm <img class="icon" src="media/icon_rhythm.gif"/></element>		<value>II</value><br/>
+		<element>optical size <img class="icon" src="media/icon_optical.gif"/></element>				<value>I</value><br/>
+
+		<br/></div>
+		<div>
+
+		<element>spacing <img class="icon" src="media/icon_spacing.gif"/></element>	<value>III</value><br/>
+		<element>width <img class="icon" src="media/icon_prop_x.gif"/></element>		<value>II</value><br/>
+		<element>height <img class="icon" src="media/icon_prop_y.gif"/></element>		<value>&nbsp;</value><br/>
+		<element>inclination <img class="icon" src="media/icon_inclination.gif"/></element>		<value>&nbsp;</value><br/>
+		<element>curvature <img class="icon" src="media/icon_curvature.gif"/></element>		<value>&nbsp;</value><br/>
+		</div>
+		<div>
+
+		<element>contrast <img class="icon" src="media/icon_contrast.gif"/></element>			<value>&nbsp;</value><br/>
+		<element>modulation <img class="icon" src="media/icon_modulation.gif"/><!-- (c.angle) --></element>	<value>&nbsp;</value><br/>
+		<element>edges <img class="icon" src="media/icon_edges.gif"/></element>			<value>I</value><br/>
+		<element>free forms <img class="icon" src="media/icon_freeform.gif"/></element>		<value>III</value>
+		</div>
+
+		<br/>
+
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+
+		<h3>Pen-Model: broadnib/translation ––– pointed/expansion</h3>
+		<p>Non-linear interpolation between two pen-model sterotypes which correspond to the classifications oldstyle and modern in the way the contrast is modulated.</p>
+
+		<video style="margin-top:-0.2em" src="media/Crimson_PenModelGX.mov" controls></video>
+
+		<!-- <element>function</element>		<description>stylistic, change of atmosphere</description><br/> -->
+	<!-- 	<element>ID-pattern</element>		<value></value><br/> -->
+		<!-- <element>exceptionality</element>		<value>II</value><br/> -->
+		<!-- <element>odity</element>		<value>II</value><br/> -->
+		<!-- <element>difficulty</element>		<value>IIIII</value><br/> -->
+
+		<div>
+		<!-- <element>atmosphere</element>				<value>IIIIII</value><br/> -->
+		<element>texture <img class="icon" src="media/icon_texture.gif"/></element>		<value>II</value><br/>
+		<element>complexity <img class="icon" src="media/icon_complexity.gif"/></element>		<value>II</value><br/>
+		<element>weight <img class="icon" src="media/icon_weight.gif"/></element>			<value>&nbsp;</value><br/>
+
+		<element>rhythm <img class="icon" src="media/icon_rhythm.gif"/></element>		<value>II</value><br/>
+		<element>optical size <img class="icon" src="media/icon_optical.gif"/></element>				<value>&nbsp;</value><br/>
+
+		</div>
+		<div>
+
+		<element>spacing <img class="icon" src="media/icon_spacing.gif"/></element>	<value>&nbsp;</value><br/>
+		<element>x-proportion <img class="icon" src="media/icon_prop_x.gif"/></element>		<value>&nbsp;</value><br/>
+		<element>y-proportion <img class="icon" src="media/icon_prop_y.gif"/></element>		<value>&nbsp;</value><br/>
+		<element>inclination <img class="icon" src="media/icon_inclination.gif"/></element>		<value>&nbsp;</value><br/>
+		<element>curvature <img class="icon" src="media/icon_curvature.gif"/></element>		<value>&nbsp;</value><br/>
+
+		</div>
+		<div>
+
+		<element>contrast <img class="icon" src="media/icon_contrast.gif"/></element>			<value>&nbsp;</value><br/>
+		<element>modulation <img class="icon" src="media/icon_modulation.gif"/></element>	<value>IIIII</value><br/>
+		<element>edges <img class="icon" src="media/icon_edges.gif"/></element>			<value>II</value><br/>
+		<element>free forms <img class="icon" src="media/icon_freeform.gif"/></element>		<value>II</value>
+		</div>
+
+
+
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+
+
+			<h3>Grades: negative ––– none ––– positive</h3>
+		<p>The main function of grades is to get a similar rendering across different technologies or processes which render the exact same outlines slightly different. Therefore the weight needs to be manipulated slightly while the overall width stays the same to not cause any reflow of the rendered text. For perfect control it is advisable to allow manipulation of thicks, thins and the weight across the x and y coordinates. (achievable through weight and contrast master axes) Although for basic control a simple weight axes can be sufficant, especially for monolinear designs.</p>
+
+		<!-- <element>function</element>		<description>stylistic, change of atmosphere</description><br/> -->
+	<!-- 	<element>ID-pattern</element>		<value></value><br/> -->
+		<!-- <element>exceptionality</element>		<value>II</value><br/> -->
+		<!-- <element>odity</element>		<value>II</value><br/> -->
+		<!-- <element>difficulty</element>		<value>IIIII</value><br/> -->
+
+
+		<div>
+		<element>texture <img class="icon" src="media/icon_texture.gif"/></element>		<value>&nbsp;</value><br/>
+		<element>complexity <img class="icon" src="media/icon_complexity.gif"/></element>		<value>&nbsp;</value><br/>
+		<element>weight <img class="icon" src="media/icon_weight.gif"/></element>			<value>II</value><br/>
+		<element>rhythm <img class="icon" src="media/icon_rhythm.gif"/></element>		<value>&nbsp;</value><br/>
+		<element>optical size <img class="icon" src="media/icon_optical.gif"/></element>				<value>&nbsp;</value><br/>
+
+		<br/></div>
+		<div>
+
+		<element>spacing <img class="icon" src="media/icon_spacing.gif"/></element>	<value>&nbsp;</value><br/>
+		<element>x-proportion <img class="icon" src="media/icon_prop_x.gif"/></element>		<value>&nbsp;</value><br/>
+		<element>y-proportion <img class="icon" src="media/icon_prop_y.gif"/></element>		<value>&nbsp;</value><br/>
+		<element>inclination <img class="icon" src="media/icon_inclination.gif"/></element>		<value>&nbsp;</value><br/>
+		<element>curvature <img class="icon" src="media/icon_curvature.gif"/></element>		<value>&nbsp;</value><br/>
+		</div>
+		<div>
+
+		<element>contrast <img class="icon" src="media/icon_contrast.gif"/></element>			<value>II</value><br/>
+		<element>modulation <img class="icon" src="media/icon_modulation.gif"/><!-- (c.angle) --></element>	<value>&nbsp;</value><br/>
+		<element>edges <img class="icon" src="media/icon_edges.gif"/></element>			<value>&nbsp;</value><br/>
+		<element>free forms <img class="icon" src="media/icon_freeform.gif"/></element>		<value>&nbsp;</value><br/>
+		</div>
+
+		<br/>
+
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+
+
+
+
+
+		<h3>Name: Extreme One ––– Extreme Two</h3>
+		<p>Description ...</p>
+
+		<!-- <element>function</element>		<description>stylistic, change of atmosphere</description><br/> -->
+	<!-- 	<element>ID-pattern</element>		<value></value><br/> -->
+		<!-- <element>exceptionality</element>		<value>II</value><br/> -->
+		<!-- <element>odity</element>		<value>II</value><br/> -->
+		<!-- <element>difficulty</element>		<value>IIIII</value><br/> -->
+
+
+		<div>
+		<element>texture <img class="icon" src="media/icon_texture.gif"/></element>		<value>&nbsp;</value><br/>
+		<element>complexity <img class="icon" src="media/icon_complexity.gif"/></element>		<value>&nbsp;</value><br/>
+		<element>weight <img class="icon" src="media/icon_weight.gif"/></element>			<value>&nbsp;</value><br/>
+		<element>rhythm <img class="icon" src="media/icon_rhythm.gif"/></element>		<value>&nbsp;</value><br/>
+		<element>optical size <img class="icon" src="media/icon_optical.gif"/></element>				<value>&nbsp;</value><br/>
+
+		<br/></div>
+		<div>
+
+		<element>spacing <img class="icon" src="media/icon_spacing.gif"/></element>	<value>&nbsp;</value><br/>
+		<element>x-proportion <img class="icon" src="media/icon_prop_x.gif"/></element>		<value>&nbsp;</value><br/>
+		<element>y-proportion <img class="icon" src="media/icon_prop_y.gif"/></element>		<value>&nbsp;</value><br/>
+		<element>inclination <img class="icon" src="media/icon_inclination.gif"/></element>		<value>&nbsp;</value><br/>
+		<element>curvature <img class="icon" src="media/icon_curvature.gif"/></element>		<value>&nbsp;</value><br/>
+		</div>
+		<div>
+
+		<element>contrast <img class="icon" src="media/icon_contrast.gif"/></element>			<value>&nbsp;</value><br/>
+		<element>modulation <img class="icon" src="media/icon_modulation.gif"/><!-- (c.angle) --></element>	<value>&nbsp;</value><br/>
+		<element>edges <img class="icon" src="media/icon_edges.gif"/></element>			<value>&nbsp;</value><br/>
+		<element>free forms <img class="icon" src="media/icon_freeform.gif"/></element>		<value>&nbsp;</value><br/>
+		</div>
+
+		<br/>
+
+		<br/>
+		<br/>
+		<br/>
+
+
+
+
+
+
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		End of the document.
+		<hr/>
+
+		<p class="mono">
+		<br/>
+		<br/>
+		- previous, notes, delete -
+		<br/>
+		<br/>
+
+		<video src="media/texture___spacing.mov" controls></video>
+		<br/>
+		-------------------------------------------------------<br/>
+		-------------------------------------------------------<br/>
+		----------- with more variables -----------------------<br/>
+		-------------------------------------------------------<br/>
+		-------------------------------------------------------<br/>
+		<br/>
+		<video src="media/Crimson_CurvatureBrokenGX.mov" controls></video>
+
+		<h3>Curvature, broken: inner ––– none ––– skeleton</h3>
+		<p></p>
+
+		<!-- <element>function</element>		<description>stylistic, change of atmosphere</description><br/> -->
+	<!-- 	<element>ID-pattern</element>		<value></value><br/> -->
+		<!-- <element>exceptionality</element>		<value>II</value><br/> -->
+		<element>difficulty</element>		<value>II</value><br/>
+		<br/>
+
+		<div>
+		<element>atmosphere</element>				<value>IIIIII</value><br/>
+		<element>odity</element>				<value>III</value><br/>
+		<element><img class="icon" src="media/icon_texture.gif"/> texture</element>		<value>III</value><br/>
+
+		<element>weight</element>			<value>&nbsp;</value><br/>
+
+		<element>complexity</element>		<value>I</value><br/>
+		<element>rhythm</element>				<value>&nbsp;</value><br/>
+		<element>ductus</element>				<value>&nbsp;</value><br/>
+
+		<element>optical size</element>				<value>&nbsp;</value><br/>
+		<element>spacing</element>	<value>&nbsp;</value><br/>
+		<element>positioning</element>	<value>&nbsp;</value><br/>
+		</div>
+		<div>
+
+		<element>x-proportion</element>		<value>&nbsp;</value><br/>
+		<element>y-proportion</element>		<value>&nbsp;</value><br/>
+		<element>inclination</element>		<value>&nbsp;</value><br/>
+		<element>curvature</element>		<value>IIIIIIIIIIIII</value><br/>
+		<element>contrast</element>			<value>&nbsp;</value><br/>
+		<element><span class="smaller">↳</span> stress</element>	<value>&nbsp;</value><br/>
+		<element><span class="smaller">↳</span>&nbsp;transition</element>	<value>&nbsp;</value><br/>
+		<element><span class="smaller">↳</span> asymetry</element>	<value>II</value><br/>
+		<element><span class="smaller">↳</span> free</element>	<value>II</value><br/>
+		<!-- <element>c.&nbsp;modulation</element>		<value>&nbsp;</value><br/> -->
+		<br/>
+
+		</div>
+		<div>
+		<element>joint edges</element>			<value>II</value><br/>
+		<element>free forms</element>		<value>&nbsp;	</value><br/>
+		<element>outline texture</element>	<value>&nbsp;</value><br/>
+		<element>surface texture</element>	<value>&nbsp;</value><br/>
+		<element>dimensionality</element>	<value>&nbsp;</value><br/>
+		<element>colors</element>			<value>&nbsp;</value><br/>
+		<element>total width</element>			<value>&nbsp;</value><br/>
+		</div>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+
+		<p class="mono">
+
+		-------------------------------------------------------<br/>
+		-------------------------------------------------------<br/>
+		-------- previous attempt, too many hierachies --------<br/>
+		-------- too confusing, problem of repetition as ------ <br/>
+		-------- some axes fall into multiple aspects ---------<br/>
+		-------------------------------------------------------<br/>
+		-------------------------------------------------------
+		</p>
+
+        <h2>1. Structure</h2>
+        <h3>1.1 Character/Identification Pattern</h3>
+		<p>This is the raw material – every letter consists of at least one   character pattern to be identified. The character “o” for examples does only has a single pattern, but there are also letters which have more than one distinctive pattern, such as <span>“R”, “r”, “<span class="pattern-script-r">r</span>”</span>. Even though it is also possible to interpolate between entirely different character patterns, the following examples will concentrate on manipulating within one pattern.
+		</p>
+		<h3>1.2 Stylistic Variation</h3>
+		As long as additions such as serifs, drops and swashes do not result in an entirely new identification pattern they should be considers a variation and not as a sparate pattern.
+
+		<video src="media/CrimsonSerifLengthGX.mov" controls></video>
+
+		<h2>2. Setting</h2>
+		<h3>2.1 Spacing</h3>
+		<h3>2.1 Position</h3>
+
+        <h2>3. Skeleton</h2>
+        <h3>Size, lowercase-height</h3>
+        <h3>Size, cap-height</h3>
+        <h3>Vertical Proportion</h3>
+        <h3>Horizontal Proportion</h3>
+        <h3>Inclination</h3>
+        <h3>Curvature</h3>
+
+        <h2>4. Contour/Outline</h2>
+        <h3>Weight</h3>
+        	<h4>Grades: negative ––– none ––– positive</h4>
+		<p>The main function of grades is to get a similar rendering across different technologies or processes which render the exact same outlines slightly different. Therefore the weight needs to be manipulated slightly while the overall width stays the same to not cause any reflow of the rendered text. For perfect control it is advisable to allow manipulation of thicks, thins and the weight across the x and y coordinates. (achievable through weight and contrast master axes) Although for basic control a simple weight axes can be sufficant, especially for monolinear designs.</p>
+
+		<!-- <element>function</element>		<description>stylistic, change of atmosphere</description><br/> -->
+	<!-- 	<element>ID-pattern</element>		<value></value><br/> -->
+		<!-- <element>exceptionality</element>		<value>II</value><br/> -->
+		<!-- <element>odity</element>		<value>II</value><br/> -->
+		<!-- <element>difficulty</element>		<value>IIIII</value><br/> -->
+
+
+		<div>
+		<element>atmosphere</element>				<value>&nbsp;</value><br/>
+		<element>texture <img class="icon" src="media/icon_texture.gif"/></element>		<value>&nbsp;</value><br/>
+		<element>weight <img class="icon" src="media/icon_weight.gif"/></element>			<value>II</value><br/>
+		<element>complexity <img class="icon" src="media/icon_complexity.gif"/></element>		<value>&nbsp;</value><br/>
+		<element>rhythm <img class="icon" src="media/icon_rhythm.gif"/></element>		<value>&nbsp;</value><br/>
+		<br/></div>
+		<div>
+		<element>optical size <img class="icon" src="media/icon_optical.gif"/></element>				<value>&nbsp;</value><br/>
+		<element>spacing <img class="icon" src="media/icon_spacing.gif"/></element>	<value>&nbsp;</value><br/>
+		<element>x-proportion <img class="icon" src="media/icon_prop_x.gif"/></element>		<value>&nbsp;</value><br/>
+		<element>y-proportion <img class="icon" src="media/icon_prop_y.gif"/></element>		<value>&nbsp;</value><br/>
+		<element>inclination <img class="icon" src="media/icon_inclination.gif"/></element>		<value>&nbsp;</value><br/>
+		</div>
+		<div>
+		<element>curvature <img class="icon" src="media/icon_curvature.gif"/></element>		<value>&nbsp;</value><br/>
+		<element>contrast <img class="icon" src="media/icon_contrast.gif"/></element>			<value>II</value><br/>
+		<element>modulation <img class="icon" src="media/icon_modulation.gif"/><!-- (c.angle) --></element>	<value>&nbsp;</value><br/>
+		<element>edges <img class="icon" src="media/icon_edges.gif"/></element>			<value>&nbsp;</value><br/>
+		<element>free forms <img class="icon" src="media/icon_freeform.gif"/></element>		<value>&nbsp;</value><br/>
+		</div>
+
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+
+        <h3>Contrast</h3>
+		<h3>Modulation</h3>
+
+
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<video src="media/Crimson_PenModelGX.mov" controls></video>
+		<h3>Pen-Model: broadnib/translation ––– pointed/expansion</h3>
+		<p>Non-linear interpolation between two pen-model sterotypes which correspond to the classifications oldstyle and modern in the way the contrast is modulated.</p>
+
+		<!-- <element>function</element>		<description>stylistic, change of atmosphere</description><br/> -->
+	<!-- 	<element>ID-pattern</element>		<value></value><br/> -->
+		<!-- <element>exceptionality</element>		<value>II</value><br/> -->
+		<!-- <element>odity</element>		<value>II</value><br/> -->
+		<!-- <element>difficulty</element>		<value>IIIII</value><br/> -->
+
+		<div>
+		<element>atmosphere</element>				<value>IIIIII</value><br/>
+		<element>texture <img class="icon" src="media/icon_texture.gif"/></element>		<value>II</value><br/>
+		<element>weight <img class="icon" src="media/icon_weight.gif"/></element>			<value>&nbsp;</value><br/>
+		<element>complexity <img class="icon" src="media/icon_complexity.gif"/></element>		<value>II</value><br/>
+		<element>rhythm <img class="icon" src="media/icon_rhythm.gif"/></element>		<value>II</value><br/>
+		<br/></div>
+		<div>
+		<element>optical size <img class="icon" src="media/icon_optical.gif"/></element>				<value>&nbsp;</value><br/>
+		<element>spacing <img class="icon" src="media/icon_spacing.gif"/></element>	<value>&nbsp;</value><br/>
+		<element>x-proportion <img class="icon" src="media/icon_prop_x.gif"/></element>		<value>&nbsp;</value><br/>
+		<element>y-proportion <img class="icon" src="media/icon_prop_y.gif"/></element>		<value>&nbsp;</value><br/>
+		<element>inclination <img class="icon" src="media/icon_inclination.gif"/></element>		<value>&nbsp;</value><br/>
+		</div>
+		<div>
+		<element>curvature <img class="icon" src="media/icon_curvature.gif"/></element>		<value>&nbsp;</value><br/>
+		<element>contrast <img class="icon" src="media/icon_contrast.gif"/></element>			<value>&nbsp;</value><br/>
+		<element>modulation <img class="icon" src="media/icon_modulation.gif"/></element>	<value>IIIII</value><br/>
+		<element>edges <img class="icon" src="media/icon_edges.gif"/></element>			<value>II</value><br/>
+		<element>free forms <img class="icon" src="media/icon_freeform.gif"/></element>		<value>II</value><br/>
+		</div>
+
+
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+
+		<h3>Angles</h3>
+		<h3>Free Forms</h3>
+		<br/>
+		<h2>5. Surface</h2>
+		<h3>Texture</h3>
+		<h3>dimensionality</h3>
+		<h3>colors</h3>
+
+		<h2>6. Combining/Complex</h2>
+		<p>Following examples consist of interplations which affect multiple variables at once.</p>
+		<h3>Optical Size</h3>
+		<h3>Texture</h3>
+		<h3>Association/Atmosphere</h3>
+		<h3>Rhythm</h3>
+
+
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+        <p>Variable</p>
+
+       	<br/>
+
+        	<video src="media/Crimson_CurvatureWiggleGX.mov" controls></video>
+		<h3>Curvature, wobble: skeleton ––– inner ––– outer ––– both</h3>
+		<p></p>
+
+		<!-- <element>function</element>		<description>stylistic, change of atmosphere</description><br/> -->
+	<!-- 	<element>ID-pattern</element>		<value></value><br/> -->
+		<!-- <element>exceptionality</element>		<value>II</value><br/> -->
+		<element>difficulty</element>		<value>II</value><br/>
+		<br/>
+
+		<div>
+		<element>atmosphere</element>				<value>IIIIII</value><br/>
+		<element>odity</element>				<value>IIIII</value><br/>
+		<element><img class="icon" src="media/icon_texture.gif"/> texture</element>		<value>III</value><br/>
+
+		<element>weight</element>			<value>&nbsp;</value><br/>
+		<element>rhythm</element>				<value>&nbsp;</value><br/>
+
+		<br/>
+		<element>optical size</element>				<value>&nbsp;</value><br/>
+		<element>x-proportion</element>		<value>&nbsp;</value><br/>
+		<element>y-proportion</element>		<value>&nbsp;</value><br/>
+		<element>inclination</element>		<value>&nbsp;</value><br/>
+		<element>curvature</element>		<value>IIIIIIIIIIIIII</value><br/>
+		</div>
+		<div>
+		<element>contrast</element>			<value>&nbsp;</value><br/>
+		<element>c. angle</element>	<value>&nbsp;</value><br/>
+		<element>c.&nbsp;transition</element>	<value>&nbsp;</value><br/>
+		<element>c.&nbsp;modulation</element>		<value>&nbsp;</value><br/>
+		<br/>
+		<element>outline angles</element>			<value>II</value><br/>
+		<element>free forms</element>		<value></value><br/>
+		</div>
+		<div>
+		<element>spacing</element>	<value>&nbsp;</value><br/>
+		<element>positioning</element>	<value>&nbsp;</value><br/>
+		<element>complexity</element>		<value>I</value><br/>
+		<element>outline texture</element>	<value>&nbsp;</value><br/>
+		<element>surface texture</element>	<value>&nbsp;</value><br/>
+		<element>dimensionality</element>	<value>&nbsp;</value><br/>
+		<element>colors</element>			<value>&nbsp;</value><br/>
+		</div>
+		<br/>
+		<br/>
+
+
+        	<video src="media/Crimson_CurvatureSerifConcaveGX.mov" controls></video>
+        	<h3>Curvature, Terminals: concave ––– convex</h3>
+		<p></p>
+		<element>difficulty</element>		<value>II</value><br/>
+		<br/>
+
+		<div>
+		<element>atmosphere</element>				<value>IIIIII</value><br/>
+		<element><img class="icon" src="media/icon_texture.gif"/> texture</element>		<value>II</value><br/>
+
+		<element>weight</element>			<value>&nbsp;</value><br/>
+		<element>rhythm</element>				<value>&nbsp;</value><br/>
+
+		<br/>
+		<element>optical size</element>				<value>&nbsp;</value><br/>
+		<element>x-proportion</element>		<value>&nbsp;</value><br/>
+		<element>y-proportion</element>		<value>&nbsp;</value><br/>
+		<element>inclination</element>		<value>&nbsp;</value><br/>
+		<element>curvature</element>		<value>IIIIIIII</value><br/>
+		</div>
+		<div>
+		<element>contrast</element>			<value>&nbsp;</value><br/>
+		<element>c. angle</element>	<value>&nbsp;</value><br/>
+		<element>c.&nbsp;transition</element>	<value>&nbsp;</value><br/>
+		<!-- <element>c.&nbsp;modulation</element>		<value>&nbsp;</value><br/> -->
+		<br/>
+		<element>outline angles</element>			<value>&nbsp;</value><br/>
+		<element>free forms</element>		<value>&nbsp;</value><br/>
+		</div>
+		<div>
+		<element>spacing</element>	<value>&nbsp;</value><br/>
+		<element>positioning</element>	<value>&nbsp;</value><br/>
+		<element>complexity</element>		<value>&nbsp;</value><br/>
+		<element>outline texture</element>	<value>&nbsp;</value><br/>
+		<element>surface texture</element>	<value>&nbsp;</value><br/>
+		<element>dimensionality</element>	<value>&nbsp;</value><br/>
+		<element>colors</element>			<value>&nbsp;</value><br/>
+		</div>
+		<br/>
+		<br/>
+
+        	<video src="media/Crimson_SerifSpurAngleGX.mov" controls></video>
+
+        </div>
+
+
+        <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js"><\/script>')</script>
+
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <script>
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    </body>
+</html>

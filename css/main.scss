@@ -1,0 +1,68 @@
+html { margin: 2vw; margin-left: 5vw;}
+video { max-height: 160px; display:block;}
+
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush');
+
+p {
+	font-family: Arial;
+	max-width: 80ex;
+}
+
+.container {
+	width: 100vw;
+}
+
+hr {width: 90%; left:0; position: absolute;}
+.pattern-script-r {
+	font-family: 'Alex Brush', cursive;
+	font-style: italic;
+	font-size: 1.4em;
+	line-height: 0.2em;
+}
+
+element {
+	width: 7em;
+	display: inline-block;
+	text-align:right;
+	padding-right: 0.4ex;
+	line-height: 1.3em;
+}
+value {
+	width: 4em;
+	display: inline-block;
+	background-color: #ccc;
+	line-height: 0.8em;
+}
+img.icon {
+	width: 1em!important;
+	height: 1em!important;
+	margin-bottom: -0.2em;
+	padding-left:0.02em;
+
+	outline: none;
+	border: none;
+}
+
+.large_icons {
+	element { text-align:left; width: 10em; vertical-align: top;}
+
+	div { width: 12em;}
+	img.icon {
+	width: 3em!important;
+	height: 3em!important;
+	margin-bottom: -1em;
+	margin-top: 1em;
+	}
+}
+
+
+
+div {display:inline-block; vertical-align: top; }
+h2, h3 {display:block; width:100%; text-transform: capitalize; margin-top: 2em;}
+h3>span {weight: 300!important;}
+.smaller { font-size: 0.8em;}
+h4 {margin-bottom: 0;}
+ul { margin-top: 0.3em;}
+.mono { font-family: monospace;}
+
+red {color:red;}

@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css?family=Alex+Brush");
+/* line 1, main.scss */
+html {
+  margin: 2vw;
+  margin-left: 5vw;
+}
+
+/* line 2, main.scss */
+video {
+  max-height: 160px;
+  display: block;
+}
+
+/* line 6, main.scss */
+p {
+  font-family: Arial;
+  max-width: 80ex;
+}
+
+/* line 11, main.scss */
+.container {
+  width: 100vw;
+}
+
+/* line 15, main.scss */
+hr {
+  width: 90%;
+  left: 0;
+  position: absolute;
+}
+
+/* line 16, main.scss */
+.pattern-script-r {
+  font-family: 'Alex Brush', cursive;
+  font-style: italic;
+  font-size: 1.4em;
+  line-height: 0.2em;
+}
+
+/* line 23, main.scss */
+element {
+  width: 7em;
+  display: inline-block;
+  text-align: right;
+  padding-right: 0.4ex;
+  line-height: 1.3em;
+}
+
+/* line 30, main.scss */
+value {
+  width: 4em;
+  display: inline-block;
+  background-color: #ccc;
+  line-height: 0.8em;
+}
+
+/* line 36, main.scss */
+img.icon {
+  width: 1em !important;
+  height: 1em !important;
+  margin-bottom: -0.2em;
+  padding-left: 0.02em;
+  outline: none;
+  border: none;
+}
+
+/* line 47, main.scss */
+.large_icons element {
+  text-align: left;
+  width: 10em;
+  vertical-align: top;
+}
+/* line 49, main.scss */
+.large_icons div {
+  width: 12em;
+}
+/* line 50, main.scss */
+.large_icons img.icon {
+  width: 3em !important;
+  height: 3em !important;
+  margin-bottom: -1em;
+  margin-top: 1em;
+}
+
+/* line 60, main.scss */
+div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* line 61, main.scss */
+h2, h3 {
+  display: block;
+  width: 100%;
+  text-transform: capitalize;
+  margin-top: 2em;
+}
+
+/* line 62, main.scss */
+h3 > span {
+  weight: 300 !important;
+}
+
+/* line 63, main.scss */
+.smaller {
+  font-size: 0.8em;
+}
+
+/* line 64, main.scss */
+h4 {
+  margin-bottom: 0;
+}
+
+/* line 65, main.scss */
+ul {
+  margin-top: 0.3em;
+}
+
+/* line 66, main.scss */
+.mono {
+  font-family: monospace;
+}
+
+/* line 68, main.scss */
+red {
+  color: red;
+}

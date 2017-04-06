@@ -1,0 +1,1015 @@
+{
+  "GeneralSetup": {
+  	"description": "General Setup",
+	"Read_Instances": "TRUE",
+	"Read_Masternames": "TRUE",
+	"Instances_reset_all": "TRUE",
+	"Filters_general_before": ["PreFilter::LayerGeek;decomposeComponents"],
+	"Filters_general_after": ["Filter::GlyphsFilterRemoveOverlap;","Instance Preview::R, h, a, n, o, t, e, r, 1, 3, 9"],
+	"_whtever": "90percent Narrator",
+	"Master_MainParent": "SansReg",
+	"Contrast":			"none",
+	"Slider_preset": "TRUE",
+	"Slider_preset_limit_extrapolation": "*1.2",
+	"Color_Char_changes_towards_Parent": {
+	  "active": "FALSE",
+	  "color": "#8D36B8"},
+	"_info": {
+			"description": "General Setup for the Multipolation",
+			"default": 		false
+			}
+	},
+	"MasterSetupMapping": {
+		"Regular":			[0,1, "All"],
+		"Light":			[[200, 54],[160,54]],
+		"Height":			[1456, 1165],
+		"Diacritics":		[0, 100],
+		"Baselineshift":	[0, 100],
+		"Contrast":			[0, 100],
+		"RoundCorners":		[0, 100],
+		"Curvature":		[0, 100],
+		"CurvatureEqual":	[0, 100],
+		"Wide":				[782, 882],
+		"Condensed":		[782, 882],
+		"Bold":				[[200, 322],[160,260], ["Tight"]],
+		"MonoFaux":			[0, 100],
+		"Mono":				[0, 100],
+		"Tight":			[100, 0],
+
+
+		"_info": {
+			"description": "MasterName, Map_0/[x_0, x_1], Map_1/[y_0, y_1], ['Child(s)'], Instance Math, Characters Changed [[180,150],[180,150]] Ascender 1536 Descender -416 Regular: stroke-values of original ttf supplied via googlefonts",
+			"default": 		[0,1]
+			}
+	},
+	"InstancesSetup": {
+		"Regular":	{
+			"#Uppercase": {
+				"_Scope": "include: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, zero, one, two, three, four, five, six, seven, eight, nine",
+				"Height":	"1456"
+			},
+
+			"#Ascender": {
+				"_Scope": "include: l, h, b, d, k, f, germandbls, t",
+				"Height":	"1536"
+			},
+			"#Descender": {
+				"_Scope": "include: p,q,g,y,j",
+				"Height":	"none+120"
+			},
+
+			"#All": {
+				"Regular":			"full",
+				"Light":			[185,152],
+				"Bold":				["none","none"],
+				"Height":			"none",
+				"Wide":				"none",
+				"Diacritics":		"none",
+				"Baselineshift":	"none",
+				"Condensed":		"none",
+				"Contrast":			"none",
+				"RoundCorners":		"none",
+				"CurvatureEqual":	"none",
+				"Curvature":		"none",
+				"MonoFaux":			"none",
+				"Mono":				"none",
+				"Tight":			"none"
+
+			}
+		},
+		"Regular Display":	{
+			"#Uppercase": {
+				"_Scope": "include: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, zero, one, two, three, four, five, six, seven, eight, nine",
+				"Height":	"1456"
+			},
+
+			"#Ascender": {
+				"_Scope": "include: l, h, b, d, k, f, germandbls, t",
+				"Height":	"1536"
+			},
+			"#Descender": {
+				"_Scope": "include: p,q,g,y,j",
+				"Height":	"none+120"
+			},
+
+			"#All": {
+				"Regular":			"full",
+				"Light":			[185,152],
+				"Bold":				["none","none"],
+				"Height":			"none",
+				"Wide":				"none",
+				"Diacritics":		"none",
+				"Baselineshift":	"none",
+				"Condensed":		"half",
+				"Contrast":			"full",
+				"RoundCorners":		"none",
+				"CurvatureEqual":	"none",
+				"Curvature":		"none",
+				"MonoFaux":			"none",
+				"Mono":				"none",
+				"Tight":			"full"
+
+			}
+		},
+		"Medium Rounded":	{
+			"#Uppercase": {
+				"_Scope": "include: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, zero, one, two, three, four, five, six, seven, eight, nine",
+				"Height":	"1456"
+			},
+			"#Smallcaps": {
+				"_Scope": "include: A.smcp, B.smcp, C.smcp, D.smcp, E.smcp, F.smcp, G.smcp, H.smcp, I.smcp, J.smcp, K.smcp, L.smcp, M.smcp, N.smcp, O.smcp, P.smcp, Q.smcp, R.smcp, S.smcp, T.smcp, U.smcp, V.smcp, W.smcp, X.smcp, Y.smcp, Z.smcp, zero.smcp, one.smcp, two.smcp, three.smcp, four.smcp, five.smcp, six.smcp, seven.smcp, eight.smcp, nine.smcp",
+				"Height":	"1165"
+			},
+			"#Caps": {
+				"_Scope": "include: A.caps, B.caps, C.caps, D.caps, E.caps, F.caps, G.caps, H.caps, I.caps, J.caps, K.caps, L.caps, M.caps, N.caps, O.caps, P.caps, Q.caps, R.caps, S.caps, T.caps, U.caps, V.caps, W.caps, X.caps, Y.caps, Z.caps, zero.caps, one.caps, two.caps, three.caps, four.caps, five.caps, six.caps, seven.caps, eight.caps, nine.caps",
+				"Height":	"1400"
+			},
+
+			"#Ascender": {
+				"_Scope": "include: l, h, b, d, k, f, germandbls, t",
+				"Height":	"1536"
+			},
+			"#Descender": {
+				"_Scope": "include: p,q,g,y,j",
+				"Height":	"none+120"
+			},
+
+			"#All": {
+				"Regular":			"full",
+				"Light":			["none","none"],
+				"Bold":				[243,195],
+				"Height":			"none",
+				"Wide":			"none",
+				"Diacritics":		"none",
+				"Baselineshift":	"none",
+				"Condensed":		"none",
+				"Contrast":	"none",
+				"RoundCorners":		"120",
+				"CurvatureEqual":	"none",
+				"Curvature":		"none",
+				"MonoFaux":			"none",
+				"Mono":				"none",
+				"Tight":			"none"
+
+			}
+		},
+		"Medium Rounded Less":	{
+			"#Uppercase": {
+				"_Scope": "include: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, zero, one, two, three, four, five, six, seven, eight, nine",
+				"Height":	"1456"
+			},
+			"#Smallcaps": {
+				"_Scope": "include: A.smcp, B.smcp, C.smcp, D.smcp, E.smcp, F.smcp, G.smcp, H.smcp, I.smcp, J.smcp, K.smcp, L.smcp, M.smcp, N.smcp, O.smcp, P.smcp, Q.smcp, R.smcp, S.smcp, T.smcp, U.smcp, V.smcp, W.smcp, X.smcp, Y.smcp, Z.smcp, zero.smcp, one.smcp, two.smcp, three.smcp, four.smcp, five.smcp, six.smcp, seven.smcp, eight.smcp, nine.smcp",
+				"Height":	"1165"
+			},
+			"#Caps": {
+				"_Scope": "include: A.caps, B.caps, C.caps, D.caps, E.caps, F.caps, G.caps, H.caps, I.caps, J.caps, K.caps, L.caps, M.caps, N.caps, O.caps, P.caps, Q.caps, R.caps, S.caps, T.caps, U.caps, V.caps, W.caps, X.caps, Y.caps, Z.caps, zero.caps, one.caps, two.caps, three.caps, four.caps, five.caps, six.caps, seven.caps, eight.caps, nine.caps",
+				"Height":	"1400"
+			},
+
+			"#Ascender": {
+				"_Scope": "include: l, h, b, d, k, f, germandbls, t",
+				"Height":	"1536"
+			},
+			"#Descender": {
+				"_Scope": "include: p,q,g,y,j",
+				"Height":	"none+120"
+			},
+
+			"#All": {
+				"Regular":			"full",
+				"Light":			["none","none"],
+				"Bold":				[243,195],
+				"Height":			"none",
+				"Wide":			"none",
+				"Diacritics":		"none",
+				"Baselineshift":	"none",
+				"Condensed":		"none",
+				"Contrast":	"none",
+				"RoundCorners":		"60",
+				"CurvatureEqual":	"none",
+				"Curvature":		"none",
+				"MonoFaux":			"none",
+				"Mono":				"none",
+				"Tight":			"none"
+
+			}
+		},
+		"Regular Curvature Equal":	{
+			"#Uppercase": {
+				"_Scope": "include: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, zero, one, two, three, four, five, six, seven, eight, nine",
+				"Height":	"1456"
+			},
+			"#Smallcaps": {
+				"_Scope": "include: A.smcp, B.smcp, C.smcp, D.smcp, E.smcp, F.smcp, G.smcp, H.smcp, I.smcp, J.smcp, K.smcp, L.smcp, M.smcp, N.smcp, O.smcp, P.smcp, Q.smcp, R.smcp, S.smcp, T.smcp, U.smcp, V.smcp, W.smcp, X.smcp, Y.smcp, Z.smcp, zero.smcp, one.smcp, two.smcp, three.smcp, four.smcp, five.smcp, six.smcp, seven.smcp, eight.smcp, nine.smcp",
+				"Height":	"1165"
+			},
+			"#Caps": {
+				"_Scope": "include: A.caps, B.caps, C.caps, D.caps, E.caps, F.caps, G.caps, H.caps, I.caps, J.caps, K.caps, L.caps, M.caps, N.caps, O.caps, P.caps, Q.caps, R.caps, S.caps, T.caps, U.caps, V.caps, W.caps, X.caps, Y.caps, Z.caps, zero.caps, one.caps, two.caps, three.caps, four.caps, five.caps, six.caps, seven.caps, eight.caps, nine.caps",
+				"Height":	"1400"
+			},
+
+			"#Ascender": {
+				"_Scope": "include: l, h, b, d, k, f, germandbls, t",
+				"Height":	"1536"
+			},
+			"#Descender": {
+				"_Scope": "include: p,q,g,y,j",
+				"Height":	"none+120"
+			},
+
+			"#All": {
+				"Regular":			"full",
+				"Light":			[185,152],
+				"Bold":				["none","none"],
+				"Height":			"none",
+				"Wide":			"none",
+				"Diacritics":		"none",
+				"Baselineshift":	"none",
+				"Condensed":		"none",
+				"Contrast":	"none",
+				"RoundCorners":		"none",
+				"CurvatureEqual":	"full",
+				"Curvature":		"none",
+				"MonoFaux":			"none",
+				"Mono":				"none",
+				"Tight":			"none"
+
+			}
+		},
+		"Regular Curvature":	{
+			"#Uppercase": {
+				"_Scope": "include: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, zero, one, two, three, four, five, six, seven, eight, nine",
+				"Height":	"1456"
+			},
+			"#Smallcaps": {
+				"_Scope": "include: A.smcp, B.smcp, C.smcp, D.smcp, E.smcp, F.smcp, G.smcp, H.smcp, I.smcp, J.smcp, K.smcp, L.smcp, M.smcp, N.smcp, O.smcp, P.smcp, Q.smcp, R.smcp, S.smcp, T.smcp, U.smcp, V.smcp, W.smcp, X.smcp, Y.smcp, Z.smcp, zero.smcp, one.smcp, two.smcp, three.smcp, four.smcp, five.smcp, six.smcp, seven.smcp, eight.smcp, nine.smcp",
+				"Height":	"1165"
+			},
+			"#Caps": {
+				"_Scope": "include: A.caps, B.caps, C.caps, D.caps, E.caps, F.caps, G.caps, H.caps, I.caps, J.caps, K.caps, L.caps, M.caps, N.caps, O.caps, P.caps, Q.caps, R.caps, S.caps, T.caps, U.caps, V.caps, W.caps, X.caps, Y.caps, Z.caps, zero.caps, one.caps, two.caps, three.caps, four.caps, five.caps, six.caps, seven.caps, eight.caps, nine.caps",
+				"Height":	"1400"
+			},
+
+			"#Ascender": {
+				"_Scope": "include: l, h, b, d, k, f, germandbls, t",
+				"Height":	"1536"
+			},
+			"#Descender": {
+				"_Scope": "include: p,q,g,y,j",
+				"Height":	"none+120"
+			},
+
+			"#All": {
+				"Regular":			"full",
+				"Light":			[185,152],
+				"Bold":				["none","none"],
+				"Height":			"none",
+				"Wide":			"none",
+				"Diacritics":		"none",
+				"Baselineshift":	"none",
+				"Condensed":		"none",
+				"Contrast":	"none",
+				"RoundCorners":		"none",
+				"CurvatureEqual":	"full",
+				"Curvature":		"80",
+				"MonoFaux":			"none",
+				"Mono":				"none",
+				"Tight":			"none"
+
+			}
+		},
+		"Regular Curvature Oval":	{
+			"#Uppercase": {
+				"_Scope": "include: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, zero, one, two, three, four, five, six, seven, eight, nine",
+				"Height":	"1456"
+			},
+			"#Smallcaps": {
+				"_Scope": "include: A.smcp, B.smcp, C.smcp, D.smcp, E.smcp, F.smcp, G.smcp, H.smcp, I.smcp, J.smcp, K.smcp, L.smcp, M.smcp, N.smcp, O.smcp, P.smcp, Q.smcp, R.smcp, S.smcp, T.smcp, U.smcp, V.smcp, W.smcp, X.smcp, Y.smcp, Z.smcp, zero.smcp, one.smcp, two.smcp, three.smcp, four.smcp, five.smcp, six.smcp, seven.smcp, eight.smcp, nine.smcp",
+				"Height":	"1165"
+			},
+			"#Caps": {
+				"_Scope": "include: A.caps, B.caps, C.caps, D.caps, E.caps, F.caps, G.caps, H.caps, I.caps, J.caps, K.caps, L.caps, M.caps, N.caps, O.caps, P.caps, Q.caps, R.caps, S.caps, T.caps, U.caps, V.caps, W.caps, X.caps, Y.caps, Z.caps, zero.caps, one.caps, two.caps, three.caps, four.caps, five.caps, six.caps, seven.caps, eight.caps, nine.caps",
+				"Height":	"1400"
+			},
+
+			"#Ascender": {
+				"_Scope": "include: l, h, b, d, k, f, germandbls, t",
+				"Height":	"1536"
+			},
+			"#Descender": {
+				"_Scope": "include: p,q,g,y,j",
+				"Height":	"none+120"
+			},
+			"#CurvatureStraightCurve": {
+				"_Scope": "include: n,h,m",
+				"CurvatureEqual":	"none",
+				"Curvature":		"-50"
+			},
+
+			"#All": {
+				"Regular":			"full",
+				"Light":			[185,152],
+				"Bold":				["none","none"],
+				"Height":			"none",
+				"Wide":			"none",
+				"Diacritics":		"none",
+				"Baselineshift":	"none",
+				"Condensed":		"none",
+				"Contrast":	"none",
+				"RoundCorners":		"none",
+				"CurvatureEqual":	"none",
+				"Curvature":		"none-20",
+				"MonoFaux":			"none",
+				"Mono":				"none",
+				"Tight":			"none"
+
+			}
+		},
+		"Regular Mono":	{
+			"#Uppercase": {
+				"_Scope": "include: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, zero, one, two, three, four, five, six, seven, eight, nine",
+				"Height":	"1456"
+			},
+			"#Smallcaps": {
+				"_Scope": "include: A.smcp, B.smcp, C.smcp, D.smcp, E.smcp, F.smcp, G.smcp, H.smcp, I.smcp, J.smcp, K.smcp, L.smcp, M.smcp, N.smcp, O.smcp, P.smcp, Q.smcp, R.smcp, S.smcp, T.smcp, U.smcp, V.smcp, W.smcp, X.smcp, Y.smcp, Z.smcp, zero.smcp, one.smcp, two.smcp, three.smcp, four.smcp, five.smcp, six.smcp, seven.smcp, eight.smcp, nine.smcp",
+				"Height":	"1165"
+			},
+			"#Caps": {
+				"_Scope": "include: A.caps, B.caps, C.caps, D.caps, E.caps, F.caps, G.caps, H.caps, I.caps, J.caps, K.caps, L.caps, M.caps, N.caps, O.caps, P.caps, Q.caps, R.caps, S.caps, T.caps, U.caps, V.caps, W.caps, X.caps, Y.caps, Z.caps, zero.caps, one.caps, two.caps, three.caps, four.caps, five.caps, six.caps, seven.caps, eight.caps, nine.caps",
+				"Height":	"1400"
+			},
+
+			"#Ascender": {
+				"_Scope": "include: l, h, b, d, k, f, germandbls, t",
+				"Height":	"1536"
+			},
+			"#Descender": {
+				"_Scope": "include: p,q,g,y,j",
+				"Height":	"none+120"
+			},
+			"#Punctuation": {
+				"_Scope": "include: dotaccentcomb dieresis acutecomb period comma",
+				"Bold":		["none+50","none+50"],
+				"Diacritics":		"none+30"
+			},
+
+			"#All": {
+				"Regular":			"full",
+				"Light":			[185,152],
+				"Bold":				["none","none"],
+				"Height":			"none",
+				"Wide":			"none",
+				"Diacritics":		"none",
+				"Baselineshift":	"none",
+				"Condensed":		"none",
+				"Contrast":	"none",
+				"RoundCorners":		"none",
+				"CurvatureEqual":	"none",
+				"Curvature":		"none",
+				"MonoFaux":			"none",
+				"Mono":				"full",
+				"Tight":			"none"
+
+			}
+		},
+		"Regular MonoHalf":	{
+			"#Uppercase": {
+				"_Scope": "include: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, zero, one, two, three, four, five, six, seven, eight, nine",
+				"Height":	"1456"
+			},
+			"#Smallcaps": {
+				"_Scope": "include: A.smcp, B.smcp, C.smcp, D.smcp, E.smcp, F.smcp, G.smcp, H.smcp, I.smcp, J.smcp, K.smcp, L.smcp, M.smcp, N.smcp, O.smcp, P.smcp, Q.smcp, R.smcp, S.smcp, T.smcp, U.smcp, V.smcp, W.smcp, X.smcp, Y.smcp, Z.smcp, zero.smcp, one.smcp, two.smcp, three.smcp, four.smcp, five.smcp, six.smcp, seven.smcp, eight.smcp, nine.smcp",
+				"Height":	"1165"
+			},
+			"#Caps": {
+				"_Scope": "include: A.caps, B.caps, C.caps, D.caps, E.caps, F.caps, G.caps, H.caps, I.caps, J.caps, K.caps, L.caps, M.caps, N.caps, O.caps, P.caps, Q.caps, R.caps, S.caps, T.caps, U.caps, V.caps, W.caps, X.caps, Y.caps, Z.caps, zero.caps, one.caps, two.caps, three.caps, four.caps, five.caps, six.caps, seven.caps, eight.caps, nine.caps",
+				"Height":	"1400"
+			},
+
+			"#Ascender": {
+				"_Scope": "include: l, h, b, d, k, f, germandbls, t",
+				"Height":	"1536"
+			},
+			"#Descender": {
+				"_Scope": "include: p,q,g,y,j",
+				"Height":	"none+120"
+			},
+			"#Punctuation": {
+				"_Scope": "include: dotaccentcomb dieresis acutecomb period comma",
+				"Bold":		["none+50","none+50"],
+				"Diacritics":		"none+30"
+			},
+
+			"#All": {
+				"Regular":			"full",
+				"Light":			[185,152],
+				"Bold":				["none","none"],
+				"Height":			"none",
+				"Wide":			"none",
+				"Diacritics":		"none",
+				"Baselineshift":	"none",
+				"Condensed":		"none",
+				"Contrast":	"none",
+				"RoundCorners":		"none",
+				"CurvatureEqual":	"none",
+				"Curvature":		"none",
+				"MonoFaux":			"none",
+				"Mono":				"half",
+				"Tight":			"none"
+
+			}
+		},
+		"Regular MonoQuarter":	{
+			"#Uppercase": {
+				"_Scope": "include: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, zero, one, two, three, four, five, six, seven, eight, nine",
+				"Height":	"1456"
+			},
+			"#Smallcaps": {
+				"_Scope": "include: A.smcp, B.smcp, C.smcp, D.smcp, E.smcp, F.smcp, G.smcp, H.smcp, I.smcp, J.smcp, K.smcp, L.smcp, M.smcp, N.smcp, O.smcp, P.smcp, Q.smcp, R.smcp, S.smcp, T.smcp, U.smcp, V.smcp, W.smcp, X.smcp, Y.smcp, Z.smcp, zero.smcp, one.smcp, two.smcp, three.smcp, four.smcp, five.smcp, six.smcp, seven.smcp, eight.smcp, nine.smcp",
+				"Height":	"1165"
+			},
+			"#Caps": {
+				"_Scope": "include: A.caps, B.caps, C.caps, D.caps, E.caps, F.caps, G.caps, H.caps, I.caps, J.caps, K.caps, L.caps, M.caps, N.caps, O.caps, P.caps, Q.caps, R.caps, S.caps, T.caps, U.caps, V.caps, W.caps, X.caps, Y.caps, Z.caps, zero.caps, one.caps, two.caps, three.caps, four.caps, five.caps, six.caps, seven.caps, eight.caps, nine.caps",
+				"Height":	"1400"
+			},
+
+			"#Ascender": {
+				"_Scope": "include: l, h, b, d, k, f, germandbls, t",
+				"Height":	"1536"
+			},
+			"#Descender": {
+				"_Scope": "include: p,q,g,y,j",
+				"Height":	"none+120"
+			},
+			"#Punctuation": {
+				"_Scope": "include: dotaccentcomb dieresis acutecomb period comma",
+				"Bold":		["none+50","none+50"],
+				"Diacritics":		"none+30"
+			},
+
+			"#All": {
+				"Regular":			"full",
+				"Light":			[185,152],
+				"Bold":				["none","none"],
+				"Height":			"none",
+				"Wide":			"none",
+				"Diacritics":		"none",
+				"Baselineshift":	"none",
+				"Condensed":		"none",
+				"Contrast":	"none",
+				"RoundCorners":		"none",
+				"CurvatureEqual":	"none",
+				"Curvature":		"none",
+				"MonoFaux":			"none",
+				"Mono":				"25",
+				"Tight":			"none"
+
+			}
+		},
+		"Regular MonoFaux":	{
+			"#Uppercase": {
+				"_Scope": "include: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, zero, one, two, three, four, five, six, seven, eight, nine",
+				"Height":	"1456"
+			},
+			"#Smallcaps": {
+				"_Scope": "include: A.smcp, B.smcp, C.smcp, D.smcp, E.smcp, F.smcp, G.smcp, H.smcp, I.smcp, J.smcp, K.smcp, L.smcp, M.smcp, N.smcp, O.smcp, P.smcp, Q.smcp, R.smcp, S.smcp, T.smcp, U.smcp, V.smcp, W.smcp, X.smcp, Y.smcp, Z.smcp, zero.smcp, one.smcp, two.smcp, three.smcp, four.smcp, five.smcp, six.smcp, seven.smcp, eight.smcp, nine.smcp",
+				"Height":	"1165"
+			},
+			"#Caps": {
+				"_Scope": "include: A.caps, B.caps, C.caps, D.caps, E.caps, F.caps, G.caps, H.caps, I.caps, J.caps, K.caps, L.caps, M.caps, N.caps, O.caps, P.caps, Q.caps, R.caps, S.caps, T.caps, U.caps, V.caps, W.caps, X.caps, Y.caps, Z.caps, zero.caps, one.caps, two.caps, three.caps, four.caps, five.caps, six.caps, seven.caps, eight.caps, nine.caps",
+				"Height":	"1400"
+			},
+
+			"#Ascender": {
+				"_Scope": "include: l, h, b, d, k, f, germandbls, t",
+				"Height":	"1536"
+			},
+			"#Descender": {
+				"_Scope": "include: p,q,g,y,j",
+				"Height":	"none+120"
+			},
+			"#Punctuation": {
+				"_Scope": "include: dotaccentcomb dieresis acutecomb period comma",
+				"Bold":		["none+50","none+50"],
+				"Diacritics":		"none+30"
+			},
+
+			"#All": {
+				"Regular":			"full",
+				"Light":			[185,152],
+				"Bold":				["none","none"],
+				"Height":			"none",
+				"Wide":			"none",
+				"Diacritics":		"none",
+				"Baselineshift":	"none",
+				"Condensed":		"none",
+				"Contrast":	"none",
+				"RoundCorners":		"none",
+				"CurvatureEqual":	"none",
+				"Curvature":		"none",
+				"MonoFaux":			"full",
+				"Mono":				"none",
+				"Tight":			"none"
+
+			}
+		},
+		"Regular Tight":	{
+			"#Uppercase": {
+				"_Scope": "include: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, zero, one, two, three, four, five, six, seven, eight, nine",
+				"Height":	"1206",
+				"__Height":	"1356"
+			},
+
+			"#Ascender": {
+				"_Scope": "include: l, h, b, d, k, f, germandbls, t, i, j",
+				"Height":	"1236"
+			},
+			"#Descender": {
+				"_Scope": "include: p,q,g,y,j",
+				"Height":	"none-20"
+			},
+
+			"#All": {
+				"Regular":			"full",
+				"Light":			[185,152],
+				"Bold":				["none","none"],
+				"Height":			"full",
+				"Wide":				"none",
+				"Diacritics":		"none",
+				"Baselineshift":	"none",
+				"Condensed":		"none",
+				"Contrast":			"none",
+				"RoundCorners":		"none",
+				"CurvatureEqual":	"none",
+				"Curvature":		"none",
+				"MonoFaux":			"none",
+				"Mono":				"none",
+				"Tight":			"none"
+			}
+		},
+		"Regular Loose":	{
+			"#Uppercase": {
+				"_Scope": "include: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, zero, one, two, three, four, five, six, seven, eight, nine",
+				"Height":	"1556"
+			},
+			"#Smallcaps": {
+				"_Scope": "include: A.smcp, B.smcp, C.smcp, D.smcp, E.smcp, F.smcp, G.smcp, H.smcp, I.smcp, J.smcp, K.smcp, L.smcp, M.smcp, N.smcp, O.smcp, P.smcp, Q.smcp, R.smcp, S.smcp, T.smcp, U.smcp, V.smcp, W.smcp, X.smcp, Y.smcp, Z.smcp, zero.smcp, one.smcp, two.smcp, three.smcp, four.smcp, five.smcp, six.smcp, seven.smcp, eight.smcp, nine.smcp",
+				"Height":	"1265"
+			},
+			"#Caps": {
+				"_Scope": "include: A.caps, B.caps, C.caps, D.caps, E.caps, F.caps, G.caps, H.caps, I.caps, J.caps, K.caps, L.caps, M.caps, N.caps, O.caps, P.caps, Q.caps, R.caps, S.caps, T.caps, U.caps, V.caps, W.caps, X.caps, Y.caps, Z.caps, zero.caps, one.caps, two.caps, three.caps, four.caps, five.caps, six.caps, seven.caps, eight.caps, nine.caps",
+				"Height":	"1500"
+			},
+
+			"#Ascender": {
+				"_Scope": "include: l, h, b, d, k, f, germandbls, t, i, j",
+				"Height":	"1636"
+			},
+			"#Descender": {
+				"_Scope": "include: p,q,g,y,j",
+				"Height":	"none+200"
+			},
+
+			"#All": {
+				"Regular":			"full",
+				"Light":			[185,152],
+				"Bold":				["none","none"],
+				"Height":		"none",
+				"Wide":		"none",
+				"Diacritics":		"none",
+				"Baselineshift":	"none",
+				"Condensed":		"none",
+				"Contrast":	"none",
+				"RoundCorners":		"none",
+				"CurvatureEqual":	"none",
+				"Curvature":		"none",
+				"MonoFaux":			"none",
+				"Mono":				"none",
+				"Tight":			"none"
+			}
+		},
+
+		"Regular Loose2":	{
+			"#Uppercase": {
+				"_Scope": "include: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, zero, one, two, three, four, five, six, seven, eight, nine",
+				"Height":	[1700,1576],
+				"__Height":	[1700,1576]
+			},
+			"#Smallcaps": {
+				"_Scope": "include: A.smcp, B.smcp, C.smcp, D.smcp, E.smcp, F.smcp, G.smcp, H.smcp, I.smcp, J.smcp, K.smcp, L.smcp, M.smcp, N.smcp, O.smcp, P.smcp, Q.smcp, R.smcp, S.smcp, T.smcp, U.smcp, V.smcp, W.smcp, X.smcp, Y.smcp, Z.smcp, zero.smcp, one.smcp, two.smcp, three.smcp, four.smcp, five.smcp, six.smcp, seven.smcp, eight.smcp, nine.smcp",
+				"Height":	[1415,1365]
+			},
+			"#Caps": {
+				"_Scope": "include: A.caps, B.caps, C.caps, D.caps, E.caps, F.caps, G.caps, H.caps, I.caps, J.caps, K.caps, L.caps, M.caps, N.caps, O.caps, P.caps, Q.caps, R.caps, S.caps, T.caps, U.caps, V.caps, W.caps, X.caps, Y.caps, Z.caps, zero.caps, one.caps, two.caps, three.caps, four.caps, five.caps, six.caps, seven.caps, eight.caps, nine.caps",
+				"Height":	"1556"
+			},
+
+			"#Ascender": {
+				"_Scope": "include: l, h, b, d, k, f, germandbls, t, i, j",
+				"Height":	"1706"
+			},
+			"#Descender": {
+				"_Scope": "include: p,q,g,y,j",
+				"Height":	"none+200"
+			},
+			"#Punctuation": {
+				"_Scope": "include: dotaccentcomb dieresis acutecomb period comma",
+				"Bold":		["none+50","none+50"]
+			},
+
+
+			"#All": {
+				"Regular":			"full",
+				"Light":			[185,152],
+				"Bold":				["none","none"],
+				"Height":			"none",
+				"Wide":			"none+70",
+				"Diacritics":		"none+100",
+				"Baselineshift":	"none",
+				"Condensed":		"none",
+				"Contrast":	"none",
+				"RoundCorners":		"none",
+				"CurvatureEqual":	"none",
+				"Curvature":		"none",
+				"MonoFaux":			"none",
+				"Mono":				"none",
+				"Tight":			"none"
+			}
+		},
+		"Regular Alltogether":	{
+			"#Uppercase": {
+				"_Scope": "include: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, zero, one, two, three, four, five, six, seven, eight, nine",
+				"Height":	[1800,1576],
+				"__Height":	[1700,1576]
+			},
+			"#Smallcaps": {
+				"_Scope": "include: A.smcp, B.smcp, C.smcp, D.smcp, E.smcp, F.smcp, G.smcp, H.smcp, I.smcp, J.smcp, K.smcp, L.smcp, M.smcp, N.smcp, O.smcp, P.smcp, Q.smcp, R.smcp, S.smcp, T.smcp, U.smcp, V.smcp, W.smcp, X.smcp, Y.smcp, Z.smcp, zero.smcp, one.smcp, two.smcp, three.smcp, four.smcp, five.smcp, six.smcp, seven.smcp, eight.smcp, nine.smcp",
+				"Height":	[1615,1365]
+			},
+			"#Caps": {
+				"_Scope": "include: A.caps, B.caps, C.caps, D.caps, E.caps, F.caps, G.caps, H.caps, I.caps, J.caps, K.caps, L.caps, M.caps, N.caps, O.caps, P.caps, Q.caps, R.caps, S.caps, T.caps, U.caps, V.caps, W.caps, X.caps, Y.caps, Z.caps, zero.caps, one.caps, two.caps, three.caps, four.caps, five.caps, six.caps, seven.caps, eight.caps, nine.caps",
+				"Height":	[1615,1556]
+			},
+
+			"#Ascender": {
+				"_Scope": "include: l, h, b, d, k, f, germandbls, t, i, j",
+				"Height":	"1706"
+			},
+			"#Descender": {
+				"_Scope": "include: p,q,g,y,j",
+				"Height":	"none+200"
+			},
+			"#Punctuation": {
+				"_Scope": "include: dotaccentcomb dieresis acutecomb period comma",
+				"Bold":		["none+50","none+50"]
+			},
+			"#Space": {
+				"_Scope": "include: space ",
+				"MonoFaux":			"full",
+				"Mono":				"none",
+				"Tight":			"none"
+			},
+
+
+			"#All": {
+				"Regular":			"full",
+				"Light":			["none","none"],
+				"Bold":				["none+20","none+20"],
+				"Height":			"none",
+				"Wide":			"none+70",
+				"Diacritics":		"none+100",
+				"Baselineshift":	"none",
+				"Condensed":		"none",
+				"Contrast":	"none",
+				"RoundCorners":		"none",
+				"CurvatureEqual":	"none",
+				"Curvature":		"none",
+				"MonoFaux":			"full",
+				"Mono":				"25",
+				"Tight":			"none-40"
+			}
+		},
+		"Light Loose2":	{
+			"#Uppercase": {
+				"_Scope": "include: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, zero, one, two, three, four, five, six, seven, eight, nine",
+				"Height":	[1700,1576]
+			},
+			"#Smallcaps": {
+				"_Scope": "include: A.smcp, B.smcp, C.smcp, D.smcp, E.smcp, F.smcp, G.smcp, H.smcp, I.smcp, J.smcp, K.smcp, L.smcp, M.smcp, N.smcp, O.smcp, P.smcp, Q.smcp, R.smcp, S.smcp, T.smcp, U.smcp, V.smcp, W.smcp, X.smcp, Y.smcp, Z.smcp, zero.smcp, one.smcp, two.smcp, three.smcp, four.smcp, five.smcp, six.smcp, seven.smcp, eight.smcp, nine.smcp",
+				"Height":	[1415,1365]
+			},
+			"#Caps": {
+				"_Scope": "include: A.caps, B.caps, C.caps, D.caps, E.caps, F.caps, G.caps, H.caps, I.caps, J.caps, K.caps, L.caps, M.caps, N.caps, O.caps, P.caps, Q.caps, R.caps, S.caps, T.caps, U.caps, V.caps, W.caps, X.caps, Y.caps, Z.caps, zero.caps, one.caps, two.caps, three.caps, four.caps, five.caps, six.caps, seven.caps, eight.caps, nine.caps",
+				"Height":	"1556"
+			},
+
+			"#Ascender": {
+				"_Scope": "include: l, h, b, d, k, f, germandbls, t, i, j",
+				"Height":	"1706"
+			},
+			"#Descender": {
+				"_Scope": "include: p,q,g,y,j",
+				"Height":	"none+200"
+			},
+
+			"#All": {
+				"Regular":			"full",
+				"Light":			[120,102],
+				"Bold":				["none","none"],
+				"Height":			"none",
+				"Wide":			"none+70",
+				"Diacritics":		"none+100",
+				"Baselineshift":	"none",
+				"Condensed":		"none",
+				"Contrast":	"none",
+				"RoundCorners":		"none",
+				"CurvatureEqual":	"none",
+				"Curvature":		"none",
+				"MonoFaux":			"none",
+				"Mono":				"none",
+				"Tight":			"none"
+			}
+		},
+		"Medium Loose2":	{
+			"#Uppercase": {
+				"_Scope": "include: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, zero, one, two, three, four, five, six, seven, eight, nine",
+				"Height":	[1700,1576]
+			},
+			"#Smallcaps": {
+				"_Scope": "include: A.smcp, B.smcp, C.smcp, D.smcp, E.smcp, F.smcp, G.smcp, H.smcp, I.smcp, J.smcp, K.smcp, L.smcp, M.smcp, N.smcp, O.smcp, P.smcp, Q.smcp, R.smcp, S.smcp, T.smcp, U.smcp, V.smcp, W.smcp, X.smcp, Y.smcp, Z.smcp, zero.smcp, one.smcp, two.smcp, three.smcp, four.smcp, five.smcp, six.smcp, seven.smcp, eight.smcp, nine.smcp",
+				"Height":	[1415,1365]
+			},
+			"#Caps": {
+				"_Scope": "include: A.caps, B.caps, C.caps, D.caps, E.caps, F.caps, G.caps, H.caps, I.caps, J.caps, K.caps, L.caps, M.caps, N.caps, O.caps, P.caps, Q.caps, R.caps, S.caps, T.caps, U.caps, V.caps, W.caps, X.caps, Y.caps, Z.caps, zero.caps, one.caps, two.caps, three.caps, four.caps, five.caps, six.caps, seven.caps, eight.caps, nine.caps",
+				"Height":	"1556"
+			},
+
+			"#Ascender": {
+				"_Scope": "include: l, h, b, d, k, f, germandbls, t, i, j",
+				"Height":	"1706"
+			},
+			"#Descender": {
+				"_Scope": "include: p,q,g,y,j",
+				"Height":	"none+200"
+			},
+
+			"#All": {
+				"Regular":			"full",
+				"Light":			["none","none"],
+				"Bold":				[243,195],
+				"Height":			"none",
+				"Wide":			"none+70",
+				"Diacritics":		"none+100",
+				"Baselineshift":	"none",
+				"Condensed":		"none",
+				"Contrast":	"none",
+				"RoundCorners":		"none",
+				"CurvatureEqual":	"none",
+				"Curvature":		"none",
+				"MonoFaux":			"none",
+				"Mono":				"none",
+				"Tight":			"none"
+			}
+		},
+		"Medium Display Tight":	{
+			"#Uppercase": {
+				"_Scope": "include: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, zero, one, two, three, four, five, six, seven, eight, nine",
+				"Height":	"1406",
+				"__Height":	"1356"
+			},
+			"#Smallcaps": {
+				"_Scope": "include: A.smcp, B.smcp, C.smcp, D.smcp, E.smcp, F.smcp, G.smcp, H.smcp, I.smcp, J.smcp, K.smcp, L.smcp, M.smcp, N.smcp, O.smcp, P.smcp, Q.smcp, R.smcp, S.smcp, T.smcp, U.smcp, V.smcp, W.smcp, X.smcp, Y.smcp, Z.smcp, zero.smcp, one.smcp, two.smcp, three.smcp, four.smcp, five.smcp, six.smcp, seven.smcp, eight.smcp, nine.smcp",
+				"Height":	"1105"
+			},
+			"#Caps": {
+				"_Scope": "include: A.caps, B.caps, C.caps, D.caps, E.caps, F.caps, G.caps, H.caps, I.caps, J.caps, K.caps, L.caps, M.caps, N.caps, O.caps, P.caps, Q.caps, R.caps, S.caps, T.caps, U.caps, V.caps, W.caps, X.caps, Y.caps, Z.caps, zero.caps, one.caps, two.caps, three.caps, four.caps, five.caps, six.caps, seven.caps, eight.caps, nine.caps",
+				"Height":	"1300"
+			},
+
+			"#Ascender": {
+				"_Scope": "include: l, h, b, d, k, f, germandbls, t, i, j",
+				"Height":	"1436"
+			},
+			"#Descender": {
+				"_Scope": "include: p,q,g,y,j",
+				"Height":	"none-20"
+			},
+
+			"#All": {
+				"Regular":			"full",
+				"Light":			["none","none"],
+				"Bold":				[243,195],
+				"Height":			"none",
+				"Wide":			"none",
+				"Diacritics":		"none",
+				"Baselineshift":	"none",
+				"Condensed":		"none",
+				"Contrast":	"none",
+				"RoundCorners":		"none",
+				"CurvatureEqual":	"none",
+				"Curvature":		"none",
+				"MonoFaux":			"none",
+				"Mono":				"none",
+				"Tight":			"full"
+
+			}
+		},
+		"Black Display Tight":	{
+			"#Uppercase": {
+				"_Scope": "include: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, zero, one, two, three, four, five, six, seven, eight, nine",
+				"Height":	"1616",
+				"Baselineshift": "-200",
+				"__Height":	"1356"
+
+			},
+			"#Smallcaps": {
+				"_Scope": "include: A.smcp, B.smcp, C.smcp, D.smcp, E.smcp, F.smcp, G.smcp, H.smcp, I.smcp, J.smcp, K.smcp, L.smcp, M.smcp, N.smcp, O.smcp, P.smcp, Q.smcp, R.smcp, S.smcp, T.smcp, U.smcp, V.smcp, W.smcp, X.smcp, Y.smcp, Z.smcp, zero.smcp, one.smcp, two.smcp, three.smcp, four.smcp, five.smcp, six.smcp, seven.smcp, eight.smcp, nine.smcp",
+				"Height":	"1105"
+			},
+			"#Caps": {
+				"_Scope": "include: A.caps, B.caps, C.caps, D.caps, E.caps, F.caps, G.caps, H.caps, I.caps, J.caps, K.caps, L.caps, M.caps, N.caps, O.caps, P.caps, Q.caps, R.caps, S.caps, T.caps, U.caps, V.caps, W.caps, X.caps, Y.caps, Z.caps, zero.caps, one.caps, two.caps, three.caps, four.caps, five.caps, six.caps, seven.caps, eight.caps, nine.caps",
+				"Height":	"1300"
+			},
+
+			"#Ascender": {
+				"_Scope": "include: l, h, b, d, k, f, germandbls, t, i, j",
+				"Height":	"1416"
+			},
+			"#Descender": {
+				"_Scope": "include: p,q,g,y,j, comma",
+				"Height":	"none-40"
+			},
+
+			"#All": {
+				"Regular":			"full",
+				"Light":			["none","none"],
+				"Bold":				["full","full"],
+				"Height":			"none",
+				"Wide":			"none",
+				"Diacritics":		"none",
+				"Baselineshift":	"none",
+				"Condensed":		"none",
+				"Contrast":	"none",
+				"RoundCorners":		"none",
+				"CurvatureEqual":	"none",
+				"Curvature":		"none",
+				"MonoFaux":			"none",
+				"Mono":				"none",
+				"Tight":			"full"
+			}
+		},
+		"Thin Display Tight":	{
+			"#Uppercase": {
+				"_Scope": "include: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, zero, one, two, three, four, five, six, seven, eight, nine",
+				"Height":	"1406",
+				"__Height":	"1356"
+			},
+			"#Smallcaps": {
+				"_Scope": "include: A.smcp, B.smcp, C.smcp, D.smcp, E.smcp, F.smcp, G.smcp, H.smcp, I.smcp, J.smcp, K.smcp, L.smcp, M.smcp, N.smcp, O.smcp, P.smcp, Q.smcp, R.smcp, S.smcp, T.smcp, U.smcp, V.smcp, W.smcp, X.smcp, Y.smcp, Z.smcp, zero.smcp, one.smcp, two.smcp, three.smcp, four.smcp, five.smcp, six.smcp, seven.smcp, eight.smcp, nine.smcp",
+				"Height":	"1105"
+			},
+			"#Caps": {
+				"_Scope": "include: A.caps, B.caps, C.caps, D.caps, E.caps, F.caps, G.caps, H.caps, I.caps, J.caps, K.caps, L.caps, M.caps, N.caps, O.caps, P.caps, Q.caps, R.caps, S.caps, T.caps, U.caps, V.caps, W.caps, X.caps, Y.caps, Z.caps, zero.caps, one.caps, two.caps, three.caps, four.caps, five.caps, six.caps, seven.caps, eight.caps, nine.caps",
+				"Height":	"1300"
+			},
+
+			"#Ascender": {
+				"_Scope": "include: l, h, b, d, k, f, germandbls, t, i, j",
+				"Height":	"1436-20"
+			},
+			"#Descender": {
+				"_Scope": "include: p,q,g,y,j, comma",
+				"Height":	"none-40-40"
+			},
+
+			"#All": {
+				"Regular":			"full",
+				"Light":			["full","full"],
+				"Bold":				["none","none"],
+				"Height":			"none",
+				"Wide":			"none",
+				"Diacritics":		"none-100",
+				"Baselineshift":	"none",
+				"Condensed":		"none",
+				"Contrast":	"none",
+				"RoundCorners":		"none",
+				"CurvatureEqual":	"none",
+				"Curvature":		"none",
+				"MonoFaux":			"none",
+				"Mono":				"none",
+				"Tight":			"full"
+			}
+		},
+		"Thin Display Tight SemiMono":	{
+			"#Uppercase": {
+				"_Scope": "include: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, zero, one, two, three, four, five, six, seven, eight, nine",
+				"Height":	"1406",
+				"__Height":	"1356"
+			},
+			"#Smallcaps": {
+				"_Scope": "include: A.smcp, B.smcp, C.smcp, D.smcp, E.smcp, F.smcp, G.smcp, H.smcp, I.smcp, J.smcp, K.smcp, L.smcp, M.smcp, N.smcp, O.smcp, P.smcp, Q.smcp, R.smcp, S.smcp, T.smcp, U.smcp, V.smcp, W.smcp, X.smcp, Y.smcp, Z.smcp, zero.smcp, one.smcp, two.smcp, three.smcp, four.smcp, five.smcp, six.smcp, seven.smcp, eight.smcp, nine.smcp",
+				"Height":	"1105"
+			},
+			"#Caps": {
+				"_Scope": "include: A.caps, B.caps, C.caps, D.caps, E.caps, F.caps, G.caps, H.caps, I.caps, J.caps, K.caps, L.caps, M.caps, N.caps, O.caps, P.caps, Q.caps, R.caps, S.caps, T.caps, U.caps, V.caps, W.caps, X.caps, Y.caps, Z.caps, zero.caps, one.caps, two.caps, three.caps, four.caps, five.caps, six.caps, seven.caps, eight.caps, nine.caps",
+				"Height":	"1300"
+			},
+
+			"#Ascender": {
+				"_Scope": "include: l, h, b, d, k, f, germandbls, t, i, j",
+				"Height":	"1436-20"
+			},
+			"#Descender": {
+				"_Scope": "include: p,q,g,y,j, comma",
+				"Height":	"none-40-40"
+			},
+
+			"#All": {
+				"Regular":			"full",
+				"Light":			["full","full"],
+				"Bold":				["none","none"],
+				"Height":			"none",
+				"Wide":			"none",
+				"Diacritics":		"none-100",
+				"Baselineshift":	"none",
+				"Condensed":		"none",
+				"Contrast":	"none",
+				"RoundCorners":		"none",
+				"CurvatureEqual":	"none",
+				"Curvature":		"none",
+				"MonoFaux":			"full",
+				"Mono":				"none",
+				"Tight":			"full"
+			}
+		},
+		"_Bold":	{
+			"#All": {
+				"Regular":			"full",
+				"Light":			["none","none"],
+				"Bold":				["full","full"],
+				"Height":			"full",
+				"Wide":				"none",
+				"Diacritics":		"none",
+				"Baselineshift":	"none",
+				"Condensed":		"none",
+				"Contrast":	"none",
+				"RoundCorners":		"none",
+				"CurvatureEqual":	"none",
+				"Curvature":		"none",
+				"MonoFaux":			"none",
+				"Mono":				"none",
+				"Tight":			"none"
+			}
+		},
+		"_Light":	{
+			"Regular":			"full",
+			"Light":			["full","full"],
+			"Bold":				["none","none"],
+			"Height":		"full",
+			"Wide":		"none",
+				"Diacritics":		"none",
+				"Baselineshift":	"none",
+				"Condensed":		"none",
+				"Contrast":	"none",
+				"RoundCorners":		"none",
+				"CurvatureEqual":	"none",
+				"Curvature":		"none",
+				"MonoFaux":			"none",
+				"Mono":				"none",
+				"Tight":			"none"
+		},
+		"_Regular Original":	{
+			"Regular":			"full",
+			"Light":			[185,152],
+			"Bold":				["none","none"],
+			"Height":		["none","none"],
+			"Wide":		"none",
+				"Diacritics":		"none",
+				"Baselineshift":	"none",
+				"Condensed":		"none",
+				"Contrast":	"none",
+				"RoundCorners":		"none",
+				"CurvatureEqual":	"none",
+				"Curvature":		"none",
+				"MonoFaux":			"none",
+				"Mono":				"none",
+				"Tight":			"none"
+		},
+
+
+		"_info": {
+			"description": "Instance Values",
+			"default": 		{
+				"_Value":		"min",
+				"_ExtraSliders":	false,
+				"_Custom Parameters":	[],
+				"_isActive":		true,
+				"_CSSWeight":	400,
+				"_CSSWide":		5
+				}
+			}
+		}
+	}
+
+
