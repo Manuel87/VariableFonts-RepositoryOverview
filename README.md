@@ -6,9 +6,9 @@ Variable Font Experiments, Framework and list of as many formal variables as pos
 .. still on the progress to finalize the Roadmap...
 
 ### For the first release (what I will think is necessary to do, to finish the job)
-[] GIT- adding all current fonts+sources (probably this weekend) 
-o Doc-Design/CODE - making the html design responsive
-o Content -Paragraph about the UI challenges / eg. about slider (what is good, what bad.. 
+-[ ] GIT- adding all current fonts+sources (probably this weekend) 
+-o Doc-Design/CODE - making the html design responsive
+-o Content -Paragraph about the UI challenges / eg. about slider (what is good, what bad.. 
 o Misc - Various minor corrections (mark alternative Labels, four-letter-tags, ..)
 o Code/HTML – gx-fonts with sliders - Implementing the Variable font files for all the examples (optimally there should be a load button (and a gif as preview)
 o Cleaning up
