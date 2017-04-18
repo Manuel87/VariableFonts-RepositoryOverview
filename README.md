@@ -4,6 +4,7 @@ Variable Font Experiments, Framework and list of as many formal variables as pos
 - [As a GoogleDoc for lecturing the text](https://docs.google.com/document/d/18m8dFZD638eCFxf4CTe1V-S0k2JuUR-Y3yxVfTv_AAc/edit)
 - Fonts and sources are availabel in the respective folder
 
+![top level type variables](variable-overview/media/type-variables.gif)
 
 -------
 
