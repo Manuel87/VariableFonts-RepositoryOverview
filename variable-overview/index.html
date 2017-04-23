@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="apple-touch-icon" href="apple-touch-iconF.png">
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -41,7 +41,7 @@
 		<p>... Big thanks to Google for their support.
 
 
-        <h2 id="variables">1. Variables (top-level)</h2><!-- Types of Variables -->
+        <h2 id="variables">1. Formal Variables (top-level)</h2><!-- Types of Variables -->
         <p>In theory there can be infinite many type designs and therefore infinite many variable interpolation axes. To bring structure into this vast design spacing, the following formal categories should give some guidance. Every typeface or instance consists of a certain configuration of these aspects forming their specific formal character. That resulting atmosphere, the quality and the aspect of reading comfort needs to be seen on top of all of it, as any formal change does affect them, while their specific evaluation can be rather complex and sensible.</p>
         <p>Aiding clarity there are no other sub-hierarchies but then directly interactive examples of specific variables/axes. <!-- (From an educational side it is still helpful think and discuss the relation of each variable towards the skeleton, outline and all the other variables and their position within a more mannered underlying hierarchy.) --></p>
 	<div class="large_icons">
@@ -98,10 +98,49 @@
  -->
 		<p>In the following each top-level variable is briefly described, followed by a set of axes and possible settings. </p>
 
+		<h3 class="large_icons"><img class="icon" src="media/icon_weight.gif"/>
+			weight </h3>
+		<div class="alt_label">black/white-balance, color, darkness, lightness, opacity, transparency</div>
+		<p>The weight specifies the color/darkness of a font. It determines the relation between black and white.
+		There are many ways to increase the weight. Changing the overall thickness of all strokes is the simplest way to manipulate it. Boldening the thick stems has the largest effect in Latin. But also a change of <i>spacing</i> or <i>width</i> does affect the weight.<br/>
+		<br/>
+		A change of color does entail in most cases a change of overall width. (sometimes also a change of size) But there are also so called “uniwidth” typefaces which keep the overall width along the whole weight axes, to not cause any reflows.
+		<br/>
+			</p>
+
+			<h4>variables/axes</h4>
+			<ul>
+			<li>weight [wght]</li>
+			<li>weight variation [wvar]</li>
+			<li>Cap-weight [cwght/wcps]</li>
+			<li>thick/main strokes weight [mwgt]</li>
+			<li>para weight (trying to keep the counter space untouched) [pwgt]</li>
+			<li>thin strokes weight (more important for contrast)</li>
+			</ul>
+			<h4>possible settings/parameter</h4>
+			<ul>
+			<li>hairline</li>
+			<li>extra light (thin)</li>
+			<li>light</li>
+			<li>regular</li>
+			<li>bold</li>
+			<li>extra bold</li>
+			<li>black</li>
+			<li></li>
+			<br/>
+			<li>300 (CSS-weights)</li>
+			<li>400 (≈ regular)</li>
+			<li>700 (0 = full white, 1000 = full black)</li>
+			<br/>
+			<li>160‰ (≈ regular, stemvalue in x-height/1000 )</li>
+			<br/>
+			</ul>
+
 
 		<h3 class="large_icons"><img class="icon" src="media/icon_texture.gif"/>
 			texture</h3>
-		<p>The texture is determined by the distribution of black and white on a macro level. Next to size and weight it is the most important aspect for differentiation. Secondary typefaces are the best example when it comes to texture. They need to clearly differentiate while not jumping out at first glance, keeping a similar weight and in most cases even a similar proportion. There are many ways to manipulate the texture, such as a change in construction, proportion, inclination, modulation and others.<br/>
+		<div class="alt_label">style, italic</div>
+		<p>The texture is determined by the distribution of black and white on a macro level. Next to size and weight it is the most important aspect for differentiation. Secondary typefaces are the best example when it comes to texture. They need to clearly differentiate while not jumping out at first glance, keeping a similar weight and in most cases even a similar proportion. There are many ways to manipulate the texture, such as a change in construction, proportion, inclination, modulation and others. While a change in construction can provide the best results it must be applied with huge care and sensibility for the script to not decrease the legibility more than anticipated. <br/>
 			</p>
 			<h4>variables/axes</h4>
 			<ul>
@@ -128,7 +167,8 @@
 
 
 		<h3 class="large_icons"><img class="icon" src="media/icon_complexity.gif"/>
-			complexity (detail texture)</h3>
+			complexity</h3>
+			<div class="alt_label">detail texture</div>
 		<p>The complexity variable is the variable but at a micro-level. It is as if the texture is the raw sketch which you can either fill with plain black ink or with patterns, modules, outline effects, etc. – which means within the same texture there is an infinite number of possibilities waiting to be explored. <br/>
 		</p>
 
@@ -143,6 +183,8 @@
 			<br/>
 			<li>whitespace texture</li>
 			<li>dimensionality</li>
+			<br/>
+			<li>(color)</li>
 			<li></li>
 			</ul>
 
@@ -157,42 +199,6 @@
 
 
 
-		<h3 class="large_icons"><img class="icon" src="media/icon_weight.gif"/>
-			weight (color)</h3>
-		<p>The weight specifies the color/darkness of a font. It determines the relation between black and white.
-		There are many ways to increase the weight. Changing the overall thickness of all strokes is the simplest way to manipulate it. Boldening the thick stems has the largest effect in Latin. But also a change of <i>spacing</i> or <i>width</i> does affect the weight.<br/>
-		<br/>
-		A change of color does entail in most cases a change of overall width. (sometimes also a change of size) But there are also so called “uniwidth” typefaces which keep the overall width along the whole weight axes, to not cause any reflows.
-		<br/>
-			</p>
-
-			<h4>variables/axes</h4>
-			<ul>
-			<li>weight [wght]</li>
-			<li>weight variation [wvar]</li>
-			<li>Cap-weight [cwght/wcps]</li>
-			<li>thick/main strokes weight [mwgt]</li>
-			<li>thin strokes weight (contrast)</li>
-			<li>para weight (trying to keep the counter space untouched) [pwgt]</li>
-			</ul>
-			<h4>possible settings/parameter</h4>
-			<ul>
-			<li>hairline</li>
-			<li>extra light (thin)</li>
-			<li>light</li>
-			<li>regular</li>
-			<li>bold</li>
-			<li>extra bold</li>
-			<li>black</li>
-			<li></li>
-			<br/>
-			<li>300 (CSS-weights)</li>
-			<li>400 (≈ regular)</li>
-			<li>700 (0 = full white, 1000 = full black)</li>
-			<br/>
-			<li>160‰ (≈ regular, stemvalue in x-height/1000 )</li>
-			<br/>
-			</ul>
 
 
 
@@ -201,6 +207,7 @@
 
 		<h3 class="large_icons"><img class="icon" src="media/icon_optical_size.gif"/>
 			optical size</h3>
+		<div class="alt_label">optical compensation</div>
 		<p>The optical size axis specifies the intended type size. It is there to adapt a typeface design made for a specific size towards a range of sizes. It is called optical, as it is referring to the size of the type rendered on the retina within the readers eye. Which means that the physical type size (e.g. x-height) is only important in its relation to the approximate reading distance.<br/>
 		<br/>
 		Optical compensation is especially necessary for very light or bold designs, or ones with high contrast as the very thin lines or spaces become indistinguishable at small sizes. If those parts are crucial to identify the letter it can cause a great loss of legibility. This means that the core intention is to optically adapt a design with as little change of the original intended atmosphere as possible. At best the typeface should feel the same at any size, while keeping a similar legibility.<br/>
@@ -236,7 +243,8 @@
 
 
 		<h3 class="large_icons"><img class="icon" src="media/icon_rhythm.gif"/>
-		rhythm (variation, consistency, relation)</h3>
+		rhythm</h3>
+		<div class="alt_label">variation, consistency, relation</div>
 		<!-- rhythm-->
 		<p>The rhythm variable only exists as a relation between different elements or glyphs. If elements are treated exactly the same a consistent pattern is build. If any part of those elements is then emphasized or faded the pattern changes and a different rhythm becomes visible. It is not a formal variable that can be described within a single element, the relation counts. Therefore it is not only a variable but also a criteria affected by any formal change.<br/>
 		</p>
@@ -269,7 +277,8 @@
 
 
 		<h3 class="large_icons"><img class="icon" src="media/icon_width.gif"/>
-			width (x-proportion, x-metrics)</h3>
+			width</h3>
+		<div class="alt_label">x-proportion, x-metrics</div>
 		<p>This category includes all changes that happen wihtin a character along the horizontal dimensions of a typeface, including width variation and positioning of loose elements. After the height of a character this variable has to biggest influence on the perceived size of typeface.<br/>
 		</p>
 			<h4>variables/axes</h4>
@@ -314,8 +323,9 @@
 			</ul>
 			<p>Hierarchy note:<i>Width</i> and <i>height</i> could be grouped together under <i>skeleton</i> > <i>proportion</i></p>
 
-		<h3 class="large_icons">-><img class="icon" src="media/icon_spacing.gif"/>
-			Spacing</h3>
+		<h3 class="large_icons"><img class="icon" src="media/icon_spacing.gif"/>
+			Width > Spacing</h3>
+		<div class="alt_label">fitting, tracking</div>
 		<p>With this variable the focus lies on the spacing inbetween the characters and respectively their total width. As the <i>spacing</i> is a rather important variable it has its own position even though it could be grouped under <i>width</i>.<br/>
 		<br/>
 		Currently this is controlled within the typesetting software. But simple tracking can distort the balance of the fitting immensely, especially negative tracking. A spacing axes baked into the font by the designer would make it possible to allow to supply an evenly distributed tight and loose typesetting alike.<br/>
@@ -345,7 +355,8 @@
 
 
 		<h3 class="large_icons"><img class="icon" src="media/icon_height.gif"/>
-			height <span>(y-proportion, y-metrics, size)</span></h3>
+			height</h3>
+			<div class="alt_label">y-proportion, y-metrics, size</div>
 		<p>This category includes all changes that happen within a character along the vertical dimensions of a typeface, including positioning. The character height has the biggest influence towards the size perception. (especially the x-height) This could be duo the fact that it is perpendicular towards the reading direction and therefore even small changes stand out more than a similar change in width. A&nbsp;change in height is often actually a change in size to preserve the character proportion: e.g. a change of the x-height is usually done proportionally along height and width to not end up with a condensed or extended typeface.<br/>
 		</p>
 		<h4>variables/axes</h4>
@@ -400,7 +411,8 @@
 
 
 		<h3 class="large_icons"><img class="icon" src="media/icon_inclination.gif"/>
-			inclination (slant, rotation)</h3>
+			inclination</h3>
+		<div class="alt_label">slant, rotation</div>
 		<p>The most prominent use of inclination is applied in the realm of secondary styles. The simple forward leaning slant causes an immediate change of texture and can be applied to any design. The less popular vertical slants are most prominent handwritten styles, inspired by calligraphy and lettering.<br/>
 		<br/>
 		While artificial inclinations are tempting, almost all resulting outlines need to be manually corrected or entirely redrawn to gain perfect results. While the process of slanting seems like a simple process it does cause significant problems and is more complex than usually anticipated. <br/>
@@ -423,8 +435,7 @@
 		<p>Hierarchy note: Inclination could be also put under the <i>width</i> and <i>height</i> proportion, but as its effect is very distinctive it got its own place.</p>
 
 		<h3 class="large_icons"><img class="icon" src="media/icon_curvature.gif"/>
-			curvature </h3>
-		<red>//should not look as if it is rotating.</red>
+			curvature</h3>
 		<p>The curvature is describing the modulation of the stroke, while keeping the relation between the outlines consistent. Typically it is used it describes an already existing curve, but it is equally applicable in the opposite direction, introducing curvature where onto straight strokes. <br/>
 		</p>
 		<h4>variables/axes</h4>
@@ -472,7 +483,8 @@
 
 
 		<h3 class="large_icons"><img class="icon" src="media/icon_modulation.gif"/>
-			modulation (outline curvature)</h3>
+			modulation</h3>
+			<div class="alt_label">outline curvature</div>
 		<p>This variable describes the outline modulation, which can only be modulated if there is some contrast in the type design existent. The kind of modulation can be either inspired by analog tools, digital tools, imaginary tools or even drawn completely freehand.<br/>
 		</p>
 		<h4>variables/axes</h4>
@@ -496,7 +508,8 @@
 
 
 		<h3 class="large_icons"><img class="icon" src="media/icon_edging.gif"/>
-			Edging (edge-, corner-, angle-treatment)</h3>
+			Edging</h3>
+		<div class="alt_label">edge-, corner-, angle-treatment</div>
 		<p>This describes all changes applied to joints, terminals, or any other inner and outer edges.<br/>
 		</p>
 		<h4>variables/axes</h4>

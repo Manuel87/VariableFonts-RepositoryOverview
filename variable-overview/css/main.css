@@ -101,27 +101,43 @@ h3 > span {
   weight: 300 !important;
 }
 
-/* line 63, main.scss */
+/* line 64, main.scss */
 .smaller {
   font-size: 0.8em;
 }
 
-/* line 64, main.scss */
+/* line 65, main.scss */
 h4 {
   margin-bottom: 0;
 }
 
-/* line 65, main.scss */
+/* line 66, main.scss */
 ul {
   margin-top: 0.3em;
 }
 
-/* line 66, main.scss */
+/* line 67, main.scss */
 .mono {
   font-family: monospace;
 }
 
-/* line 68, main.scss */
+/* line 69, main.scss */
 red {
   color: red;
+}
+
+/* line 71, main.scss */
+.alt_label::before {
+  content: "alt. labels:";
+  display: inline-block;
+  padding-right: 1ex;
+  text-transform: uppercase;
+  weight: 500;
+  font-size: 0.8em;
+  letter-spacing: 0.2ex;
+}
+
+/* line 81, main.scss */
+.alt_label {
+  color: #777;
 }
