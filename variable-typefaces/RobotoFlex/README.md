@@ -4,6 +4,7 @@
 
 
 ![robotoflex preview](preview.gif)
+
 (Preview in [Fontview](https://github.com/googlei18n/fontview/releases))
 
 ## Features currently missing in the fontformat
