@@ -27,6 +27,7 @@ Preview in [Fontview](https://github.com/googlei18n/fontview/releases):
 **Master-Setup**
 - setting up relations and custom scales (also allows different x/y-values)
 ![robotoflex preview](README_media/Multipolation-JSON_MasterSetupMapping.png)
+("MasterName": [origin-value, master-value, ["Children"]])
 
 **Instance-Setup**
 - specifying Instances
