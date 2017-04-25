@@ -13,4 +13,5 @@ In order to user the multipolation designspace file you need to install this lit
 - Master-Relations, allowing multiple “Roots" (e.g. Root > Bold > Bold Inktraps)
 - x- and y-interpolation
 - Local interpolations (allowing different interpolation values for specified glyphs)
+- Extrapolation
 - ...
