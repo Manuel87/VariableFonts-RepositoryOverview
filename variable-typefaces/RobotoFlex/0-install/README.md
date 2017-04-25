@@ -8,7 +8,7 @@ In order to user the multipolation designspace file you need to install this lit
 ### Feautres
 - Infinte numbers of Axes
 - Infinite numbers of Masters on one Axis
-- An axis can be added by adding only one Master (not two extremes)
+- An axis can be already added by adding only one Master
 - Custom value-scales + simple math (e.g. "none+20", "half", "full", "min", "max-100", ...)
 - Master-Relations, allowing multiple “Roots" (e.g. Root > Bold > Bold Inktraps)
 - x- and y-interpolation
