@@ -1,5 +1,5 @@
 # RobotoFlex
-- demo to test the capabilities of the new variable font-format
+- experiment to test the capabilities of the new variable font-format
 - work in progress
 
 Preview in [Fontview](https://github.com/googlei18n/fontview/releases):
