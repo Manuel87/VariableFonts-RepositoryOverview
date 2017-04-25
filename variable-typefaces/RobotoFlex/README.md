@@ -1,5 +1,5 @@
 # RobotoFlex
-- demo to test the capabilities of the new fontformat
+- demo to test the capabilities of the new variable font-format
 - work in progress
 
 Preview in [Fontview](https://github.com/googlei18n/fontview/releases):
@@ -9,12 +9,18 @@ Preview in [Fontview](https://github.com/googlei18n/fontview/releases):
 - per-glyph-interpolation axes (the “Height”-subaxes are currently achieved by a workaround)
 - math for the slider behaviour to increase usability (e.g. to make the faux-mono-axis a child of the mono-axis, to prevent strange results if both are applied) 
 
+
+---
+## Install
+- Multipolation.min.py (need to be installted to handle the designspace format, see folder: 00-install)
+- [Fontview](https://github.com/googlei18n/fontview/releases) to preview or try http://axis-praxis.org
+
 ---
 ## Drawing
 ### Files
 - RobotoFlex.glyphs
 - RobotoFlex_multipolation-spec.json (own designspace format)
-- Multipolation.min.py (need to be installted to handle the designspace format)
+- Multipolation.min.py 
 		
 ### Multipolation-Space (Design-Space)
 **Master-Setup**
