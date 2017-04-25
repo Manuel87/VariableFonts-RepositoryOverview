@@ -13,7 +13,7 @@ Preview in [Fontview](https://github.com/googlei18n/fontview/releases):
 .
 
 ## Basic Setup
-- To handle complex Interpolations in Glyphs: [Multipolation](0-install/)
+- To handle complex interpolations in Glyphs: [Multipolation](0-install/)
 - To preview: [Fontview](https://github.com/googlei18n/fontview/releases) or http://axis-praxis.org
 
 .
