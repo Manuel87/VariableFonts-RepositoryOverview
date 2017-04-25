@@ -10,12 +10,14 @@ Preview in [Fontview](https://github.com/googlei18n/fontview/releases):
 - math for the slider behaviour to increase usability (e.g. to make the faux-mono-axis a child of the mono-axis, to prevent strange results if both are applied) 
 
 
----
+.
+
 ## Basic Setup
 - To handle complex Interpolations in Glyphs: [Multipolation](0-install/)
 - To preview: [Fontview](https://github.com/googlei18n/fontview/releases) or http://axis-praxis.org
 
----
+.
+
 ## Drawing
 ### Files
 - RobotoFlex.glyphs
@@ -36,7 +38,8 @@ Preview in [Fontview](https://github.com/googlei18n/fontview/releases):
 2. Open the Glyphs-file 
 3. Execute the script (Script > Multipolation).
 
----
+.
+
 ## Building Variable Font
 Direct export from Glyphs is not yet supported, therefore the following workaround.
 
