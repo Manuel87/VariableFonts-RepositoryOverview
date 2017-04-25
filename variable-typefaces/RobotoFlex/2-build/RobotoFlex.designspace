@@ -360,5 +360,25 @@
         <dimension name="space" xvalue="100" />
       </location>
     </instance>
+    <instance familyname="RobotoFlex" stylename="MonoFullProblem">
+      <info />
+      <kerning />
+      <location>
+        <dimension name="weight" xvalue="185" />
+        <dimension name="height" xvalue="456" />
+        <dimension name="capsheight" xvalue="456" />
+        <dimension name="capswidth" xvalue="456" />
+        <dimension name="ascenderheight" xvalue="600" />
+        <dimension name="diactritics" xvalue="0" />
+        <dimension name="baselineshift" xvalue="0" />
+        <dimension name="roundcorners" xvalue="0" />
+        <dimension name="curvature" xvalue="0" />
+        <dimension name="curvatureequal" xvalue="0" />
+        <dimension name="nwidth" xvalue="782" />
+        <dimension name="monofaux" xvalue="100" />
+        <dimension name="mono" xvalue="100" />
+        <dimension name="space" xvalue="100" />
+      </location>
+    </instance>
   </instances>
 </designspace>
