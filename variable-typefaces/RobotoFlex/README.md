@@ -2,18 +2,16 @@
 - demo to test the capabilities of the new fontformat
 - work in progress
 
-
+Preview in [Fontview](https://github.com/googlei18n/fontview/releases):
 ![robotoflex preview](preview.gif)
-
-(Preview in [Fontview](https://github.com/googlei18n/fontview/releases))
 
 ## Current Design Master
 - Regular
 	- Light
-    		- Height
-    		- Diacritics
-    		- Baselineshift
-	 	- Mono			  
+		- Height
+		- Diacritics
+		- Baselineshift
+		- Mono			  
 	  	- MonoFaux
 	  	- Curvature
 	  	- CurvatureEqual
