@@ -1,9 +1,9 @@
-In order to user the multipolation designspace file you need to install this little script.
+In order to user the multipolation designspace file you need to install this litle script.
 
 ### Install
 
-1. Move this file to the script folder of Glyphs.
-2. Now it is executable in Glyphs via Script > Metapolation :)
+1. Move the “multipolation.min.py” to the script folder of Glyphs.
+2. Now it is executable in Glyphs via: Script > Metapolation :)
 
 ### Feautres
 - Infinte numbers of Axes
