@@ -1,0 +1,806 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Type Design Framework</title>
+
+
+	<link rel="stylesheet" type="text/css" href="https://rawgit.com/sindresorhus/github-markdown-css/gh-pages/github-markdown.css"></link>
+
+	<style type="text/css">
+		body { margin: 2vw; font-family: sans-serif;}
+
+		p {
+			max-width: 80ex;
+		}
+		#origami { display: none; }
+		.dark 	 { opacity: 1.0; }
+		.pale  	 { opacity: 1.0; }
+		h1 + div,h2 + div,h3 + div,h4 + div,h5 + div,h6 + div,h7 + div { padding-left: 2vw!important; }
+		.origami-btn {
+			font-weight:  400;
+			font-size: 0.55em;
+			vertical-align: bottom;
+			display: inline-block;
+			padding-bottom:  0.5em;
+
+		}
+
+
+		element {
+			width: 7em;
+			display: inline-block;
+			text-align:right;
+			padding-right: 0.4ex;
+			line-height: 1.3em;
+		}
+		value {
+			width: 4em;
+			display: inline-block;
+			background-color: #ccc;
+			line-height: 0.8em;
+		}
+
+		div {display:inline-block; vertical-align: top; }
+
+		img.icon {
+			width: 1em!important;
+			height: 1em!important;
+			margin-bottom: -0.2em;
+			padding-left:0.02em;
+
+			outline: none;
+			border: none;
+		}
+
+
+		.large_icons element { text-align:left; width: 10em; vertical-align: top;}
+
+		.large_icons div { width: 12em;}
+		.large_icons img.icon {
+			width: 3em!important;
+			height: 3em!important;
+			margin-bottom: -1em;
+			margin-top: 1em;
+		}
+
+		.alt_label::before {
+			content: "alt. labels:";
+			display:inline-block;
+			padding-right: 1ex;
+			text-transform: uppercase;
+			font-weight: 500;
+			font-size: 0.8em;
+			letter-spacing: 0.2ex;
+			margin-bottom:  1em;
+
+			}
+		.alt_label {
+			color: #777;
+		}
+
+		h3, h4, h5, h6, h7, h8, h9 {font-size: 1.25em!important; margin-top: 0!important;}
+	</style>
+
+	<script type="text/javascript">
+		//- Origami options.
+		document.origami = {
+			fold: ['H1', 'H2', 'H3', 'H4', 'H5', 'H6'],
+			start_closed: ['H2','H1'],
+			hdr_klass: {
+				open: 'dark',
+				closed: 'pale',
+			},
+			btn_symbols: {
+		      open: '[-]',
+		      closed: '[+]'
+		    },
+		};
+	</script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body>
+	<h1>Type Design Framework</h1>
+	<p>Framework for choosing or creating a typeface.</p>
+	<p>Status: “Formal Variables (flat)” is most complete.
+	<br/>All the rest is still missing its description entirely.</p>
+	<div id="origami" class="markdown-body">
+
+	<h1>Context</h1>
+
+		<h2>Content</h2>
+			<h3>Type of Content</h3>
+			<p>What is the text about? The more specific, the better.</p>
+			<h3>Typographic Structure</h3>
+			<p>Inline hierachies? ... relation towards other elements ... complexity</p>
+		<h2>Intention</h2>
+			<h3>Meeting Expectations</h3>
+			<h3>Innovation</h3>
+			<h3>...</h3>
+
+	<h2>Influences</h2>
+
+		<h3>Cultural</h3>
+			<h4>General</h4>
+			<h4>Individual</h4>
+			<h4>Teaching</h4>
+			<h4>...</h4>
+
+		<h3>Graphical</h3>
+			<h4>Optical Phenomena</h4>
+			<h4>Geometrical Effects</h4>
+
+		<h3>Technical</h3>
+			<h4>Creation Tools</h4>
+			<h4>Rendering</h4>
+				<h5>Grades</h5>
+
+		<h3>Budget</h3>
+
+	<h1>Criteria</h1>
+		<h2>Association</h2>
+			<p>Most exciting!</p>
+			<h3>Genre</h3>
+			<h3>Soft Attributes</h3>
+			<h3>Quality</h3>
+			<h3>...</h3>
+
+		<h2>Readability</h2>
+			<p>The basis.</p>
+			<h3>Basic Identification</h3>
+				<h4>Language Support / Char-Set</h4>
+			<h3>Typographic Features</h3>
+				<p>Tabular figures, superscript, subscript, smallcaps, ..., level of differentiation (e.g. italics),</p>
+				<h4>(Line-height compensation)</h4>
+			<h3>Optical Sizes</h3>
+			<h3>Comfort</h3>
+				<p>Is it adequate for the specific typographic context?</p>
+		<h2>Application</h2>
+			<p></p>
+			<h3>Format / System Support</h3>
+			<h3>Execution Quality</h3>
+				<p>unicode, clean feature code, no bugs, hints, ...</p>
+			<h3>Rights</h3>
+				<p>Customization possible?</p>
+
+
+
+	<h1>Formal Variables (flat, most complete)</h1>
+	<p>In theory there can be infinite many type designs and therefore infinite many variable interpolation axes. To bring structure into this vast design spacing, the following formal categories should give some guidance. Every typeface or instance consists of a certain configuration of these aspects forming their specific formal character. That resulting atmosphere, the quality and the aspect of reading comfort needs to be seen on top of all of it, as any formal change does affect them, while their specific evaluation can be rather complex and sensible.</p>
+        <p>Aiding clarity there are no other sub-hierarchies but then directly interactive examples of specific variables/axes. <!-- (From an educational side it is still helpful think and discuss the relation of each variable towards the skeleton, outline and all the other variables and their position within a more mannered underlying hierarchy.) --></p>
+	<div class="large_icons">
+		<div>
+		<element><img class="icon" src="media/icon_weight.gif"/> weight</element>
+		<element><img class="icon" src="media/icon_texture.gif"/> texture</element>
+		<element><img class="icon" src="media/icon_complexity.gif"/> complexity</element>
+		<element><img class="icon" src="media/icon_optical_size.gif"/> optical size</element>
+		<element><img class="icon" src="media/icon_rhythm.gif"/> rhythm</element><!-- rhythm-->
+		</div>
+
+		<div>
+
+		<!-- <element><img class="icon" src="media/icon_spacing.gif"/> spacing</element> -->
+		<element><img class="icon" src="media/icon_width.gif"/> width</element>
+		<element><img class="icon" src="media/icon_height.gif"/> height</element>
+		<element><img class="icon" src="media/icon_inclination.gif"/> inclination</element><element><img class="icon" src="media/icon_curvature.gif"/> curvature</element>
+		</div>
+		<div>
+
+		<element><img class="icon" src="media/icon_contrast.gif"/> contrast</element>
+		<element><img class="icon" src="media/icon_modulation.gif"/> modulation</element>
+		<element><img class="icon" src="media/icon_edging.gif"/> edging</element>
+		<element><img class="icon" src="media/icon_free_forms.gif"/> free forms</element>
+		</div>
+	</div>
+	<br/>
+	<br/>
+	<p>In the following each top-level variable is briefly described, followed by a set of axes and possible settings. </p>
+		<h2 class="large_icons"><img class="icon" src="media/icon_weight.gif"/>
+			Weight </h2>
+		<div class="alt_label">black/white-balance, color, darkness, lightness, opacity, transparency</div>
+		<p>The weight specifies the color/darkness of a font. It determines the relation between black and white.
+		There are many ways to increase the weight. Changing the overall thickness of all strokes is the simplest way to manipulate it. Boldening the thick stems has the largest effect in Latin. But also a change of <i>spacing</i> or <i>width</i> does affect the weight.<br/>
+		<br/>
+		A change of color does entail in most cases a change of overall width. (sometimes also a change of size) But there are also so called “uniwidth” typefaces which keep the overall width along the whole weight axes, to not cause any reflows.
+		<br/>
+			</p>
+
+			<h4>variables/axes</h4>
+			<ul>
+			<li>weight [wght]</li>
+			<li>weight variation [wvar]</li>
+			<li>Cap-weight [cwght/wcps]</li>
+			<li>thick/main strokes weight [mwgt]</li>
+			<li>para weight (trying to keep the counter space untouched) [pwgt]</li>
+			<li>thin strokes weight (more important for contrast)</li>
+			</ul>
+			<h4>possible settings/parameter</h4>
+			<ul>
+			<li>hairline</li>
+			<li>extra light (thin)</li>
+			<li>light</li>
+			<li>regular</li>
+			<li>bold</li>
+			<li>extra bold</li>
+			<li>black</li>
+			<li></li>
+			<br/>
+			<li>300 (CSS-weights)</li>
+			<li>400 (≈ regular)</li>
+			<li>700 (0 = full white, 1000 = full black)</li>
+			<br/>
+			<li>160‰ (≈ regular, stemvalue in x-height/1000 )</li>
+			<br/>
+			</ul>
+
+
+		<h2 class="large_icons"><img class="icon" src="media/icon_texture.gif"/>
+			Texture</h2>
+		<div class="alt_label">style, italic</div>
+		<p>The texture is determined by the distribution of black and white on a macro level. Next to size and weight it is the most important aspect for differentiation. Secondary typefaces are the best example when it comes to texture. They need to clearly differentiate while not jumping out at first glance, keeping a similar weight and in most cases even a similar proportion. There are many ways to manipulate the texture, such as a change in construction, proportion, inclination, modulation and others. While a change in construction can provide the best results it must be applied with huge care and sensibility for the script to not decrease the legibility more than anticipated. <br/>
+			</p>
+			<h4>variables/axes</h4>
+			<ul>
+			<li>texture</li>
+			<li>identification pattern (<span>“R”, “r”, “<span class="pattern-script-r">r</span>”</span>)
+			<li>stylistic variation (sans, serif, mono, ...</li>
+			<li>swashiness</li>
+			<li>(a strong variation of any other variable)</li>
+			</ul>
+
+			<h4>possible settings/parameter</h4>
+			<ul>
+			<li>unicase</li>
+			<li>sans</li>
+			<li>serif</li>
+			<li>cursive</li>
+			<li>reverse contrast</li>
+			<li>mono</li>
+			<li></li>
+			</ul>
+		<p>Difficulty note: It is quite hard to make all the designs along this axes usable and pleasing. If the texture changes significant it might be only possible with many manual adjustments (master or brace layers) along the axes and probably even hard steps (bracket layer / rules).<br/></p>
+
+
+
+
+		<h2 class="large_icons"><img class="icon" src="media/icon_complexity.gif"/>
+			Complexity</h2>
+			<div class="alt_label">detail texture</div>
+		<p>The complexity variable is the variable but at a micro-level. It is as if the texture is the raw sketch which you can either fill with plain black ink or with patterns, modules, outline effects, etc. – which means within the same texture there is an infinite number of possibilities waiting to be explored. <br/>
+		</p>
+
+			<h4>variables/axes</h4>
+			<ul>
+			<li>complexity</li>
+			<li>surface texture</li>
+			<li>outline texture</li>
+			<li>roughness</li>
+			<li>corrosion</li>
+			<li>grunge</li>
+			<br/>
+			<li>whitespace texture</li>
+			<li>dimensionality</li>
+			<br/>
+			<li>(color)</li>
+			<li></li>
+			</ul>
+
+			<h4>possible settings/parameter</h4>
+			<ul>
+			<li>simple</li>
+			<li>complex / detailed</li>
+			</ul>
+		<p>Difficulty note: To interpolate along this axes can be rather difficult. The more complex the design on one extreme, the more difficult it is to control all the points along the axes, eventually having many nodes on top of each other at the simplistic extreme.</p>
+		<p>Hierarchy note: This could be also rearranged to be a subordinate of <i>texture</i>. But it felt necessary to separate them to have a bridge in between texture and optical sizes.</p>
+
+
+
+
+
+
+
+
+
+
+		<h2 class="large_icons"><img class="icon" src="media/icon_optical_size.gif"/>
+			Optical Size</h2>
+		<div class="alt_label">optical compensation</div>
+		<p>The optical size axis specifies the intended type size. It is there to adapt a typeface design made for a specific size towards a range of sizes. It is called optical, as it is referring to the size of the type rendered on the retina within the readers eye. Which means that the physical type size (e.g. x-height) is only important in its relation to the approximate reading distance.<br/>
+		<br/>
+		Optical compensation is especially necessary for very light or bold designs, or ones with high contrast as the very thin lines or spaces become indistinguishable at small sizes. If those parts are crucial to identify the letter it can cause a great loss of legibility. This means that the core intention is to optically adapt a design with as little change of the original intended atmosphere as possible. At best the typeface should feel the same at any size, while keeping a similar legibility.<br/>
+		<br/>Yet it needs to be mentioned that there are also families which take a more artistic approach where the design changes considerably across the optical axes, e.g. to amplify typographic hierarchies. </p>
+
+			<h4>variables/axes</h4>
+			<ul>
+			<li>optical size [opsz] (intended size)</li>
+			<li>smallest usable size (in most cases equal to optical size)</li>
+			</ul>
+
+			<h4>possible settings/parameter</h4>
+			<ul>
+			<li>micro</li>
+			<li>caption</li>
+			<li>regular</li>
+			<li>subhead</li>
+			<li>display</li>
+			<br/>
+			<li>16 arcmin</li>
+			<br/>
+			<li>1.5 mm</li>
+			<li>2.0 mm</li>
+			<li>4.0 mm</li>
+			<br/>
+			<li>6 pt</li>
+			<li>12 pt</li>
+			<li>24 pt</li>
+			</ul>
+
+
+
+
+
+		<h2 class="large_icons"><img class="icon" src="media/icon_rhythm.gif"/>
+		Rhythm</h2>
+		<div class="alt_label">variation, consistency, relation</div>
+		<!-- rhythm-->
+		<p>The rhythm variable only exists as a relation between different elements or glyphs. If elements are treated exactly the same a consistent pattern is build. If any part of those elements is then emphasized or faded the pattern changes and a different rhythm becomes visible. It is not a formal variable that can be described within a single element, the relation counts. Therefore it is not only a variable but also a criteria affected by any formal change.<br/>
+		</p>
+			<h4>variables/axes</h4>
+			<ul>
+			<li>rhythm</li>
+			<li>terminal rhythm (e.g. by adding serifs and drops)</li>
+			<li>stroke weight rhythm (by applying different angles of contrast)</li>
+			<li>... rhythm</li>
+			</ul>
+			<h4>possible settings/parameter</h4>
+			<ul>
+			<li>regular (proportional, invisible)</li>
+			<li>consistent</li>
+			<li>monotonous</li>
+			<li>static</li>
+			<li>dynamic</li>
+			<li>rhythmic</li>
+			<li>traditional</li>
+			<li>modern</li>
+			<li>chaotic</li>
+			<li>conceptional</li>
+			<li>hand drawn inconsistency (eg. with 3 alternate shapes per character)</li>
+			</ul>
+		</p>
+
+
+
+
+
+
+		<h2 class="large_icons"><img class="icon" src="media/icon_width.gif"/>
+			Width</h2>
+		<div class="alt_label">x-proportion, x-metrics</div>
+		<p>This category includes all changes that happen wihtin a character along the horizontal dimensions of a typeface, including width variation and positioning of loose elements. After the height of a character this variable has to biggest influence on the perceived size of typeface.<br/>
+		</p>
+			<h4>variables/axes</h4>
+			<ul>
+			<li>width [wdth]</li>
+			<li>cap-width</li>
+			<li>width variation (mono, ...)</li>
+			<li>inner width variation (E, F, ..)</li>
+			<li>para width (trying to keep the stems untouched)</li>
+			<li>justification</li>
+			<li>length of connecting strokes</li>
+			</ul>
+
+			<h4>possible settings/parameter</h4>
+			<ul>
+			<li>regular (normal, book, ...)</li>
+			<li>semi-narrow</li>
+			<li>narrow (condensed, compressed)</li>
+			<li>extra narrow</li>
+			<li>semi wide</li>
+			<li>wide (expanded, extended)</li>
+			<li>extra wide</li>
+			<br>
+			<li>proportional</li>
+			<li>proportional, height variation</li>
+			<li>mono</li>
+			<li>mono-proportional (actual shapes at the same width)</li>
+			<br>
+			<li>Capitalis Monumentalis</li>
+			<li>Helvetica</li>
+			<li>Futura</li>
+			<br>
+			<li>justified </li>
+			<li>ragged, justified, swiss style </li>
+			<!-- <li>top-heavy</li>
+			<li>bottom-heavy</li> -->
+			</ul>
+
+			<h4>influenced by</h4>
+			<ul>
+			<li>available line length</li>
+			</ul>
+			<p>Hierarchy note:<i>Width</i> and <i>height</i> could be grouped together under <i>skeleton</i> > <i>proportion</i></p>
+
+		<h2 class="large_icons"><img class="icon" src="media/icon_spacing.gif"/>
+			Width > Spacing</h2>
+		<div class="alt_label">fitting, tracking</div>
+		<p>With this variable the focus lies on the spacing inbetween the characters and respectively their total width. As the <i>spacing</i> is a rather important variable it has its own position even though it could be grouped under <i>width</i>.<br/>
+		<br/>
+		Currently this is controlled within the typesetting software. But simple tracking can distort the balance of the fitting immensely, especially negative tracking. A spacing axes baked into the font by the designer would make it possible to supply an evenly distributed tight and loose typesetting alike.<br/>
+		</p>
+			<h4>variables/axes</h4>
+			<ul>
+			<li>spacing (tracking: could be obsolete within variable fonts )</li>
+			<li>word-spacing</li>
+			<li>...-spacing</li>
+			<li>fitting / spacing variation (-> consistent, inconsistent, rhythmic)</li>
+
+			<li>unitization</li>
+			<li>(kerning)</li>
+			</ul>
+
+			<h4>possible settings/parameter</h4>
+			<ul>
+			<li>regular</li>
+			<li>tight</li>
+			<li>loose</li>
+			<br/>
+			<li>proportional</li>
+			<li>mono</li>
+			<li>irregular</li>
+			<li></li>
+			</ul>
+
+
+		<h2 class="large_icons"><img class="icon" src="media/icon_height.gif"/>
+			Height</h2>
+			<div class="alt_label">y-proportion, y-metrics, size</div>
+		<p>This category includes all changes that happen within a character along the vertical dimensions of a typeface, including positioning. The character height has the biggest influence towards the size perception. (especially the x-height) This could be duo the fact that it is perpendicular towards the reading direction and therefore even small changes stand out more than a similar change in width. A&nbsp;change in height is often actually a change in size to preserve the character proportion: e.g. a change of the x-height is usually done proportionally along height and width to not end up with a condensed or extended typeface.<br/>
+		</p>
+		<h4>variables/axes</h4>
+		<ul>
+		<li>height / size</li>
+		<!-- <li>(line-height) > see <a>spacing</a></li> -->
+		<li>x-height (lowercase size)</li>
+		<li>cap size</li>
+		<li>allcaps size</li>
+		<li>smallcaps size</li>
+		<li>numeral size</li>
+		<br/>
+		<li>ascender</li>
+		<li>descender</li>
+		<li>aperture (a,s,e,c)</li>
+		<li>centerline (A,E,e,...)</li>
+		<br/>
+		<li>line-height</li>
+		<li>baseline shift</li>
+		<li>stem shift (prominent in handwriting and script styles</li>
+		<li>punctuation position</li>
+		<li>subscript</li>
+		<li>superscript</li>
+		<li></li>
+		</ul>
+		<h4>possible settings/parameter</h4>
+		<ul>
+		<li>large extenders (ascenders & descenders)</li>
+		<li>large capitals</li>
+		<li>small caps at  105% of x-height</li>
+		<li>low x-height proportion</li>
+		<br/>
+		<li>loose/generous</li>
+		<li>classical</li>
+		<li>modern</li>
+		<li>caption</li>
+		<li>compact</li>
+		<br/>
+		<li>Art Nouveau (E,A,...)</li>
+		<li>Futura</li>
+		<li>Times</li>
+		<li></li>
+		</ul>
+		<h4>influenced by</h4>
+		<ul>
+		<li>available line-height (less available spacing ➝ lower proportion ratio)</li>
+		<li>line length (wider ➝ larger line-height ➝ potentially larger proportion ratio)</li>
+		<li>width (if e.g. cap-height changes, usually also the width changes to keep the proportion ratio similar)</li>
+		</ul>
+		<p>Hierarchy note: <i>Height</i> and <i>width</i> could be grouped together under <i>skeleton</i> > <i>proportion</i>
+		</p>
+
+
+		<h2 class="large_icons"><img class="icon" src="media/icon_inclination.gif"/>
+			Inclination</h2>
+		<div class="alt_label">slant, rotation</div>
+		<p>The most prominent use of inclination is applied in the realm of secondary styles. The simple forward leaning slant causes an immediate change of texture and can be applied to any design. The less popular vertical slants are most prominent handwritten styles, inspired by calligraphy and lettering.<br/>
+		<br/>
+		While artificial inclinations are tempting, almost all resulting outlines need to be manually corrected or entirely redrawn to gain perfect results. While the process of slanting seems like a simple process it does cause significant problems and is more complex than usually anticipated. <br/>
+		</p>
+		<h4>variables/axes</h4>
+		<ul>
+		<li>inclination (slant) [slnt]</li>
+		<li>y-inclination</li>
+		<li>x-inclination</li>
+		<li>rotation</li>
+		<li>3D-rotation</li>
+		</ul>
+		<h4>possible settings/parameter</h4>
+		<ul>
+		<li>+15° slant</li>
+		<li>-10° slant</li>
+		<li>-5° baseline-slant</li>
+		<li>20° rotation</li>
+		</ul>
+		<p>Hierarchy note: Inclination could be also put under the <i>width</i> and <i>height</i> proportion, but as its effect is very distinctive it got its own place.</p>
+
+		<h2 class="large_icons"><img class="icon" src="media/icon_curvature.gif"/>
+			Curvature</h2>
+		<p>The curvature is describing the modulation of the stroke, while keeping the relation between the outlines consistent. Typically it is used it describes an already existing curve, but it is equally applicable in the opposite direction, introducing curvature where onto straight strokes. <br/>
+		</p>
+		<h4>variables/axes</h4>
+		<ul>
+		<li>curvature</li>
+		<li>macro-curvature</li>
+		<li>micro-curvature</li>
+		<li>wiggle-intensity</li>
+		<li></li>
+		</ul>
+		<h4>possible settings/parameter</h4>
+		<ul>
+		<li>round</li>
+		<li>cubic</li>
+		<li>rhombic</li>
+		<li>egg</li>
+		<br>
+		<li>smooth</li>
+		<li>broken</li>
+		<li>wiggle</li>
+		</ul>
+
+
+		<h2 class="large_icons"><img class="icon" src="media/icon_contrast.gif"/>
+			Contrast</h2>
+		<p>The contrast intensity is determined by the relation between thicks and thins. To supply an optimal control to the user it could be helpful if the overall weight stays consistent while manipulating the contrast slider. Another option would be to let the contrast slider only control the weight of the thin strokes, leaving the thicks entirely to the weight slider.<br/>
+		</p>
+		<h4>variables/axes</h4>
+		<ul>
+		<li>contrast</li>
+		<li>thin strokes weight</li>
+		<li>thick strokes weight (weight)</li>
+		</ul>
+		<h4>possible settings/parameter</h4>
+		<ul>
+		<li>high</li>
+		<li>low</li>
+		<li>monolinear</li>
+		<br/>
+		<li>40 : 1.0</li>
+		<li>1.2 : 1.0</li>
+		<li>1.0 : 1.0</li>
+		</ul>
+
+
+
+		<h2 class="large_icons"><img class="icon" src="media/icon_modulation.gif"/>
+			Modulation</h2>
+			<div class="alt_label">outline curvature, tool modulation</div>
+		<p>This variable describes the outline modulation, which can only be modulated if there is some contrast in the type design existent. The kind of modulation can be either inspired by analog tools, digital tools, imaginary tools or even drawn completely freehand.<br/>
+		</p>
+		<h4>variables/axes</h4>
+		<ul>
+		<li>modulation</li>
+		<li>stress (contrast angle)</li>
+		<li>transition speed</li>
+		<li>smoothness</li>
+		<li>brokenness</li>
+		<li>symmetry</li>
+		<li>pen-model</li>
+		</ul>
+		<h4>possible settings/parameter</h4>
+		<ul>
+		<li>broad nib, fixed</li>
+		<li>broad nib, with rotation</li>
+		<li>pointed nib</li>
+		<li>pointed nib, with rotation</li>
+		<li></li>
+		</ul>
+
+
+		<h2 class="large_icons"><img class="icon" src="media/icon_edging.gif"/>
+			Edging</h2>
+		<div class="alt_label">edge-, corner-, angle-treatment</div>
+		<p>This describes all changes applied to joints, terminals, or any other inner and outer edges.<br/>
+		</p>
+		<h4>variables/axes</h4>
+		<ul>
+		<li>edge</li>
+		<li>terminal angle</li>
+		<li>real inktrap</li>
+		<li>stylistic inktrap</li>
+		<li>inktrap depth</li>
+		<li>inktrap width</li>
+		<li></li>
+		</ul>
+		<h4>possible settings/parameter</h4>
+		<ul>
+		<li>rounded</li>
+		<li>sharp</li>
+		<li>spiky</li>
+		<li>flat terminals</li>
+		<li>deep inktraps</li>
+		<li></li>
+		</ul>
+
+
+		<h2 class="large_icons"><img class="icon" src="media/icon_free_forms.gif"/>
+			Free Forms</h2>
+		<p>Most serifs, drops, dots, ... in typefaces are not describable with simple strokes or the behaviour of a specific lettering tools. While some are definitely inspired by tools, almost all of them are freely drawn following their own specific logic.<br/>
+		</p>
+		<h4>variables/axes</h4>
+		<ul>
+		<li>free forms</li>
+		<li>serifs</li>
+		<li>serifs bottom</li>
+		<li>serifs top</li>
+		<li>serifs caps</li>
+		<li>drops</li>
+		<li>symmetry</li>
+		<li></li>
+		</ul>
+		<h4>possible settings/parameter</h4>
+		<ul>
+		<li>circular</li>
+		<li>triangle</li>
+		<li>square</li>
+		<li></li>
+		<li></li>
+		</ul>
+
+
+		<h1>Formal Variables (typographer, by cause)</h1>
+			<h2>Different Atmosphere ➝ Another Typeface?</h2>
+			<p>This is a very complex and sensible aspect, in most cases you need to choose/create another typeface.</p>
+				<h3>Texture</h3>
+				<h3>Rhythm</h3>
+				<h3>Contrast</h3>
+				<h3>Modulation</h3>
+				<h3>Edging</h3>
+				<h3>Free Forms</h3>
+
+				<h3>(Complexity)</h3>
+				<h3>(Width)</h3>
+				<h3>(Height)</h3>
+
+			<h2>Changing Size ➝ Optical Size</h2>
+			<p>Especially typefaces with high contast need different optical adjustements across different sizes. Sans-serif designs at a regular weight in most cases only need a tighter/looser spacing.</p>
+				<h3>Optical Size</h3>
+					<h4>Weight</h4>
+						<h5>Thin Lines (keeping similar contrast)</h5>
+						<h5>Small Gaps (whitespace!)</h5>
+						<h5>(Diacritics)</h5>
+					<h4>Spacing</h4>
+					<h4>(Height)</h4>
+					<h4>(Width)</h4>
+
+			<h2>Line Length ➝ Width</h2>
+				<h3>Width</h3>
+				<h3>Line Height</h3>
+				<h3>Size (if possible)</h3>
+
+			<h2>Line Height ➝ Vertical Compensation</h2>
+				<h3>Vertical Compensation</h3>
+					<h4>Cap Size</h4>
+					<h4>(All-Caps Size)</h4>
+					<h4>Smallcap Size</h4>
+					<h4>Ascenders Height</h4>
+					<h4>Descenders Height</h4>
+					<h4>Diactritics Distance</h4>
+				<h3>Base Size (Latin: x-height)</h3>
+
+			<h2>Justification ➝ Width Variation</h2>
+				<h4>Width Variation</h4>
+
+			<h2>Heading ➝ Size</h2>
+				<h3>Size</h3>
+				<h3>Weight</h3>
+				<h3>Texture</h3>
+
+			<h2>Strong Emphasis ➝ Weight</h2>
+				<p>e.g.: regular + bold / allcaps / large small caps</p>
+				<h3>Weight</h3>
+				<h3>Size</h3>
+				<h3>Texture</h3>
+
+			<h2>Soft Emphasis ➝ Texture</h2>
+				<p>e.g.: sans + italic / slant / serif / small caps</p>
+				<h3>Texture</h3>
+					<h4>Stylistic Variation / Construction</h4>
+					<h4>Identification Pattern (a, A)</h4>
+					<h4>Slant</h4>
+					<h4>Contrast-Angle</h4>
+					<h4>Proportions</h4>
+
+			<h2>Mixing typefaces inline ➝ Manual Normalisation</h2>
+				<h3>Baseline Shift</h3>
+				<h3>Base Size (prop. scale, keeping weight)</h3>
+				<h3>(Heights / Vertical Proportions)</h3>
+					<h4>Base Size (Latin: x-height)</h4>
+					<h4>Cap Size</h4>
+					<h4>(All-Caps Size)</h4>
+					<h4>Smallcap Size</h4>
+					<h4>Ascenders Height</h4>
+					<h4>Descenders Height</h4>
+					<h4>Diactritics Distance</h4>
+				<h3>(Weight)</h3>
+				<h3>(Contrast)</h3>
+
+			<h2>Finding Alternative -> Basic Normalisation
+				<h3>Normalize Basline Position</h3>
+				<h3>Normalize Size</h3>
+				<p>(On basis of a base character of each script)</p>
+				<h3>Normalize Weight</h3>
+			</h2>
+
+			<h2>Rendering ➝ Grades + Edging</h2>
+				<p>(digital and analog rendering</p>
+				<h3>Grades</h3>
+					<h4>Weight (x+y)</h4>
+					<h4>Contrast</h4>
+				<h3>Edging</h3>
+					<h4>Inktraps</h4>
+					<h4>Round Corners</h4>
+
+			<h2>Fun at Large ➝ Complexity</h2>
+				<h3>Complexity</h3>
+				<h3>Optical Size</h3>
+
+
+	<h1>Formal Variables (systematical hierarchies)</h1>
+		<h2>Higher Aspects</h2>
+			<h3>Optical Size</h3>
+			<h3>Texture</h3>
+			<h3>Complexity</h3>
+			<h3>Rhythm/Consistency</h3>
+        <h2>Character Structure</h2>
+        <h3>Identification Pattern</h3>
+		<p>This is the raw material – every letter consists of at least one   character pattern to be identified. The character “o” for examples does only has a single pattern, but there are also letters which have more than one distinctive pattern, such as <span>“R”, “r”, “<span class="pattern-script-r">r</span>”</span>. Even though it is also possible to interpolate between entirely different character patterns, the following examples will concentrate on manipulating within one pattern.
+		</p>
+		<h3>Stylistic Variation</h3>
+		<p>As long as additions such as serifs, drops and swashes do not result in an entirely new identification pattern they should be considers a variation and not as a sparate pattern.
+		</p>
+		<video src="media/CrimsonSerifLengthGX.mov" controls></video>
+
+		<h2>Setting</h2>
+			<h3>Position</h3>
+			<h3>Spacing</h3>
+
+        <h2>Skeleton</h2>
+	        <h3>Vertical Proportion</h3>
+	        <h3>Horizontal Proportion</h3>
+	        <h3>Inclination</h3>
+	        <h3>Curvature</h3>
+
+        <h2>Outline</h2>
+	        <h3>Weight</h3>
+	        <h3>Contrast</h3>
+			<h3>Modulation</h3>
+			<h3>Edging</h3>
+			<h3>Free Forms</h3>
+		<br/>
+		<h2>Surface</h2>
+			<h3>Effects</h3>
+			<h3>Dimensionality</h3>
+			<h3>Colors</h3>
+
+
+
+
+
+
+	</div>
+
+	<script type="text/javascript" src="https://rawgithub.com/devonzuegel/static-playground/master/out/scripts/origami.js"></script>
+
+</body>
+</html>

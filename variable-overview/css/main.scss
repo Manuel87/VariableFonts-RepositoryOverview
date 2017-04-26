@@ -58,7 +58,7 @@ img.icon {
 
 
 div {display:inline-block; vertical-align: top; }
-h2, h3 {display:block; width:100%; text-transform: capitalize; margin-top: 2em;}
+h2, h3 {display:block; width:100%; text-transform: capitalize; margin-top: 2em; font-size: 2em;}
 h3>span {weight: 300!important;}
 
 .smaller { font-size: 0.8em;}
@@ -73,7 +73,7 @@ red {color:red;}
 	display:inline-block;
 	padding-right: 1ex;
 	text-transform: uppercase;
-	weight: 500;
+	font-weight: 500;
 	font-size: 0.8em;
 	letter-spacing: 0.2ex;
 

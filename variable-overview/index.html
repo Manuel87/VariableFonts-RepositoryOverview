@@ -13,6 +13,36 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
         <link rel="stylesheet" href="css/main.css?2">
+		<link rel="stylesheet" type="text/css" href="https://rawgit.com/sindresorhus/github-markdown-css/gh-pages/github-markdown.css"></link>
+
+	<style type="text/css">
+		body { margin: 2vw; font-family: sans-serif;}
+		#origami { display: none; }
+		.dark 	 { opacity: 1.0; }
+		.pale  	 { opacity: 1.0; }
+		h1 + div,h2 + div,h3 + div,h4 + div,h5 + div,h6 + div,h7 + div { padding-left: 2vw!important; }
+		.origami-btn::before { 	content:  "["; }
+		.origami-btn::after { 	content:  "]"; }
+		.origami-btn {
+			font-weight:  300;
+			font-size: 18px;
+		}
+	</style>
+
+	<script type="text/javascript">
+		//- Origami options.
+		document.origami = {
+			fold: ['H1', 'H2', 'H3', 'H4', 'H5', 'H6'],
+			start_closed: ['H2','H1'],
+			hdr_klass: {
+				open: 'dark',
+				closed: 'pale',
+			},
+		};
+	</script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -21,7 +51,7 @@
 
         <!-- Add your site or application content here -->
 
-        <div class="container">
+        <div id="origami" class="container">
         <h1>Exploring Type Variables</h1>
         <p>This site is an accumulation of an ongoing exploration of all sorts of formal variables in&nbsp;type&nbsp;design ...
 		[what is this in one sentence]
@@ -867,94 +897,8 @@
 
         <h2>4. Contour/Outline</h2>
         <h3>Weight</h3>
-        	<h4>Grades: negative ––– none ––– positive</h4>
-		<p>The main function of grades is to get a similar rendering across different technologies or processes which render the exact same outlines slightly different. Therefore the weight needs to be manipulated slightly while the overall width stays the same to not cause any reflow of the rendered text. For perfect control it is advisable to allow manipulation of thicks, thins and the weight across the x and y coordinates. (achievable through weight and contrast master axes) Although for basic control a simple weight axes can be sufficant, especially for monolinear designs.</p>
-
-		<!-- <element>function</element>		<description>stylistic, change of atmosphere</description><br/> -->
-	<!-- 	<element>ID-pattern</element>		<value></value><br/> -->
-		<!-- <element>exceptionality</element>		<value>II</value><br/> -->
-		<!-- <element>odity</element>		<value>II</value><br/> -->
-		<!-- <element>difficulty</element>		<value>IIIII</value><br/> -->
-
-
-		<div>
-		<element>atmosphere</element>				<value>&nbsp;</value><br/>
-		<element>texture <img class="icon" src="media/icon_texture.gif"/></element>		<value>&nbsp;</value><br/>
-		<element>weight <img class="icon" src="media/icon_weight.gif"/></element>			<value>II</value><br/>
-		<element>complexity <img class="icon" src="media/icon_complexity.gif"/></element>		<value>&nbsp;</value><br/>
-		<element>rhythm <img class="icon" src="media/icon_rhythm.gif"/></element>		<value>&nbsp;</value><br/>
-		<br/></div>
-		<div>
-		<element>optical size <img class="icon" src="media/icon_optical_size.gif"/></element>				<value>&nbsp;</value><br/>
-		<element>spacing <img class="icon" src="media/icon_spacing.gif"/></element>	<value>&nbsp;</value><br/>
-		<element>x-proportion <img class="icon" src="media/icon_width.gif"/></element>		<value>&nbsp;</value><br/>
-		<element>y-proportion <img class="icon" src="media/icon_height.gif"/></element>		<value>&nbsp;</value><br/>
-		<element>inclination <img class="icon" src="media/icon_inclination.gif"/></element>		<value>&nbsp;</value><br/>
-		</div>
-		<div>
-		<element>curvature <img class="icon" src="media/icon_curvature.gif"/></element>		<value>&nbsp;</value><br/>
-		<element>contrast <img class="icon" src="media/icon_contrast.gif"/></element>			<value>II</value><br/>
-		<element>modulation <img class="icon" src="media/icon_modulation.gif"/><!-- (c.angle) --></element>	<value>&nbsp;</value><br/>
-		<element>edges <img class="icon" src="media/icon_edging.gif"/></element>			<value>&nbsp;</value><br/>
-		<element>free forms <img class="icon" src="media/icon_free_forms.gif"/></element>		<value>&nbsp;</value><br/>
-		</div>
-
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-
         <h3>Contrast</h3>
 		<h3>Modulation</h3>
-
-
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<video src="media/Crimson_PenModelGX.mov" controls></video>
-		<h3>Pen-Model: broadnib/translation ––– pointed/expansion</h3>
-		<p>Non-linear interpolation between two pen-model sterotypes which correspond to the classifications oldstyle and modern in the way the contrast is modulated.</p>
-
-		<!-- <element>function</element>		<description>stylistic, change of atmosphere</description><br/> -->
-	<!-- 	<element>ID-pattern</element>		<value></value><br/> -->
-		<!-- <element>exceptionality</element>		<value>II</value><br/> -->
-		<!-- <element>odity</element>		<value>II</value><br/> -->
-		<!-- <element>difficulty</element>		<value>IIIII</value><br/> -->
-
-		<div>
-		<element>atmosphere</element>				<value>IIIIII</value><br/>
-		<element>texture <img class="icon" src="media/icon_texture.gif"/></element>		<value>II</value><br/>
-		<element>weight <img class="icon" src="media/icon_weight.gif"/></element>			<value>&nbsp;</value><br/>
-		<element>complexity <img class="icon" src="media/icon_complexity.gif"/></element>		<value>II</value><br/>
-		<element>rhythm <img class="icon" src="media/icon_rhythm.gif"/></element>		<value>II</value><br/>
-		<br/></div>
-		<div>
-		<element>optical size <img class="icon" src="media/icon_optical_size.gif"/></element>				<value>&nbsp;</value><br/>
-		<element>spacing <img class="icon" src="media/icon_spacing.gif"/></element>	<value>&nbsp;</value><br/>
-		<element>x-proportion <img class="icon" src="media/icon_width.gif"/></element>		<value>&nbsp;</value><br/>
-		<element>y-proportion <img class="icon" src="media/icon_height.gif"/></element>		<value>&nbsp;</value><br/>
-		<element>inclination <img class="icon" src="media/icon_inclination.gif"/></element>		<value>&nbsp;</value><br/>
-		</div>
-		<div>
-		<element>curvature <img class="icon" src="media/icon_curvature.gif"/></element>		<value>&nbsp;</value><br/>
-		<element>contrast <img class="icon" src="media/icon_contrast.gif"/></element>			<value>&nbsp;</value><br/>
-		<element>modulation <img class="icon" src="media/icon_modulation.gif"/></element>	<value>IIIII</value><br/>
-		<element>edges <img class="icon" src="media/icon_edging.gif"/></element>			<value>II</value><br/>
-		<element>free forms <img class="icon" src="media/icon_free_forms.gif"/></element>		<value>II</value><br/>
-		</div>
-
-
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-		<br/>
-
 		<h3>Angles</h3>
 		<h3>Free Forms</h3>
 		<br/>
@@ -1081,6 +1025,7 @@
             window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
             ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
         </script>
+        <script type="text/javascript" src="https://rawgithub.com/devonzuegel/static-playground/master/out/scripts/origami.js"></script>
         <script src="https://www.google-analytics.com/analytics.js" async defer></script>
     </body>
 </html>
