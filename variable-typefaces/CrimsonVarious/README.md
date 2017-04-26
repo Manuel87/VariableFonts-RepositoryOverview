@@ -1,6 +1,6 @@
 # CrimsonVarious
 
-### Pen Models (Oldstyle——Modern)
+### [Pen Models (Oldstyle——Modern)](PenModel/)
 char-set: a, n, o, b <br/>
 <img src="PenModel/Crimson_PenModel-VF.gif" height="150">
 
