@@ -15,3 +15,9 @@
 ![modulation](gif-export/icon_modulation.gif)
 ![edging](gif-export/icon_edging.gif)
 ![free forms](gif-export/icon_free_forms.gif)
+
+
+**Gif-export**
+You need to install the drawbot extension for Glyphs and then just execute the script. By default it will save the gif to your downloads folder, simply change it at the bottom of the script.
+
+PS: It would be nice to export whole strings, but I wasn’t able to figure it out.
