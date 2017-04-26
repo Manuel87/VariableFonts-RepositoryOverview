@@ -10,11 +10,11 @@ Preview in [Fontview](https://github.com/googlei18n/fontview/releases):
 - hierachies + math for the slider behaviour to increase usability (e.g. to make the faux-mono-axis a child of the mono-axis, to prevent strange results if both are applied) 
 - unrestricted interpolation-value-bounds
 - possiblity to add a baseline-shift axis without an aditional master
-- possiblity to add a scale axis without an aditional master
+- possiblity to add a proportional scale axis without an aditional master
 
 .
 
-## Basic Setup
+## Basic Setup / Install
 - To handle complex interpolations in Glyphs: [Multipolation](0-install/)
 - To preview: [Fontview](https://github.com/googlei18n/fontview/releases) or http://axis-praxis.org
 
@@ -36,10 +36,8 @@ Preview in [Fontview](https://github.com/googlei18n/fontview/releases):
 - set up different values for SmallCaps, ...  (“local interpolations”)
 ![robotoflex preview](README_media/Multipolation-JSON_GlyphSpecificInterpolations.png)
 
-**How to create instances in Glyphs**
-1. Move Multipolation.min.py to the Glyphs script folder
-2. Open the Glyphs-file 
-3. Execute the script (Script > Multipolation).
+**How to create/update instances in Glyphs**
+- Execute the [Multipolation](0-install/) script (Glyphs > Script > Multipolation).
 
 .
 
