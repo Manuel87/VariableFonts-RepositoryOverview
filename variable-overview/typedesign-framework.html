@@ -104,18 +104,19 @@
 </head>
 <body>
 	<h1>Type Design Framework</h1>
-	<p>Framework for choosing or creating a typeface.</p>
+	<p>Raw framework for choosing type, or making a custom typeface.</p>
 	<p>Status: “Formal Variables (flat)” is most complete.
 	<br/>All the rest is still missing its description entirely.</p>
 	<div id="origami" class="markdown-body">
 
 	<h1>Context</h1>
-
+		<p>A good decision is heavily dependend on its context. There are many typefaces which are amazing in one context and totally out of place in another.</p>
+		<div class="alt_label">~Brief</div>
 		<h2>Content</h2>
 			<h3>Type of Content</h3>
 			<p>What is the text about? The more specific, the better.</p>
 			<h3>Typographic Structure</h3>
-			<p>Inline hierachies? ... relation towards other elements ... complexity</p>
+			<p>Inline hierachies?, relation towards other elements, complexity, <span class=""></span></p>
 		<h2>Intention</h2>
 			<h3>Meeting Expectations</h3>
 			<h3>Innovation</h3>
@@ -141,17 +142,23 @@
 		<h3>Budget</h3>
 
 	<h1>Criteria</h1>
+		<p>What makes a typeface good or bad?</p>
 		<h2>Association</h2>
-			<p>Most exciting!</p>
-			<h3>Genre</h3>
+		<div class="alt_label">Atmosphere, Character, Feel</div>
+			<p>Exciting! In many cases the main reason why you are looking for another typeface, as Helvetica just doesn’t feel right for the job ;)</p>
+			<h3>Atmospheric Genre</h3>
+			<h3>Historic Reference</h3>
 			<h3>Soft Attributes</h3>
-			<h3>Quality</h3>
+			<h3>Visual Quality</h3>
+			<h3>Abstract Concept</h3>
 			<h3>...</h3>
 
 		<h2>Readability</h2>
-			<p>The basis.</p>
+			<div class="alt_label">Visual Readability, Reading Comfort, Typographic Legibility, ...</div>
+			<p>The basis, yet it can be real hard work to push it towards perfection.</p>
 			<h3>Basic Identification</h3>
 				<h4>Language Support / Char-Set</h4>
+				<h4>Recognisability + Distinguishability </h4>
 			<h3>Typographic Features</h3>
 				<p>Tabular figures, superscript, subscript, smallcaps, ..., level of differentiation (e.g. italics),</p>
 				<h4>(Line-height compensation)</h4>
@@ -159,8 +166,10 @@
 			<h3>Comfort</h3>
 				<p>Is it adequate for the specific typographic context?</p>
 		<h2>Application</h2>
-			<p></p>
+			<div class="alt_label">Technical Implementation, Execution</div>
+
 			<h3>Format / System Support</h3>
+			<p>variation font, ... hand lettering</p>
 			<h3>Execution Quality</h3>
 				<p>unicode, clean feature code, no bugs, hints, ...</p>
 			<h3>Rights</h3>
@@ -168,7 +177,7 @@
 
 
 
-	<h1>Formal Variables (flat, most complete)</h1>
+	<h1>Formal Variables (flat, most comprehensive)</h1>
 	<p>In theory there can be infinite many type designs and therefore infinite many variable interpolation axes. To bring structure into this vast design spacing, the following formal categories should give some guidance. Every typeface or instance consists of a certain configuration of these aspects forming their specific formal character. That resulting atmosphere, the quality and the aspect of reading comfort needs to be seen on top of all of it, as any formal change does affect them, while their specific evaluation can be rather complex and sensible.</p>
         <p>Aiding clarity there are no other sub-hierarchies but then directly interactive examples of specific variables/axes. <!-- (From an educational side it is still helpful think and discuss the relation of each variable towards the skeleton, outline and all the other variables and their position within a more mannered underlying hierarchy.) --></p>
 	<div class="large_icons">
@@ -378,7 +387,7 @@
 
 		<h2 class="large_icons"><img class="icon" src="media/icon_width.gif"/>
 			Width</h2>
-		<div class="alt_label">x-proportion, x-metrics</div>
+		<div class="alt_label">x-proportion, x-metrics, horizonal-size</div>
 		<p>This category includes all changes that happen wihtin a character along the horizontal dimensions of a typeface, including width variation and positioning of loose elements. After the height of a character this variable has to biggest influence on the perceived size of typeface.<br/>
 		</p>
 			<h4>variables/axes</h4>
@@ -456,7 +465,7 @@
 
 		<h2 class="large_icons"><img class="icon" src="media/icon_height.gif"/>
 			Height</h2>
-			<div class="alt_label">y-proportion, y-metrics, size</div>
+			<div class="alt_label">size, y-proportion, y-metrics</div>
 		<p>This category includes all changes that happen within a character along the vertical dimensions of a typeface, including positioning. The character height has the biggest influence towards the size perception. (especially the x-height) This could be duo the fact that it is perpendicular towards the reading direction and therefore even small changes stand out more than a similar change in width. A&nbsp;change in height is often actually a change in size to preserve the character proportion: e.g. a change of the x-height is usually done proportionally along height and width to not end up with a condensed or extended typeface.<br/>
 		</p>
 		<h4>variables/axes</h4>
@@ -660,7 +669,7 @@
 
 		<h1>Formal Variables (typographer, by cause)</h1>
 			<h2>Different Atmosphere ➝ Another Typeface?</h2>
-			<p>This is a very complex and sensible aspect, in most cases you need to choose/create another typeface.</p>
+			<p>This is a very complex and sensible aspect, in most cases you need to choose/create another typeface, or a typeface which has  axes addressing certain atmospheres. On the other hand interpolation between entirely different fonts is possible, yet this needs to be specifically engineered and most importantly the path between the two needs to be designed, which can be a very complex endavour.</p>
 				<h3>Texture</h3>
 				<h3>Rhythm</h3>
 				<h3>Contrast</h3>
@@ -682,10 +691,13 @@
 					<h4>Spacing</h4>
 					<h4>(Height)</h4>
 					<h4>(Width)</h4>
+				<h3>Spacing</h3>
 
 			<h2>Line Length ➝ Width</h2>
 				<h3>Width</h3>
+				<p>Be cautious, keep in mind that very narrow type does also cause a decrease in reading comfort.</p>
 				<h3>Line Height</h3>
+				<p>The longer the line length the larger the line-height to preserve a similar reading comfort.
 				<h3>Size (if possible)</h3>
 
 			<h2>Line Height ➝ Vertical Compensation</h2>
@@ -758,7 +770,11 @@
 
 	<h1>Formal Variables (systematic hierarchies)</h1>
 		<h2>Higher Aspects</h2>
-			<h3>Optical Size</h3>
+			<h3>Size</h3>
+				<p>E.g. try to always compare typefaces at a similar size, eg. same x-height to get a better impression on their real differences.</p>
+				<h4>Typographic Size</h4>
+				<h4>Optical Size</h4>
+				<h4>Size Matching (different scripts)</h4>
 			<h3>Texture</h3>
 			<h3>Complexity</h3>
 			<h3>Rhythm/Consistency</h3>
@@ -793,6 +809,37 @@
 			<h3>Dimensionality</h3>
 			<h3>Colors</h3>
 
+		<h1>Formal Variables (UI/CSS)</h1>
+		<h2>Basic-Text</h2>
+			<h3>Text</h3>
+				<h4>font-family</h4>
+				<h4>font-size</h4>
+				<h4>emphasis</h4>
+					<p>none, soft, strong</p>
+				<h4>Automation?</h4>
+					<p>What should get automated? Should we improve the basic typography with cleverly designed algorithms? Should it be hidden, should there be a button? Baseline-Normalisation is already done in almost all applications by default (within the same text-frame), would Size-Normalisation be the next step, and what next?
+			<h3>Display</h3>
+				<h4>font-weight</h4>
+		<h2>Advanced</h2>
+			<p>No matter how the cleverly designed the basic setup is, there should be always an option to intervine to give embrace concious typography. And please don’t mind people making ugly things! It is already very simple to make decrace any typeface with awful typography, so lets concentrate on those who really want to push good typography supplying them with the best possible tools.
+
+			<p>I have many ideas, but for the moment I would like to leave it open for discussion.</p>
+
+			<!-- <h3>Script: Latin, ...</h3>
+			<h3>Language: English, German, Japanese</h3>
+			<h3>Typeface (font-family)</h3>
+			<h3>Size (font-size)</h3>
+
+			<h3>Base Char. Size (base-char-size)</h3>
+				<p>Proportional scale of the entire font across the document.</p>
+				<h3></h3>
+			<h3>Base Character (Latin-Default: x)</h3>
+
+			<h3>Line Height (line-height)</h3>
+			<h3>Optical Size</h3>
+			<h3>
+			<h3>font-size-adjust</h3> -->
+		<h2>Custom</h2>
 
 
 
