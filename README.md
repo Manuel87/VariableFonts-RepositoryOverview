@@ -7,6 +7,8 @@ Variable Font Experiments, Framework and list of as many formal variables as pos
 
 ![top level type variables](variable-overview/media/type-variables.gif)
 
+![robotoflex preview](variable-typefaces/RobotoFlex/README_media/Preview.gif)
+
 -------
 
 ## Roadmap
