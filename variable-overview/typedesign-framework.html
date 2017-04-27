@@ -10,10 +10,34 @@
 	<link rel="stylesheet" type="text/css" href="https://rawgit.com/sindresorhus/github-markdown-css/gh-pages/github-markdown.css"></link>
 
 	<style type="text/css">
-		body { margin: 2vw; font-family: sans-serif;}
+		body {
+				text-align: center;
+				margin: 7vw;
+				font-weight:  500;
+			}
 
-		p {
-			max-width: 80ex;
+		strong {
+			font-weight:  700!important;
+			text-transform: uppercase;
+			letter-spacing: 0.2ex;
+			font-size: 0.9em;
+
+		}
+
+		#container {
+			text-align: left;
+			width:  auto;
+			margin: 0 auto;
+
+
+		}
+
+
+		p, element {
+			max-width: 69ex;
+			font-size: 1.1em;
+			line-height: 1.4;
+			color: black!important;
 		}
 		#origami { display: none; }
 		.dark 	 { opacity: 1.0; }
@@ -35,6 +59,7 @@
 			text-align:right;
 			padding-right: 0.4ex;
 			line-height: 1.3em;
+
 		}
 		value {
 			width: 4em;
@@ -55,7 +80,7 @@
 			border: none;
 		}
 
-
+		.large_icons {text-transform: capitalize;}
 		.large_icons element { text-align:left; width: 10em; vertical-align: top;}
 
 		.large_icons div { width: 12em;}
@@ -81,7 +106,16 @@
 			color: #777;
 		}
 
+		.alpha {
+			color:  #666;
+		}
+
 		h3, h4, h5, h6, h7, h8, h9 {font-size: 1.25em!important; margin-top: 0!important;}
+
+
+		@media (min-width: 750px) {
+			#container {	width: 750px }
+			}
 	</style>
 
 	<script type="text/javascript">
@@ -103,45 +137,52 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </head>
 <body>
+	<div id="container" class="markdown-body">
 	<h1>Type Design Framework</h1>
-	<p>Raw framework for choosing type, or making a custom typeface.</p>
-	<p>Status: “Formal Variables (flat)” is most complete.
-	<br/>All the rest is still missing its description entirely.</p>
-	<div id="origami" class="markdown-body">
+	<p>Raw framework for choosing type, or making custom typefaces – I use it to guide personal reflection and discussions while teaching typography and type design. Currently it is not meant to work in isolation. (work in progress, last edit: 27.04.2017)</p>
+	<div id="origami" >
 
-	<h1>Context</h1>
-		<p>A good decision is heavily dependend on its context. There are many typefaces which are amazing in one context and totally out of place in another.</p>
+	<h1 class="alpha">Context</h1>
 		<div class="alt_label">~Brief</div>
+		<p>A good decision is heavily dependend on its context. There are many typefaces which are amazing in one context and totally out of place in another.</p>
 		<h2>Content</h2>
 			<h3>Type of Content</h3>
 			<p>What is the text about? The more specific, the better.</p>
 			<h3>Typographic Structure</h3>
 			<p>Inline hierachies?, relation towards other elements, complexity, <span class=""></span></p>
+
+			<h2>Reader</h2>
+			<h2>Environment</h2>
+				<h3>Print/Digital</h3>
+				<h3>Resolution</h3>
+				<h3>Doucment Size</h3>
 		<h2>Intention</h2>
 			<h3>Meeting Expectations</h3>
 			<h3>Innovation</h3>
 			<h3>...</h3>
 
-	<h2>Influences</h2>
 
-		<h3>Cultural</h3>
-			<h4>General</h4>
-			<h4>Individual</h4>
-			<h4>Teaching</h4>
-			<h4>...</h4>
 
-		<h3>Graphical</h3>
-			<h4>Optical Phenomena</h4>
-			<h4>Geometrical Effects</h4>
+		<h2>Influences</h2>
 
-		<h3>Technical</h3>
-			<h4>Creation Tools</h4>
-			<h4>Rendering</h4>
-				<h5>Grades</h5>
+			<h3>Cultural</h3>
+				<h4>General</h4>
+				<h4>Individual</h4>
+				<h4>Teaching</h4>
+				<h4>...</h4>
 
-		<h3>Budget</h3>
+			<h3>Graphical</h3>
+				<h4>Optical Phenomena</h4>
+				<h4>Geometrical Effects</h4>
 
-	<h1>Criteria</h1>
+			<h3>Technical</h3>
+				<h4>Creation Tools</h4>
+				<h4>Rendering</h4>
+					<h5>Grades</h5>
+
+			<h3>Budget</h3>
+
+	<h1 class="alpha">Criteria</h1>
 		<p>What makes a typeface good or bad?</p>
 		<h2>Association</h2>
 		<div class="alt_label">Atmosphere, Character, Feel</div>
@@ -158,13 +199,18 @@
 			<p>The basis, yet it can be real hard work to push it towards perfection.</p>
 			<h3>Basic Identification</h3>
 				<h4>Language Support / Char-Set</h4>
-				<h4>Recognisability + Distinguishability </h4>
-			<h3>Typographic Features</h3>
+				<h4>Recognisability / Distinguishability </h4>
+			<h3>Basic Readability</h3>
+				<h4>Size</h4>
+				<h4>Color (fore-/background)</h4>
+				<h4>Optical Sizes</h4>
+			<h3>Reading Comfort</h3>
+				<p>Is it adequate for the specific typographic context?</p>
+				<h4>Consistent Color vs Distinguishability</h4>
+				<h4>Typographic Features</h4>
 				<p>Tabular figures, superscript, subscript, smallcaps, ..., level of differentiation (e.g. italics),</p>
 				<h4>(Line-height compensation)</h4>
-			<h3>Optical Sizes</h3>
-			<h3>Comfort</h3>
-				<p>Is it adequate for the specific typographic context?</p>
+
 		<h2>Application</h2>
 			<div class="alt_label">Technical Implementation, Execution</div>
 
@@ -177,10 +223,12 @@
 
 
 
-	<h1>Formal Variables (flat, most comprehensive)</h1>
+	<h1 class="beta">Formal Variables (flat, most comprehensive)</h1>
 	<p>In theory there can be infinite many type designs and therefore infinite many variable interpolation axes. To bring structure into this vast design spacing, the following formal categories should give some guidance. Every typeface or instance consists of a certain configuration of these aspects forming their specific formal character. That resulting atmosphere, the quality and the aspect of reading comfort needs to be seen on top of all of it, as any formal change does affect them, while their specific evaluation can be rather complex and sensible.</p>
         <p>Aiding clarity there are no other sub-hierarchies but then directly interactive examples of specific variables/axes. <!-- (From an educational side it is still helpful think and discuss the relation of each variable towards the skeleton, outline and all the other variables and their position within a more mannered underlying hierarchy.) --></p>
+		<br/>
 	<div class="large_icons">
+		<strong>Top-level Variables</strong><br/>
 		<div>
 		<element><img class="icon" src="media/icon_weight.gif"/> weight</element>
 		<element><img class="icon" src="media/icon_texture.gif"/> texture</element>
@@ -204,6 +252,7 @@
 		<element><img class="icon" src="media/icon_free_forms.gif"/> free forms</element>
 		</div>
 	</div>
+	<br/>
 	<br/>
 	<br/>
 	<p>In the following each top-level variable is briefly described, followed by a set of axes and possible settings. </p>
@@ -522,9 +571,8 @@
 		<h2 class="large_icons"><img class="icon" src="media/icon_inclination.gif"/>
 			Inclination</h2>
 		<div class="alt_label">slant, rotation</div>
-		<p>The most prominent use of inclination is applied in the realm of secondary styles. The simple forward leaning slant causes an immediate change of texture and can be applied to any design. The less popular vertical slants are most prominent handwritten styles, inspired by calligraphy and lettering.<br/>
-		<br/>
-		While artificial inclinations are tempting, almost all resulting outlines need to be manually corrected or entirely redrawn to gain perfect results. While the process of slanting seems like a simple process it does cause significant problems and is more complex than usually anticipated. <br/>
+		<p>The most prominent use of inclination is applied in the realm of secondary styles (italics). The simple forward leaning slant causes an immediate change of texture and can be applied to any design.
+		<br/>The less popular vertical slants causing a continously shifting baseline are most prominent in handwritten styles, inspired by calligraphy and lettering.<br/>
 		</p>
 		<h4>variables/axes</h4>
 		<ul>
@@ -542,6 +590,8 @@
 		<li>20° rotation</li>
 		</ul>
 		<p>Hierarchy note: Inclination could be also put under the <i>width</i> and <i>height</i> proportion, but as its effect is very distinctive it got its own place.</p>
+
+		<p>Difficulty note: While artificial inclinations are tempting, almost all resulting outlines need to be manually corrected or entirely redrawn to gain perfect results. While the process of slanting seems like a simple process it does cause significant problems and is more complex than usually anticipated.</p>
 
 		<h2 class="large_icons"><img class="icon" src="media/icon_curvature.gif"/>
 			Curvature</h2>
@@ -667,7 +717,7 @@
 		</ul>
 
 
-		<h1>Formal Variables (typographer, by cause)</h1>
+		<h1 class="alpha">Formal Variables (typographer, by cause)</h1>
 			<h2>Different Atmosphere ➝ Another Typeface?</h2>
 			<p>This is a very complex and sensible aspect, in most cases you need to choose/create another typeface, or a typeface which has  axes addressing certain atmospheres. On the other hand interpolation between entirely different fonts is possible, yet this needs to be specifically engineered and most importantly the path between the two needs to be designed, which can be a very complex endavour.</p>
 				<h3>Texture</h3>
@@ -768,7 +818,7 @@
 				<h3>Optical Size</h3>
 
 
-	<h1>Formal Variables (systematic hierarchies)</h1>
+	<h1 class="alpha">Formal Variables (systematic hierarchies)</h1>
 		<h2>Higher Aspects</h2>
 			<h3>Size</h3>
 				<p>E.g. try to always compare typefaces at a similar size, eg. same x-height to get a better impression on their real differences.</p>
@@ -809,8 +859,8 @@
 			<h3>Dimensionality</h3>
 			<h3>Colors</h3>
 
-		<h1>Formal Variables (UI/CSS)</h1>
-		<h2>Basic-Text</h2>
+		<h1 class="alpha">Formal Variables (UI/CSS)</h1>
+		<h2>Basic</h2>
 			<h3>Text</h3>
 				<h4>font-family</h4>
 				<h4>font-size</h4>
@@ -819,8 +869,13 @@
 				<h4>Automation?</h4>
 					<p>What should get automated? Should we improve the basic typography with cleverly designed algorithms? Should it be hidden, should there be a button? Baseline-Normalisation is already done in almost all applications by default (within the same text-frame), would Size-Normalisation be the next step, and what next?
 			<h3>Display</h3>
-				<h4>font-weight</h4>
+				<h4>Weight</h4>
+				<h4>Contrast</h4>
+				<h4>Spacing</h4>
+				<h4>Width</h4>
+				<h4>Height</h4>
 		<h2>Advanced</h2>
+			<p>The more control, the better.</p>
 			<p>No matter how the cleverly designed the basic setup is, there should be always an option to intervine to give embrace concious typography. And please don’t mind people making ugly things! It is already very simple to make decrace any typeface with awful typography, so lets concentrate on those who really want to push good typography supplying them with the best possible tools.
 
 			<p>I have many ideas, but for the moment I would like to leave it open for discussion.</p>
@@ -845,8 +900,11 @@
 
 
 
-	</div>
+		</div>
 
+	<p>Status: “Formal variables (flat)” is almost done. Rest in progress.
+	</p>
+	</div>
 	<script type="text/javascript" src="https://rawgithub.com/devonzuegel/static-playground/master/out/scripts/origami.js"></script>
 
 </body>
