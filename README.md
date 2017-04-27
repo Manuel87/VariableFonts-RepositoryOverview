@@ -1,5 +1,5 @@
 # Type-Variables
-Variable Font Experiments, Framework and list of as many formal variables as possible.
+Variable Font Experiments and a Framework, listing and sorting as many formal variables as possible. Work in progress.
 - Main Document: [Variable Overview](http://vongebhardi.de/clients/google/typevariables/) (external preview)
 - Latest Update: [Typedesign Framework](http://vongebhardi.de/clients/google/typevariables/typedesign-framework.html) (external)
 - [As a GoogleDoc for lecturing the text](https://docs.google.com/document/d/18m8dFZD638eCFxf4CTe1V-S0k2JuUR-Y3yxVfTv_AAc/edit) (bit messy duo copy/paste from HTML)
