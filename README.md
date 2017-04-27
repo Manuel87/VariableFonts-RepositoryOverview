@@ -2,7 +2,7 @@
 Variable Font Experiments, Framework and list of as many formal variables as possible.
 - Main Document: [Variable Overview](http://vongebhardi.de/clients/google/typevariables/) (external preview)
 - Latest Update: [Typedesign Framework](http://vongebhardi.de/clients/google/typevariables/typedesign-framework.html) (external)
-- [As a GoogleDoc for lecturing the text](https://docs.google.com/document/d/18m8dFZD638eCFxf4CTe1V-S0k2JuUR-Y3yxVfTv_AAc/edit)
+- [As a GoogleDoc for lecturing the text](https://docs.google.com/document/d/18m8dFZD638eCFxf4CTe1V-S0k2JuUR-Y3yxVfTv_AAc/edit) (bit messy duo copy/paste from HTML)
 - Fonts and sources are availabel in the respective folder
 
 ![top level type variables](variable-overview/media/type-variables.gif)
