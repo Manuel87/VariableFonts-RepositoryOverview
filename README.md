@@ -37,11 +37,14 @@ Variable Font Experiments and a Framework, listing and sorting as many formal va
 - [ ] Doc-Design/CODE - making the html design responsive
 - [ ] Content - Paragraph about the UI challenges / eg. about slider (what is good, what bad..
 - [ ] RobotoFlex - Adding all the other local interpolations to the File
+- [ ] RobotoFlex - Add Line-Height-Compensation axes (or make a separarte ttf)
 
-### Next Round 
+### Eventually Next Round 
+- [ ] RobotoFlex - Make Line-Height-Comensation axes a real top level axes (with javascript)
+- [ ] Metapolation - Add slider interface within glyphs
 - [ ] HTML – rewrite it in YAML
 - [ ] Feature - make it easy to add things
-- [ ] Draw – improve/update the property-icons (curvature, modulation, free forms, contrast, optical size)
+- [x] Draw – improve/update the property-icons (curvature, modulation, free forms, contrast, optical size)
 - [ ] Axis-Workflow-Feature - make it possible to easily export local interpolations to variable axes)
 - [ ] Interface - make a proper web design
 - [ ] Code – Make it easy to add examples
