@@ -1,4 +1,5 @@
 # Various variable typeface experiments, including sources
+Preview/test with sliders of the folowing variable fonts: [Variable Font Testing](http:vongebhardi.de/clients/google/variable-font-testing/) (external, based on [axis-praxis.org](http://axis-praxis.org))
 
 ## RobotoFlex
 ![robotoflex preview](RobotoFlex/README_media/Preview.gif)
