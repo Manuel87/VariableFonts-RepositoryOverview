@@ -18,18 +18,19 @@ Variable Font Experiments and a Framework, listing and sorting as many formal va
 ### For the first release (what I will think is necessary to do, to finish the job) - Until mid of May
 - [x] GIT- adding all current fonts+sources (probably this weekend) 
 - [x] Add all the necessary code and description for RobotoFlex
-- [ ] Code/HTML – gx-fonts with sliders - Implementing the Variable font files for all the examples (optimally there should be a load button (and a gif as preview)
+- [~] Code/HTML – gx-fonts with sliders - Implementing the Variable font files for all the examples (optimally there should be a load button (and a gif as preview)
 - [x] Icon-Design: revisit Curvature
 - [x] Icon-Design: revisit Modulation
 - [x] Icon-Design: revisit Free Forms
 - [x] Added alternative Labels to top-level variables
-- [ ] Feature - Add possibility to view a paragraph with the available characters
-- [ ] Content – add short paragraphs for existing examples 
-- [ ] Misc - Various minor corrections (mark alternative Labels, four-letter-tags, ..)
+- [x] Feature - Add possibility to view a paragraph with the available characters (namerecord 19 :)
+- [~] Content – add short description for existing examples 
+- [x] Misc - Various minor corrections (mark alternative Labels, four-letter-tags, ..)
+- [x] RobotoFlex - adding building descriptions, etc.
 - [ ] Cleaning up
 
 ### Hopefully - Will do on my own costs (adding value but wasn’t specifically asked for)
-- [ ] Lecturing - revising the texts - (who to ask? -> John Hudson / Toshi / David Brezina / Kat / ..) 
+- [~] Lecturing - revising the texts
 - [ ] Doc-Design-Banner - making a fancy intro animation based on the animated icons (also good for sharing)
 - [ ] Doc-Design - making it more fun/special and functional
 - [ ] Doc-Design/CODE - making the html design responsive
