@@ -27,7 +27,8 @@ Variable Font Experiments and a Framework, listing and sorting as many formal va
 - [x] Content – add short description for existing examples / more or less fulfilled
 - [x] Misc - Various minor corrections (mark alternative Labels, four-letter-tags, ..)
 - [x] RobotoFlex - adding building descriptions, etc.
-- [ ] Cleaning up
+- [x] Personal Cleaning up
+- [ ] Incorporate corrections by Dave (naming, license, url, structure, way of mentioning goolge, ...)
 
 ### Hopefully - Will do on my own costs (adding value but wasn’t specifically asked for)
 - [~] Lecturing - revising the texts
