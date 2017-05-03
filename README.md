@@ -31,12 +31,11 @@ Variable Font Experiments and a Framework, listing and sorting as many formal va
 - [ ] Incorporate corrections by Dave (naming, license, url, structure, way of mentioning goolge, ...)
 
 ### Hopefully - Will do on my own costs (adding value but wasn’t specifically asked for)
-- [~] Lecturing - revising the texts
+- [ ] Lecturing - revising the texts
 - [ ] Doc-Design-Banner - making a fancy intro animation based on the animated icons (also good for sharing)
-- [ ] Doc-Design - making it more fun/special and functional
-- [ ] Doc-Design/CODE - making the html design responsive
-- [ ] Content - Paragraph about the UI challenges / eg. about slider (what is good, what bad..
-- [ ] RobotoFlex - Adding all the other local interpolations to the File
+- [ ] Doc-Design - making it more fun/special and [x] functional
+- [x] Doc-Design/CODE - making the html design responsive
+- [ ] RobotoFlex - Adding all the other local interpolations to the ttf
 - [ ] RobotoFlex - Add Line-Height-Compensation axes (or make a separarte ttf)
 
 ### Eventually Next Round 
@@ -50,6 +49,7 @@ Variable Font Experiments and a Framework, listing and sorting as many formal va
 - [ ] Code – Make it easy to add examples
 - [ ] Content – Add existing gx-fonts
 - [ ] Draw – 5 more examples
+- [ ] Content - Paragraph about the facing UI challenges / eg. about slider (what is good, what bad..
 - [ ] (maybe invite people to add examples)
 - [ ] (HTML - maybe standard + expert mode)
 - [ ] ...
@@ -64,6 +64,6 @@ Variable Font Experiments and a Framework, listing and sorting as many formal va
 - [x] Content - Adding loads of sub-variables and possible settings (only textwise)
 - [x] VF - Make my Roboto-Flex with at least 10axes work 
 - [x] Visual - Correcting icons: Optical Size
-- [x] -partially- Code – make my glyphs-gx-workflow work! (worked on it for 3 days ... seems too much work at the moment ) 
+- [x] -partially- Code – make my glyphs-gx-workflow work! (worked on it for 3 days ... seems too much work, at the moment ) 
 
 ...
