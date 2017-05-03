@@ -1,11 +1,10 @@
 # Type-Variables
 Variable Font Experiments and a Framework, listing and sorting as many formal variables as possible. Work in progress.
-- Main Document: [Variable Overview](http://vongebhardi.de/clients/google/typevariables/) (external preview)
-- Latest Update: [Typedesign Framework](http://vongebhardi.de/clients/google/typevariables/typedesign-framework.html) (external)
-- [As a GoogleDoc for lecturing the text](https://docs.google.com/document/d/18m8dFZD638eCFxf4CTe1V-S0k2JuUR-Y3yxVfTv_AAc/edit) (bit messy duo copy/paste from HTML)
-
-- Preview/test with sliders of the variable fonts: [Variable Font Testing](http:vongebhardi.de/clients/google/variable-font-testing/) (external, based on [axis-praxis.org](http://axis-praxis.org))
-- Fonts and sources are available in the respective folder
+- [Typedesign Framework / All Variables](http://vongebhardi.de/clients/google/typevariables/typedesign-framework.html) (external)
+  - Old Version: [Variable Overview](http://vongebhardi.de/clients/google/typevariables/) (external preview)
+  - [As a GoogleDoc for lecturing the text](https://docs.google.com/document/d/18m8dFZD638eCFxf4CTe1V-S0k2JuUR-Y3yxVfTv_AAc/edit) (bit messy duo copy/paste from HTML)
+- Variable Fonts - Preview/test with sliders: [Variable Font Testing](http:vongebhardi.de/clients/google/variable-font-testing/) (external, based on [axis-praxis.org](http://axis-praxis.org))
+  - Fonts and sources are available in the respective folder
 
 <img src="variable-overview/media/type-variables.gif" width="600" alt="top level type variables">
 
