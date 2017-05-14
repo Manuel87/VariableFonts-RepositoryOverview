@@ -1,7 +1,8 @@
 # Type-Variables
-Variable Font Experiments and a Framework, listing and sorting as many formal variables as possible. Work in progress.
+Experimental Variable Fonts and a Framework, listing and sorting as many formal variables as possible.<br/>
+[Work in progress]
 - [Typedesign Framework / All Variables](http://vongebhardi.de/theory/typedesign-framework/) (external)
-  - Old Version: [Variable Overview](http://vongebhardi.de/theory/typedesign-framework/alpha.html) (external)
+  - [Variable Overview](http://vongebhardi.de/theory/typedesign-framework/alpha.html) (previous version, external)
 - [Experimental Variable Fonts (Preview with basic interface](http:vongebhardi.de/misc/variable-fonts/testing/)
   - Fonts and sources are available in the respective folder
 
@@ -30,6 +31,8 @@ Variable Font Experiments and a Framework, listing and sorting as many formal va
 - [ ] (HTML - maybe standard + expert mode)
 - [ ] ...
 
+## License
 (C) by Manuel von Gebhardi ([CC BY-SA](https://creativecommons.org/licenses/by-sa/2.5/))
 
+## Support
 This project was partially funded by Google Fonts.
