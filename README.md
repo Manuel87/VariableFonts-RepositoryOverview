@@ -3,7 +3,7 @@ Experimental Variable Fonts and a Framework, listing and sorting as many formal 
 [Work in progress]
 - [Typedesign Framework / All Variables](http://vongebhardi.de/theory/typedesign-framework/) (external)
   - [Variable Overview](http://vongebhardi.de/theory/typedesign-framework/alpha.html) (previous version, external)
-- [Experimental Variable Fonts](http:vongebhardi.de/misc/variable-fonts/testing/)((preview with interface, external)
+- [Experimental Variable Fonts](http:vongebhardi.de/variable-fonts/testing/)(preview with interface, external)
   - Fonts and sources are available in the respective folder
 
 <img src="variable-overview/media/type-variables.gif" width="600" alt="top level type variables">
