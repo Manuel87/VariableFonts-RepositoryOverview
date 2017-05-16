@@ -7,6 +7,7 @@ Preview/test with sliders of the variable fonts: [Variable Font Testing](http:vo
 <br/>
 <br/>
 ## CrimVarious
+Based on Crimson by Sebastian Kosch. (https://github.com/skosch/Crimson)
 
 ### [Pen Model (Oldstyle——Modern)](PenModel/)
 char-set: a, n, o, b <br/>
