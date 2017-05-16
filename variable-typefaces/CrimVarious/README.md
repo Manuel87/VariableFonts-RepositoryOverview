@@ -41,4 +41,4 @@ char-set: H,n,o<br/>
 Pendant to RobotoFlex, still very limited.
 
 # Credits
-All of this experiments are modifications upon the opensource typeface Crimson by Sebastian Kosch. (https://github.com/skosch/Crimson)
+All experiments are modifications upon the opensource typeface Crimson by Sebastian Kosch. (https://github.com/skosch/Crimson)
