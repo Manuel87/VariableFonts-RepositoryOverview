@@ -40,5 +40,5 @@ Interpolation of the serif curvature.
 char-set: H,n,o<br/>
 Pendant to RobotoFlex, still very limited.
 
-##Credits
+## Credits
 All of this experiments are modifications upon the opensource typeface Crimson (https://github.com/skosch/Crimson) by Sebastian Kosch.
