@@ -6,33 +6,33 @@ Preview/test with sliders of the variable fonts: [Variable Font Testing](http:vo
 <br/>
 <br/>
 <br/>
-## CrimsonVarious
+## CrimVarious
 
 ### [Pen Model (Oldstyle——Modern)](PenModel/)
 char-set: a, n, o, b <br/>
-<img src="CrimsonVarious/PenModel/Crimson_PenModel-VF.gif" height="150">
+<img src="CrimVarious/PenModel/Crim_PenModel-VF.gif" height="150">
 
 ### [Serif Length (Sans——Serif)](SerifLength/)
 char-set: E, l, d, n, o, p, i, r, t, e <br/>
-<img src="CrimsonVarious/SerifLength/Crimson_SerifLength-VF.gif" height="150">
+<img src="CrimVarious/SerifLength/Crim_SerifLength-VF.gif" height="150">
 
 ### [Serif Spur Angle](SerifSpurAngle/)
 char-set: E, l, d, i, n, a, r, p <br/>
-<img src="CrimsonVarious/SerifSpurAngle/Crimson_SerifSpurAngle-VF.gif" height="150">
+<img src="CrimVarious/SerifSpurAngle/Crim_SerifSpurAngle-VF.gif" height="150">
 
 ### [Curvature > Broken](CurvatureBroken/)
 char-set: E, l, a, n, o, b <br/>
-<img src="CrimsonVarious/CurvatureBroken/Crimson_CurvatureBroken-VF.gif" height="150">
+<img src="CrimVarious/CurvatureBroken/Crim_CurvatureBroken-VF.gif" height="150">
 
 ### [Curvature > Wiggle](CurvatureWiggle/)
 char-set: E, n, l, o, e, t, b, a, r <br/>
-<img src="CrimsonVarious/CurvatureWiggle/Crimson_CurvatureWiggle-VF.gif" height="150">
+<img src="CrimVarious/CurvatureWiggle/Crim_CurvatureWiggle-VF.gif" height="150">
 
 ### [Curvature > Serif (Concave——Convex)](CurvatureSerifConcave)
 char-set: E, l, o, d, i, n, p, r, t <br/>
-<img src="CrimsonVarious/CurvatureSerifConcave/Crimson_CurvatureSerifConcave-VF.gif" height="150">
+<img src="CrimVarious/CurvatureSerifConcave/Crim_CurvatureSerifConcave-VF.gif" height="150">
 
-### [Flex](CrimsonVarious/Flex/)
+### [Flex](CrimVarious/Flex/)
 char-set: H,n,o
 <br/>
 <br/>
