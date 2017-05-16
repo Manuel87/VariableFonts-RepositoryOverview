@@ -5,12 +5,14 @@ Experimental Variable Fonts and a Framework, listing and sorting as many formal 
 - [Experimental Variable Fonts](http:vongebhardi.de/variable-fonts/testing/) (preview with interface, external)
   - Fonts and sources are available in the respective [folder](https://github.com/Manuel87/Type-Variables/tree/master/variable-typefaces)
 
-<img src="variable-overview/media/type-variables.gif" width="600" alt="top level type variables">
+<img src="variable-overview/media/type-variables.gif" width="600" alt="top level type variables"/>
 
-<img src="variable-typefaces/media/variablefonts_testing_interface_preview.png" width="600">
+
 
 https://github.com/Manuel87/Type-Variables/tree/master/variable-typefaces
 ![robotoflex preview](variable-typefaces/RobotoFlex/README_media/Preview.gif)
+
+<img src="variable-typefaces/media/variablefonts_testing_interface_preview.png" width="600"/>
 
 -------
 
