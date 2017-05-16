@@ -31,12 +31,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="0.79999"/>
-    <checkSumAdjustment value="0xbf2a1d29"/>
+    <checkSumAdjustment value="0x6d1395f1"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1024"/>
     <created value="Thu Jun 19 22:22:21 2014"/>
-    <modified value="Thu Feb 16 17:16:13 2017"/>
+    <modified value="Tue May  2 11:19:31 2017"/>
     <xMin value="-14"/>
     <yMin value="-226"/>
     <xMax value="685"/>
@@ -2289,61 +2289,55 @@
 
   <name>
     <namerecord nameID="0" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org),
-with Reserved Font Name "Crimson".
-This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at: http://scripts.sil.org/OFL
+      Based on Crimson by Sebastian Kosch, This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
     </namerecord>
     <namerecord nameID="1" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Crimson SerifSpurAngle
+      Crim SerifSpurAngle
     </namerecord>
     <namerecord nameID="2" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Regular
     </namerecord>
     <namerecord nameID="3" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      0.800;PfEd;CrimsonSerifSpurAngle-Regular
+      0.001;CrimSerifSpurAngle-Regular
     </namerecord>
     <namerecord nameID="4" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Crimson SerifSpurAngle
+      Crim SerifSpurAngle
     </namerecord>
     <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Version 0.800
+      Version 0.001
     </namerecord>
     <namerecord nameID="6" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      CrimsonSerifSpurAngle-Regular
+      CrimSerifSpurAngle-Regular
     </namerecord>
     <namerecord nameID="14" platformID="1" platEncID="0" langID="0x0" unicode="True">
       http://scripts.sil.org/OFL
     </namerecord>
     <namerecord nameID="0" platformID="3" platEncID="1" langID="0x409">
-      Copyright (c) 2010, Sebastian Kosch (sebastian@aldusleaf.org),
-with Reserved Font Name "Crimson".
-This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at: http://scripts.sil.org/OFL
+      Based on Crimson by Sebastian Kosch, This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
     </namerecord>
     <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
-      Crimson SerifSpurAngle
+      Crim SerifSpurAngle
     </namerecord>
     <namerecord nameID="2" platformID="3" platEncID="1" langID="0x409">
       Regular
     </namerecord>
     <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
-      0.800;PfEd;CrimsonSerifSpurAngle-Regular
+      0.001;CrimSerifSpurAngle-Regular
     </namerecord>
     <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
-      Crimson SerifSpurAngle
+      Crim SerifSpurAngle
     </namerecord>
     <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
-      Version 0.800
+      Version 0.001
     </namerecord>
     <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
-      CrimsonVar-Regular
+      CrimVar-Regular
     </namerecord>
     <namerecord nameID="14" platformID="3" platEncID="1" langID="0x409">
       http://scripts.sil.org/OFL
     </namerecord>
     <namerecord nameID="256" platformID="3" platEncID="1" langID="0x409">
-      Weight
+      Angle
     </namerecord>
     <namerecord nameID="257" platformID="3" platEncID="1" langID="0x409">
       Serif-Spur-Angle-Flat
@@ -2355,7 +2349,7 @@ This license is available with a FAQ at: http://scripts.sil.org/OFL
       Serif-Spur-Angle-Steep
     </namerecord>
     <namerecord nameID="19" platformID="3" platEncID="10" langID="0x409">
-      EIadhlnpr I al had nr appra raland han phl d d nall prld pr n hrand aprn pl happra ladd nal r n dlph nrd hal dr prlan pranna haddl landra phrd and pl prl prpla h nannd pradr dn h par lnd phrall hand handa r pland rprll dlld h pr nrld n h ln a drnd Enlar pr dan pralla dn drap nl h prld n h nal rphr dn palr pnd hand harld nld n harpl hrpla plarna dlln dandd harrhar pal phand rprd land pn ld nlar nard appran had plarrha dll pld nnd prnl pran h dr dn hr rl dll h Edn n ll nrdan hard prl dr phlnd h han la nrn la ha prld drpl phand pranda plada r hll dand prnn prll dand rhand hallan prdr prpn planda drpl nar lrpr nal pla dl dn prnd h paral d pr pland hand r d phall nalna nrr dnd hrpha prand a r hallr pland dr a hall dnan hand hal hrpl drand narlp prnd I l rnn d plad l prpar lnd End hara laphan
+      EIadhlnpr I al had nar appara raland hana phl da da nall prald pra ana harand aparn pla happra ladd nal ra na dalpha nard hal dra pralan pranna haddla landra phrad and pla pral prapla ha nanand pradar dan ha par lanad phrall hand handa ra pland raprall dallad ha pra narld na ha lana a drand Enlara par dan pralla dan drap anla ha prald an ha nal raphar dan palara pand hand harlda nald an harpla harpla plarna dallan dandad harrhar pal phand raprad land pan lad nalar narda appran had plarrha dall plad nand pranla praan ha dar dan har ral dall ha Edan na all nardan hard pral dar phland ha han la anarn la ha prald drapla phand pranda plaada ra hall dand pranna prall dand rahand hallan pradra prapan planda drapal nar larpra nal pla dal dan prand ha parala da pra pland hand ar da phalla nalana narra dand harpha prand a ra hallar pland dar a hall danan hand hal harpla drand naralp prand I la ranna da plad la prapar land End hara laphan
     </namerecord>
   </name>
 
@@ -2801,7 +2795,7 @@ This license is available with a FAQ at: http://scripts.sil.org/OFL
 
   <fvar>
 
-    <!-- Weight -->
+    <!-- Angle -->
     <Axis>
       <AxisTag>wght</AxisTag>
       <MinValue>0.0</MinValue>
