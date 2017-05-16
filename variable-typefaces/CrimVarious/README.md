@@ -1,5 +1,5 @@
 # CrimVarious
-
+All the following experiments are modifications on the opensource typeface Crimson
 ### [Pen Model (Oldstyle——Modern)](PenModel/)
 char-set: a, n, o, b <br/>
 <img src="PenModel/Crim_PenModel-VF.gif" height="150"><br/>
@@ -39,3 +39,6 @@ Interpolation of the serif curvature.
 ### [Flex](Flex/)
 char-set: H,n,o<br/>
 Pendant to RobotoFlex, still very limited.
+
+##Credits
+All of this experiments are modifications upon the opensource typeface Crimson (https://github.com/skosch/Crimson) by Sebastian Kosch.
