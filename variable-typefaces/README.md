@@ -2,11 +2,13 @@
 Preview/test with sliders of the variable fonts: [Variable Font Testing](http:vongebhardi.de/clients/google/variable-font-testing/) (external, based on [axis-praxis.org](http://axis-praxis.org))
 
 ## RobotoFlex
+UPDATE, moved here: https://github.com/Manuel87/RobotoFlex
 ![robotoflex preview](RobotoFlex/README_media/Preview.gif)
 <br/>
 <br/>
 <br/>
 ## CrimVarious
+UPDATE, moved here: https://github.com/Manuel87/CrimVarious
 Based on Crimson by Sebastian Kosch. (https://github.com/skosch/Crimson)
 
 ### [Pen Model (Oldstyle——Modern)](PenModel/)
