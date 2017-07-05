@@ -38,5 +38,5 @@ https://github.com/Manuel87/Type-Variables/tree/master/variable-typefaces
 ## License
 (C) by Manuel von Gebhardi ([CC BY-SA](https://creativecommons.org/licenses/by-sa/2.5/))
 
-## Support
+## Credits
 This project was partially funded by Google Fonts.
