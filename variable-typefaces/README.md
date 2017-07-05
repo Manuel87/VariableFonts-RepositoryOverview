@@ -4,7 +4,7 @@ Preview/test with sliders of the variable fonts: [Variable Font Testing](http:vo
 ## RobotoFlex
 https://github.com/Manuel87/RobotoFlex (latest version)
 <br/>
-![robotoflex preview](https://github.com/Manuel87/RobotoFlex/README_media/Preview.gif)
+![robotoflex preview](https://github.com/Manuel87/RobotoFlex/raw/master/README_media/Preview.gif)
 <br/>
 <br/>
 <br/>
