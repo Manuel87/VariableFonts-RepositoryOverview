@@ -15,26 +15,6 @@ https://github.com/Manuel87/Type-Variables/tree/master/variable-typefaces
 
 <img src="variable-typefaces/media/variablefonts_testing_interface_preview.png" width="600"/>
 
--------
-
-## My Personal Roadmap
-
-### Soon
-- [ ] Sharable GIF - making an awesome intro animation based on the animated icons (for sharing)
-- [ ] RobotoFlex - Adding all the other local interpolations to the ttf
-- [ ] RobotoFlex - Add Line-Height-Compensation axes (or make a separarte ttf)
-
-### Eventually some time later
-- [ ] RobotoFlex - Make Line-Height-Comensation axes a real top level axes (with javascript)
-- [ ] Metapolation - Add slider interface within Glyphs
-- [ ] Framework - rewrite it in YAML
-- [ ] Framework - Feature - make it easy to add things
-- [ ] Framework - Add more examples with descriptions
-- [ ] Axis-Workflow-Feature - make it possible to easily export local interpolations to variable axes
-- [ ] Code – Make it easy to push variable fonts from github to the testing site
-- [ ] (invite people to add examples)
-- [ ] (HTML - maybe standard + expert mode)
-- [ ] ...
 
 ## License
 (C) by Manuel von Gebhardi ([CC BY-SA](https://creativecommons.org/licenses/by-sa/2.5/))
