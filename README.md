@@ -1,13 +1,13 @@
 # Variable Fonts - Repository Overview   
 Listing various repositories all more or less connected to variable fonts. (experiments, theory, tools, scripts, ...) <br/>
 
-## [Typedesign Framework](http://vongebhardi.de/theory/typedesign-framework/) (external)
-- Listing and sortings of as many formal variables as possible.
+## [Typedesign Framework](http://vongebhardi.de/theory/typedesign-framework/) (external demo)
+- Listing and sorting as many formal variables as possible.
 - [github.com/../TypedesignFramework](https://github.com/Manuel87/TypedesignFramework)
   
 ---
 
-## [Experimental Variable Fonts](http:vongebhardi.de/variable-fonts/testing/) (external testing)
+## [Experimental Variable Fonts](http:vongebhardi.de/variable-fonts/testing/) (external demo)
 - [github.com/../VariableTypefaces](https://github.com/Manuel87/VariableTypefaces)
 - [github.com/../RobotoFlex](https://github.com/Manuel87/RobotoFlex/)
 - [github.com/../CrimVarious](https://github.com/Manuel87/CrimVarious/)
