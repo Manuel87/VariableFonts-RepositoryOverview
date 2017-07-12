@@ -1,6 +1,5 @@
-# Varible Fonts - Repository Overview   
-Listing various repositories all more or less connected to variable fonts.<br/>
-[Work in progress]
+# Variable Fonts - Repository Overview   
+Listing various repositories all more or less connected to variable fonts. (experiments, theory, tools, scripts, ...) <br/>
 
 ## [Typedesign Framework](http://vongebhardi.de/theory/typedesign-framework/) (external)
 - Listing and sortings of as many formal variables as possible.
