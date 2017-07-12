@@ -5,21 +5,21 @@ Listing various repositories all more or less connected to variable fonts. (expe
 - Listing and sorting as many formal variables as possible.
 - [github.com/../TypedesignFramework](https://github.com/Manuel87/TypedesignFramework)
   
-===
+---
 
 ## [Experimental Variable Fonts](http:vongebhardi.de/variable-fonts/testing/) (external demo)
 - [github.com/../VariableTypefaces](https://github.com/Manuel87/VariableTypefaces)
 - [github.com/../RobotoFlex](https://github.com/Manuel87/RobotoFlex/)
 - [github.com/../CrimVarious](https://github.com/Manuel87/CrimVarious/)
 
-===
+---
 
 ## Various
 - https://github.com/Manuel87/ExperimentalParametricTypeface
 - https://github.com/Manuel87/TypeMultiverse
 - https://github.com/Manuel87/GlyphsApp-Multipolation
 
-===
+---
 
 ## Impressions
 <img src="variable-overview/media/type-variables.gif" width="600" alt="top level type variables"/>
