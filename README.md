@@ -1,4 +1,4 @@
-# Type-Variables
+# Type-Variables Exploration  
 Experimental Variable Fonts and a Framework, listing and sorting as many formal variables as possible.<br/>
 [Work in progress]
 - [Typedesign Framework / All Variables](http://vongebhardi.de/theory/typedesign-framework/) (external)
